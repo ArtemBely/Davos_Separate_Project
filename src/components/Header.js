@@ -1,28 +1,110 @@
 import React from 'react';
+import logo from '../../public/images/Logo — копия.svg';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-class Header extends React.Component{
+class Header extends React.Component {
+
+  constructor() {
+    super()
+
+    this.head = React.createRef();
+    this.nan = React.createRef();
+  }
+
+  addClass = () => {
+    this.head.current.classList.toggle("active");
+    this.nan.current.classList.toggle("active");
+  }
+
   render() {
     return(
-      <div className='wrap_header'>
-        <div className='header'>
-         <div></div>
-          <div id='logo'>Collab</div>
-            <NavLink to='/work' className='how_does_it_work header_elements' activeClassName='active_header'>Как это работает</NavLink>
-              <NavLink to='/contracts' className='contracts header_elements' activeClassName='active_header'>Договора</NavLink>
-              <NavLink to='/finances' className='finances header_elements' activeClassName='active_header'>Финансы</NavLink>
-            <NavLink to='/clients' className='clients header_elements' activeClassName='active_header'>Клиенты</NavLink>
-          <div className='wrap_reg'>
-       <NavLink to='/registration' className='header_elements reg_bottom'>Регистрация</NavLink>
-        </div>
-          <div className="title">
-           <p id='title1'>Простое заключение договоров</p>
-              <p id='title2'>Ваша подпись за один клик, вторая сторона подписывает также легко по ссылке,
-              шаблоны договоров, все документы разделены по папочкам и категориям</p>
+      <div className='wrap__header'>
+          <div className='header'>
+              <div className="navigation">
+                <NavLink to='/'><img src={logo} id='logo' /></NavLink>
+                <div className="header__burger" ref={this.head} onClick={this.addClass}>
+                  <span></span>
+                </div>
+                <ul className="navigation-list" ref={this.nan}>
+                  <li className="navigation-item">
+                              <Link activeClass="active"
+                              className='navigation-link'
+                              to="what_is"
+                              spy={true}
+                              smooth={true}
+                              hashSpy={true}
+                              duration={700}
+                              isDynamic={true}
+                              onSetActive={this.handleSetActive}
+                              onSetInactive={this.handleSetInactive}
+                              ignoreCancelEvents={false}>
+                              What is EmTech</Link>
+                  </li>
+                  <li className="navigation-item">
+                              <Link activeClass="active"
+                              className='navigation-link'
+                              to="why_to"
+                              spy={true}
+                              smooth={true}
+                              hashSpy={true}
+                              duration={700}
+                              isDynamic={true}
+                              onSetActive={this.handleSetActive}
+                              onSetInactive={this.handleSetInactive}
+                              ignoreCancelEvents={false}>
+                              Why to participate</Link>
+                  </li>
+                  <li className="navigation-item">
+                                <Link activeClass="active"
+                                className='navigation-link'
+                                to="link_speak"
+                                spy={true}
+                                smooth={true}
+                                hashSpy={true}
+                                duration={700}
+                                isDynamic={true}
+                                onSetActive={this.handleSetActive}
+                                onSetInactive={this.handleSetInactive}
+                                ignoreCancelEvents={false}>
+                                Speakers</Link>
+                  </li>
+                  <li className="navigation-item news_hide">
+                                <Link activeClass="active"
+                                className='navigation-link'
+                                to="link_schedule"
+                                spy={true}
+                                smooth={true}
+                                hashSpy={true}
+                                duration={700}
+                                isDynamic={true}
+                                onSetActive={this.handleSetActive}
+                                onSetInactive={this.handleSetInactive}
+                                ignoreCancelEvents={false}>
+                                Schedule</Link>
+                  </li>
+                  <li className="navigation-item">
+                                <Link activeClass="active"
+                                className='navigation-link'
+                                to="link_partners"
+                                spy={true}
+                                smooth={true}
+                                hashSpy={true}
+                                duration={700}
+                                isDynamic={true}
+                                onSetActive={this.handleSetActive}
+                                onSetInactive={this.handleSetInactive}
+                                ignoreCancelEvents={false}>
+                                Partners</Link>
+                  </li>
+                  <li className="navigation-item nav-login">
+                    <NavLink to="#" className="navigation-link" id='login'>Log in</NavLink>
+                  </li>
+                </ul>
+              </div>
           </div>
-        </div>
       </div>
-    )
+   )
   }
 }
 

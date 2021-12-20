@@ -1,274 +1,111 @@
 @font-face {
-    font-family: 'Manrope-Regular';
-    src: url('../../fonts/Manrope-Regular.eot');
-    src: url('../../fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Manrope-Regular.woff') format('woff'),
-    url('../../fonts/Manrope-Regular.ttf') format('truetype');
+    font-family: 'WorkSans-Medium';
+    font-display: swap;
+    src: url('../fonts/WorkSans-Medium.eot');
+    src: url('../fonts/WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/WorkSans-Medium.woff') format('woff'),
+    url('../fonts/WorkSans-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Montserrat-SemiBold';
-    src: url('../../fonts/Montserrat-SemiBold.eot');
-    src: url('../../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-SemiBold.woff') format('woff'),
-    url('../../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-family: 'WorkSans-Light';
+    font-display: swap;
+    src: url('../fonts/WorkSans-Light.eot');
+    src: url('../fonts/WorkSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/WorkSans-Light.woff') format('woff'),
+    url('../fonts/WorkSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans-Bold';
+    font-display: swap;
+    src: url('../fonts/WorkSans-Bold.eot');
+    src: url('../fonts/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/WorkSans-Bold.woff') format('woff'),
+    url('../fonts/WorkSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans-Thin';
+    font-display: swap;
+    src: url('../fonts/WorkSans-Thin.eot');
+    src: url('../fonts/WorkSans-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/WorkSans-Thin.woff') format('woff'),
+    url('../fonts/WorkSans-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 body {
-  background-color: #E5E5E5;
-  font-family: 'Manrope-Regular';
+  margin: 0;
+  padding: 0;
+  font-family: 'WorkSans-Medium';
 }
-.wrap_header {
-  position: relative;
+.nav-login {
+  display: none;
+}
+.wrap__header {
+  width: 100%;
+  background: transparent;
   display: flex;
   justify-content: center;
 }
 .header {
-  position: relative;
+  margin: 15px 0px;
   width: 1290px;
-  top: 40px;
-  display: grid;
-  grid-template-columns: repeat(2, 9%) 12% repeat(3, 10%) 40%;
+  height: 50px;
+  z-index: 10;
 }
-.header_elements {
-  font-size: 19px;
-  color: #8D8D8D;
+.navigation {
   display: flex;
-  justify-content: center;
-  text-decoration: none;
-  border-bottom: 1px solid;
-  margin: 0 55px;
-  min-width: 165px;
-  position: relative;
-  left: 252px;
-}
-.active_header {
-  color: #CCCCCC;
-}
-#logo {
-  color: #2C2C2C;
-  font-size: 36px;
-  display: flex;
-  justify-content: left;
-  font-weight:700;
-  position: relative;
-  left: -115px;
-}
-.title {
-  grid-column: 1 / 6;
-  position: relative;
-}
-#title1 {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 70px;
-  letter-spacing: 2px;
-  font-family: 'Montserrat-SemiBold';
-}
-#title2 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  position: relative;
-  top: -30px;
-}
-.arrow {
-  width: 65px;
-  opacity:0.5;
-}
-.wrap2_order {
-  display: flex;
-  justify-content: center;
-}
-.wrap_order{
-  display: grid;
-  margin-top: 50px;
-  grid-template-columns: 0% 28.33333% 9% 27.33333% 9% 26.33333%;
-  justify-items: center;
+  justify-content: space-between;
   align-items: center;
-  width: 1290px;
-  position: relative;
-  left: -21px;
 }
-.text__order{
-	justify-self:center;
-	font-size:18px;
-	color:#2C2C2C;
-	line-height:25px;
-  text-align: center;
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.navigation-item {
+  margin-left: 50px;
+}
+.wrap_lines {
+  position: absolute;
+  top: 0;
+}
+.navigation-link {
+  font-family: 'WorkSans-Light';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
-.message1{grid-area:message1}
-.message2{grid-area:message2}
-.mes__name1{grid-area:mes__name1}
-.mes__name2{grid-area:mes__name2}
-
-.wrap_dialog, .wrap_dialog2, .wrap_dialog3,
-.wrap_dialog4, .wrap_dialog5, .wrap_prices,
-.wrap_animationMain, .wrap_legal, .wrap_countries,
-.wrap_myself {
+#login {
+  width: 113px;
+  height: 50px;
+  border: 1.5px solid #F6DBA8;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-}
-.dialog{
-  width: 1290px;
-  position: relative;
-  left: -112px;
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
-	grid-row-gap: 10px;
-	margin-top:68px;
-	grid-template-rows:200px 15px 100px 15px;
-	grid-template-areas:
-		". message1 . ."
-		". mes__name1 . . "
-		". . message2 ."
-		". . mes__name2 ."
+  align-items: center;
 }
 
-.message1{
+#under_logo {
+  z-index: 1000;
   position: relative;
-  left: 100px;
-	width:393px;
-	height:190px;
-	background-color:#5B5464;
-	border-radius:30px 30px 30px 0;
+  width: 162px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.7772px;
+  line-height: 19px;
+  color: #787878;
 }
-
-.message2{
-  position: relative;
-  left: 100px;
-  margin-top:15px;
-  width:317px;
-  height:90px;
-  background: linear-gradient(74.16deg, #0069E3 3.4%, #0500EF 99.01%);
-  border-radius:30px 30px 0 30px;
-}
-
-.mes__text1{
-	font-size:18px;
-	color:#F6F6F6;
-	line-height:30px;
-	padding:22px;
-	font-weight:400;
-	line-height:30px;
-	padding:10px 43px 23px;
-	justify-items: start;
-	align-content:center;
-}
-
-.mes__text2{
-	font-size:18px;
-	color:#F6F6F6;
-	font-weight:400;
-	line-height:25px;
-	padding:10px 6px;
-	text-align: center;
-	justify-items: end;
-}
-
-.mes__name1{
-  position: relative;
-  left: 100px;
-	font-size:18px;
-	color:#808080;
-	font-weight:400;
-	line-height:25px;
-	justify-content: start;
-}
-
-.mes__name2{
-	margin-left:210px;
-	font-size:18px;
-	color:#808080;
-  position: relative;
-	font-size:18px;
-	font-weight:400;
-	line-height:25px;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: 45px;
-}
-.wrap_picturesMain {
-  display: flex;
-  justify-content: center;
-}
-.wrap_pictures {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  top: 200px;
-  width: 1290px;
-  left: 21px;
-}
-#five_min {
-  color: #3C0D79;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 50px;
-}
-#without {
-  color: #5B5464;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 50px;
-}
-.dialog2 {
-  width: 1290px;
-  position: relative;
-  left: -100px;
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  margin-top:325px;
-  grid-template-rows:200px 15px 100px 15px;
-  grid-template-areas:
-    ". dialog2_message1 . ."
-    ". mes__name1 . . "
-    ". . dialog2_message2 ."
-    ". . mes__name2 ."
-}
-
-.dialog2_message1{grid-area:dialog2_message1}
-.dialog2_message2{grid-area:dialog2_message2}
-
-.dialog2_message1 {
-  position: relative;
-  left: 100px;
-  width: 343px;
-  height: 100px;
-  background-color: #5B5464;
-  border-radius: 30px 30px 30px 0;
-}
-.dialog2_message2 {
-  position: relative;
-  left: 100px;
-  margin-top: -73px;
-  width: 300px;
-  height: 118px;
-  background: linear-gradient(74.16deg, #0069E3 3.4%, #0500EF 99.01%);
-  border-radius: 30px 30px 0 30px;
-  padding: 0px 11px;
-}
-.dialog2_mes__text2 {
-  font-size: 18px;
-  color: #F6F6F6;
-  font-weight: 400;
-  line-height: 25px;
-  padding: 13px 4px;
-  text-align: center;
-  justify-items: end;
-}
-#lyubov {
-  position: absolute;
-  top: 130px;
-  left: -100px;
-}
-#kostya {
-  position: absolute;
-  left: 355px;
-  top: 31px;
+.section3-img {
+  cursor: pointer;
 }

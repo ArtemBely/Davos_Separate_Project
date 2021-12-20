@@ -14,14 +14,7 @@ import mongoose from 'mongoose';
 import passport from 'passport';
 import flash from 'connect-flash';
 
-import signupRouter from './routers/signup';
-import checkRouter from './routers/check';
-import profileRouter from './routers/profile';
-import enterRouter from './routers/enter';
-import regRouter from './routers/registration';
-import addRouter from './routers/add';
-import firstLayRouter from './routers/firstLayOut';
-import secondLayRouter from './routers/secondLayOut';
+import sendRouter from './routers/sendRequest';
 
 const app = express();
 const CONNECTION_URI = process.env.MONGODB_URI;
@@ -29,6 +22,7 @@ const port = process.env.PORT || 5000;
 
 require('dotenv/config');
 
+/*
 mongoose.connect(
   CONNECTION_URI || process.env.CONNECT,
   {
@@ -40,7 +34,7 @@ mongoose.connect(
     console.log('Connection with database Users completed');
   }
 );
-
+*/
 /*
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
@@ -80,14 +74,7 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use('/signup_code_form_check', signupRouter);
-app.use('/check_the_code', checkRouter);
-app.use('/profile', profileRouter);
-app.use('/registration', regRouter);
-app.use('/enter', enterRouter);
-app.use('/add', addRouter);
-app.use('/first_layout', firstLayRouter);
-app.use('/second_layout', secondLayRouter);
+app.use('/sendRequest', sendRouter);
 
 app.get('*', (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};
@@ -142,4 +129,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
 });
 
 
-app.listen(8888, () => {console.log('Server started!')});
+app.listen(8080, () => {console.log('Server started!')});
