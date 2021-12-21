@@ -7253,6 +7253,10 @@ body {
   .map {
     overflow: hidden;
   }
+  .each_quest {
+    position: absolute;
+    width: 100%;
+  }
   .tech_0_ai, .tech_0_dlt {
     width: 288px !important;
   }

@@ -36,6 +36,7 @@ class Header extends React.Component {
                               hashSpy={true}
                               duration={700}
                               isDynamic={true}
+                              onClick={this.addClass}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
                               ignoreCancelEvents={false}>
@@ -50,6 +51,7 @@ class Header extends React.Component {
                               hashSpy={true}
                               duration={700}
                               isDynamic={true}
+                              onClick={this.addClass}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
                               ignoreCancelEvents={false}>
@@ -64,6 +66,7 @@ class Header extends React.Component {
                                 hashSpy={true}
                                 duration={700}
                                 isDynamic={true}
+                                onClick={this.addClass}
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
@@ -78,6 +81,7 @@ class Header extends React.Component {
                                 hashSpy={true}
                                 duration={700}
                                 isDynamic={true}
+                                onClick={this.addClass}
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
@@ -92,6 +96,7 @@ class Header extends React.Component {
                                 hashSpy={true}
                                 duration={700}
                                 isDynamic={true}
+                                onClick={this.addClass}
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
