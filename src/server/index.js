@@ -111,7 +111,7 @@ app.get('*', (req, res, next) => {
         return res.send(html);
   }).catch(next)
 });
-/*
+
 app.use((error, req, res, next) => {
   res.status(error.status);
 
@@ -121,13 +121,13 @@ app.use((error, req, res, next) => {
     stack: error.stack
   });
 });
-*/
 
+/*
 app.use((req, res, next) => {  //<-- заменить если появится непредвиденная ошибка
    const err = new Error ('Noooo');
      err.status = 404;
      next (err);
 });
-
+*/
 
 app.listen(8888, () => {console.log('Server started!')});

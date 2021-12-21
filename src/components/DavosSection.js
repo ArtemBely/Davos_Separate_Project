@@ -41,11 +41,11 @@ class DavosSection extends React.Component{
                         Fill out the form, our <br />
                         manager will contact you
                     </p>
-                    <form className="popup__form">
-                        <input type="text" name="Name" className="popup__input" placeholder="Name" required/>
-                        <input type="text" name="Purpose" className="popup__input" placeholder="Purpose" required/>
-                        <input type="text" name="Phone_number" className="popup__input" placeholder="Phone number" required/>
-                        <input type="text" name="Email" className="popup__input" placeholder="Email" required/>
+                    <form action='/sendRequest' className="popup__form" method='POST'>
+                        <input type="text" name="name" className="popup__input" placeholder="Name" required/>
+                        <input type="text" name="purpose" className="popup__input" placeholder="Purpose" required/>
+                        <input type="text" name="phone_number" className="popup__input" placeholder="Phone number" required/>
+                        <input type="text" name="email" className="popup__input" placeholder="Email" required/>
                         <div className="popup__footer">
                             <button className="popup__footer-btn">Send</button>
                             <p className="popup__footer-paragraph">
@@ -72,12 +72,12 @@ class DavosSection extends React.Component{
                           Fill out the form, our <br />
                           manager will contact you
                       </p>
-                      <form className="popup__form">
-                          <input type="text" name="Name" className="popup__input" placeholder="Company name" required/>
-                          <input type="text" name="Purpose" className="popup__input" placeholder="Contact person" required/>
-                          <input type="text" name="Phone_number" className="popup__input" placeholder="Attachments" required/>
+                      <form action='/sendRequest/participant' className="popup__form" method='POST'>
+                          <input type="text" name="name" className="popup__input" placeholder="Company name" required/>
+                          <input type="text" name="purpose" className="popup__input" placeholder="Contact person" required/>
+                          <input type="tel" name="phone_number" className="popup__input" placeholder="Attachments" required/>
                           <div className="popup__footer">
-                              <button className="popup__footer-btn">Send</button>
+                              <button type='submit' className="popup__footer-btn">Send</button>
                               <p className="popup__footer-paragraph">
                                   By clicking on the «Send» button you <br />
                                   confirm your consent to the processing <br />
