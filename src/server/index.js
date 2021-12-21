@@ -13,16 +13,28 @@ import session from 'express-session';
 import mongoose from 'mongoose';
 import passport from 'passport';
 import flash from 'connect-flash';
+import fs from 'fs';
+import path from 'path';
+import http from 'http';
+import https from 'https';
 
 import sendRouter from './routers/sendRequest';
 
 const app = express();
-const CONNECTION_URI = process.env.MONGODB_URI;
-const port = process.env.PORT || 5000;
+//const CONNECTION_URI = process.env.MONGODB_URI;
+//const port = process.env.PORT || 5000;
+
+var privateKey = fs.readFileSync(path.resolve('src/server/ssl/emtechinvest.key'));
+var certificate = fs.readFileSync(path.resolve('src/server/ssl/emtechinvest.pem'));
+
+var credentials = {
+  key: privateKey,
+  cert: certificate
+}
 
 require('dotenv/config');
 
-
+/*
 mongoose.connect(
   CONNECTION_URI || process.env.CONNECT,
   {
@@ -34,7 +46,7 @@ mongoose.connect(
     console.log('Connection with database Users completed');
   }
 );
-
+*/
 /*
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
@@ -130,4 +142,8 @@ app.use((req, res, next) => {  //<-- заменить если появится 
 });
 */
 
-app.listen(8888, () => {console.log('Server started!')});
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
+httpServer.listen(8080, () => {console.log('connected on http!')});
+httpsServer.listen(443, () => {console.log('connected on https!')});
