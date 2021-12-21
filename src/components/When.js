@@ -12,7 +12,7 @@ function When() {
                   <p></p>
                   <div className='when1'>
                      <p className='when_title'>Where</p>
-                     <p className='when_text text2'>Promenade 55, Davos, Switzerland</p>
+                     <p className='when_text text2'>Promenade 55, Davos, Switzerland</p>
                   </div>
                   <div className='when2'>
                      <p className='when_title'>When</p>
@@ -20,15 +20,13 @@ function When() {
                   </div>
                   <div className='when3'>
                      <p className='when_title'>For whom</p>
-                     <p className='when_text text3'>For professional investors, tech  entrepreneurs, corporates and media</p>
+                     <p className='when_text text3'>for professional investors,  tech entrepreneurs, corporates and media</p>
                   </div>
                   <p></p>
                   <div className='when4'>
                      <p className='when_title why1'>Why to participate</p>
-                     <p className='when_text why2'>For the first time in Davos you’ll be able
-                      to become a part of a historical mixed reality event. EmTech Metaverse is opening its space for Davos guests. All correlated activities and special
-                        guests are appearing at the International EmTech Investment Forum at the Promenade 55.</p>
-                        <p className='when_text why2'>So central, no one missed it. So big, everyone talks about it.  Be a part of the future. As the Future is Now.</p>
+                     <p className='when_text why2'>For the first time in Davos you’ll be able to become a part of a historical mixed reality event. EmTech Metaverse is opening its space for Davos guests. All correlated activities and special guests are appearing at the International EmTech Investment Forum at the Promenade 55. </p>
+                        <p className='when_text why2'>So central, no one missed it. So big, everyone talks about it. Be a part of the future. As the Future is Now.</p>
                   </div>
                   <img src={oracles} id='oracles'/>
                   <img src={oraclesPlanch} id='oraclesPlanch'/>

@@ -90,8 +90,8 @@ class Footer extends React.Component {
               <a href="mailto:info@emtechassociation.com" className='each_foot_link footer-link' id='mailto'>info@emtechassociation.com</a>
               <a href='#' className='each_foot_link hidden_policy'>Privacy policy</a>
               <a href='#' className='each_foot_link hidden_policy'>Refund and cancellation policy</a>
-              <p className='each_foot_link' id='collab'>In collaboration  with <span id='bold_emtech'>EmTech Metaverse</span></p>
-              <a href='#' className='each_foot_link' id='emtech2'>International EmTech  Investment Association</a>
+              <p className='each_foot_link' id='collab'>In collaboration with <span id='bold_emtech'>EmTech Metaverse</span></p>
+              <a href='#' className='each_foot_link' id='emtech2'>International EmTech Investment Association</a>
                   <img src={Instagram} className='footer__link3-img' id='lnkdin'></img>
                   <a href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669' id='fb1'>
                   <img src={Facebook} className='footer__link3-img'></img>
