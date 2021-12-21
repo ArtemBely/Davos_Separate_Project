@@ -22,7 +22,7 @@ const port = process.env.PORT || 5000;
 
 require('dotenv/config');
 
-/*
+
 mongoose.connect(
   CONNECTION_URI || process.env.CONNECT,
   {
@@ -34,7 +34,7 @@ mongoose.connect(
     console.log('Connection with database Users completed');
   }
 );
-*/
+
 /*
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
