@@ -1,7 +1,7 @@
 import React from 'react';
 import steel from '../../public/images/image 12.png';
 
-function Emtech() {
+function EmTech() {
 
     return (
         <div className="wrap_emtech" id='what_is'>
@@ -19,4 +19,4 @@ function Emtech() {
     )
 }
 
-export default Emtech;
+export default EmTech;

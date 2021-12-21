@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import DavosSection from './DavosSection';
-import Emtech from './Emtech';
+import EmTech from './EmTech';
 import DavosMain from './DavosMain';
 import When from './When';
 import Sponsors from './Sponsors';
@@ -17,7 +17,7 @@ class Main extends React.Component{
       <div className='wrap_davos'>
           <Header />
           <DavosSection />
-          <Emtech />
+          <EmTech />
           <When />
           <Sponsors />
           <Schedule />
