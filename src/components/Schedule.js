@@ -73,7 +73,7 @@ class Schedule extends React.Component {
                         <p className='first_col_of_events'>
                           <p className='date1'>12.00-18.00 — Masterclasses</p>
                           <p className='date1'>18.00-21.00 — Networking reception</p>
-                          <p className='date1 date_spec'>6 hours. 4 Executives. 4 groups of 10 Young leaders. Unique opportunity.</p>
+                          <p className='date1 date_spec'>6 hours. 4 Executives. 4 groups  of 10 Young leaders. Unique opportunity.</p>
                           <p className='apply_but'>Apply for masterclass</p>
                         </p>
                         <div className='second_col_of_events'>
@@ -194,7 +194,7 @@ class Schedule extends React.Component {
                         </div>
                     </div>
 
-                    <div className='wrap_each_event'>
+                    <div className='wrap_each_event' id='last_event'>
                         <p className='date'>22-23 January, Sunday</p>
                         <p className='date2'>Ski and Spa</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr7} onClick={this.openlist7}/></p>

@@ -1,5 +1,10 @@
 /* davosMain */
-
+@media (min-width: 1524px) {
+  .wrap_str {
+    position: relative;
+    left: -67px;
+  }
+}
 @media (min-width: 576px) and (max-width: 992px) {
   .concept{
     padding: 20px;

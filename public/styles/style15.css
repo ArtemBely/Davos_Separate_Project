@@ -275,6 +275,10 @@
   height: 300px;
   width: 230px;
   background: #1B1B1B;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .wrap_each_speaker {
   display: grid;
@@ -314,12 +318,18 @@
   grid-template-columns: repeat(2, 1fr);
   border-right: 2px solid #FFFFFF;
   border-left: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+#last_event {
+  border-bottom: 2px solid #FFFFFF;
 }
 .wrap_each_event {
-  border: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
   display: grid;
   grid-template-columns: 33% 18% 49%;
   padding: 17px 57px;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
 }
 .apply_but {
   font-size: 20px;

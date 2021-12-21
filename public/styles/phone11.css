@@ -241,6 +241,11 @@
   .each_speaker {
     height: 173px;
     width: 136px;
+        position: relative;
+  }
+  .each_img_speak {
+    position: absolute;
+    width: 100%;
   }
   .sponsors {
     width: 280px;
