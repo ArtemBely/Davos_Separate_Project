@@ -2,7 +2,7 @@
 
 @media (min-width: 576px) and (max-width: 992px) {
   .strategic {
-    margin-bottom: 82px;
+    margin-bottom: 140px;
   }
 
   .strategic__contact {
@@ -68,6 +68,8 @@
   .download__strategic {
     margin: 21px auto;
     width: 495px;
+    position: relative;
+    top: 30px;
     height: 56px;
   }
 

@@ -25,7 +25,7 @@ function Team() {
                           <p className='each_speaker'></p>
                           <p className='each_speaker_name'>Katie Aarson</p>
                       </div>
-                      <div>
+                      <div style={{display: 'none'}}>
                           <p className='each_speaker'></p>
                           <p className='each_speaker_name'>Vlatko Gigov</p>
                       </div>
@@ -39,7 +39,7 @@ function Team() {
                       </div>
                       <div>
                           <p className='each_speaker'></p>
-                          <p className='each_speaker_name'>Ekaterina </p>
+                          <p className='each_speaker_name'>Ekaterina Lymbourides</p>
                       </div>
               </div>
         </div>

@@ -2,7 +2,8 @@
   position: relative;
   width: 1290px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+      left: 54px;
 }
 .startegic__wrap {
   text-align: center;
@@ -10,6 +11,9 @@
 .strategic__contact-name {
   position: relative;
   top: 31px;
+}
+.vesnea2 {
+  display: none !important;
 }
 .milton {
   top: 37px;

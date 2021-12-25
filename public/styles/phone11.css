@@ -381,8 +381,9 @@
     display: grid;
     grid-gap: 54px 0px;
     top: 10px;
+    left: 13px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .strategic {
         top: 503px;
@@ -403,7 +404,7 @@
   }
   .milton_wrap {
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     max-width: 100%;
   }
   .milton {

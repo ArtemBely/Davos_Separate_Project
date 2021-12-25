@@ -13,6 +13,9 @@
   .concept__wrapper {
     display: block;
   }
+  .strategic__title {
+    font-size: 40px !important;
+  }
 
   .concept__title {
     font-size: 30px;
@@ -74,7 +77,7 @@
   }
 
   .partners__title {
-    font-size: 30px;
+    font-size: 40px !important;
     text-align: center;
   }
 
