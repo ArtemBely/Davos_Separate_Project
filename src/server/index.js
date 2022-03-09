@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticRouter, matchPath } from 'react-router-dom';
 import App from '../components/App';
 import Main from '../components/Main';
+import NoMatch from '../components/NoMatch';
 import Routes from '../components/routes';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
@@ -88,7 +89,17 @@ app.use(passport.session());
 
 app.use('/sendRequest', sendRouter);
 
-app.get('*', (req, res, next) => {
+app.get('/robots.txt', (req, res) => {
+  const resolvePath = path.resolve('public/robots.txt');
+  res.sendFile(resolvePath);
+});
+
+app.get('/sitemap.xml', (req, res) => {
+  const resolvePath2 = path.resolve('public/sitemap.xml');
+  res.sendFile(resolvePath2);
+});
+
+app.get(['/', '/sendRequest'], (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};
   const promise = activeRouter.fetchInitialData ?
                   activeRouter.fetchInitialData(req.path) :
@@ -105,10 +116,27 @@ app.get('*', (req, res, next) => {
         `<!DOCTYPE html>
             <html>
                 <head>
-                  <title>Davos</title>
+                  <title>International EmTech Investment Forum in Davos</title>
+                  <meta name="description" content="The International EmTech Investment Forum in Davos combines top networking, high tech shows and impact investment deal flow">
                   <link rel="stylesheet" type="text/css" href="../main.css">
                   <link rel="shortcut icon" href="/images/Subtract (1).ico" type="image/x-icon">
+                  <link rel="canonical" href="https://emtechinvest.com/">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                    <meta property="og:url" content="https://emtechinvest.com/">
+                    <meta property="og:type" content="website">
+                    <meta property="og:title" content="International EmTech Investment Forum in Davos">
+                    <meta property="og:description" content="The International EmTech Investment Forum in Davos combines top networking, high tech shows and impact investment deal flow">
+                    <meta property="og:image" content="https://emtechinvest.com/images/Group 300.svg">
+
+                    <!-- Twitter Meta Tags -->
+                    <meta name="twitter:card" content="summary_large_image">
+                    <meta property="twitter:domain" content="emtechinvest.com">
+                    <meta property="twitter:url" content="https://emtechinvest.com/">
+                    <meta name="twitter:title" content="International EmTech Investment Forum in Davos">
+                    <meta name="twitter:description" content="The International EmTech Investment Forum in Davos combines top networking, high tech shows and impact investment deal flow">
+                    <meta name="twitter:image" content="https://emtechinvest.com/images/Group 300.svg">
+
                       <script src='/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
                             <title>COLLAB</title>
@@ -124,6 +152,33 @@ app.get('*', (req, res, next) => {
   }).catch(next)
 });
 
+app.get('/*', (req, res) => {
+  const content = renderToString(
+    <StaticRouter>
+      <NoMatch />
+    </StaticRouter>
+  );
+  res.status(404).send(
+    `<!DOCTYPE html>
+        <html>
+            <head>
+              <title>International EmTech Investment Association</title>
+                   <link rel="stylesheet" type="text/css" href="../main.css">
+                     <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
+                     <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <script src='/bundle.js' defer></script>
+            </head>
+            <body>
+                 <div id="app">
+                    <div className='main_wrap'>
+                       ${content}
+                  </div>
+            </div>
+      </body>
+  </html>`
+  )
+});
+/*
 app.use((error, req, res, next) => {
   res.status(error.status);
 
@@ -133,14 +188,13 @@ app.use((error, req, res, next) => {
     stack: error.stack
   });
 });
-
-/*
+*/
 app.use((req, res, next) => {  //<-- заменить если появится непредвиденная ошибка
    const err = new Error ('Noooo');
      err.status = 404;
      next (err);
 });
-*/
+
 
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);

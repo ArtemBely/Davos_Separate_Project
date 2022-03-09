@@ -9,6 +9,23 @@
     body.lock {
         overflow: hidden;
     }
+    .oops {
+      width: 537px !important;
+      color: white;
+      font-size: 18px !important;
+      display: grid !important;
+      justify-content: center;
+      text-align: center;
+      line-height: 44px !important;
+    }
+    .mistake404 {
+      color: white;
+      font-size: 75px !important;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 84px;
+    }
     #vrt {
       text-align: initial;
       position: relative;

@@ -6,6 +6,13 @@
     .footer {
         width: 952px;
     }
+    .oops {
+      width: 952px !important;
+      font-size: 23px !important;
+    }
+    .mistake404 {
+      font-size: 129px !important;
+    }
     .section2__logo-list {
     -moz-transform: scale(0.74, 0.74); /* Moz-browsers */
     zoom: 0.74; /* Other non-webkit browsers */

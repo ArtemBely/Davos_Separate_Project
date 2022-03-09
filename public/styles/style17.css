@@ -5,6 +5,31 @@
   grid-template-columns: repeat(2, 1fr);
       left: 54px;
 }
+.wrap_alert {
+  position: relative;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  top: 158px;
+}
+.mistake404 {
+  color: white;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 84px;
+}
+.main_page_return {
+  color: bisque;
+}
+.oops {
+  width: 1290px;
+  color: white;
+  font-size: 29px;
+  display: flex;
+  justify-content: center;
+}
 .startegic__wrap {
   text-align: center;
 }

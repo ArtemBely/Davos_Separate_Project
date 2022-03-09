@@ -6,6 +6,18 @@
     .footer {
         width: 286px;
     }
+    .oops {
+      width: 320px !important;
+      color: white;
+      font-size: 18px !important;
+      display: grid !important;
+      justify-content: center;
+      text-align: center;
+      line-height: 29px !important;
+    }
+    .mistake404 {
+      font-size: 100px !important;
+    }
     body.lock {
         overflow: hidden;
     }

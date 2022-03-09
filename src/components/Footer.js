@@ -11,9 +11,10 @@ class Footer extends React.Component {
   render() {
     return(
       <div className='wrap__footer'>
-          <div className='footer'>
+          <div itemScope itemType="http://schema.org/Organization" className='footer'>
+          <link itemProp='url' href='https://emtechinvest.com/'/>
               <div className='footer__logo'>
-                  <img src={logo} className='footer__logo-img'></img>
+                  <img itemProp="logo"  src={logo} className='footer__logo-img'></img>
               </div>
               <p className='each_foot_link' id='nav_links_foot1'>
                           <Link activeClass="active"
@@ -86,14 +87,14 @@ class Footer extends React.Component {
                             Partners</Link>
               </p>
 
-              <a href="tel:+41 79 269 53 60" className="each_foot_link" id='tel1'>+41 79 269 53 60</a>
-              <a href="mailto:info@emtechassociation.com" className='each_foot_link footer-link' id='mailto'>info@emtechassociation.com</a>
+              <a href="tel:+41 79 269 53 60" itemProp="telephone" className="each_foot_link" id='tel1'>+41 79 269 53 60</a>
+              <a href="mailto:info@emtechassociation.com" itemProp="email" className='each_foot_link footer-link' id='mailto'>info@emtechassociation.com</a>
               <a href='#' className='each_foot_link hidden_policy'>Privacy policy</a>
               <a href='#' className='each_foot_link hidden_policy'>Refund and cancellation policy</a>
               <p className='each_foot_link' id='collab'>In collaboration with <span id='bold_emtech'>EmTech Metaverse</span></p>
-              <a href='https://emtechassociation.com/' className='each_foot_link' id='emtech2'>International EmTech Investment Association</a>
+              <a href='https://emtechassociation.com/' itemProp="name" className='each_foot_link' id='emtech2'>International EmTech Investment Association</a>
                   <img src={Instagram} className='footer__link3-img' id='lnkdin'></img>
-                  <a href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669' id='fb1'>
+                  <a rel="nofollow" href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669' id='fb1'>
                   <img src={Facebook} className='footer__link3-img'></img>
                   </a>
               <p className='wrap_up'>

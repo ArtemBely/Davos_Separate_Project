@@ -24,6 +24,7 @@ class DavosSection extends React.Component{
     this.setState({ isOpen5: true });
   }
 
+
   render() {
     return (
       <>
@@ -93,7 +94,7 @@ class DavosSection extends React.Component{
         <div className="blur"></div>
 
                <div className="wrap__lead">
-                 <img src={mainImage} alt="main-image" className="lead__image" />
+                       <img src={mainImage} alt="main-image" className="lead__image" />
                  <div className='wrap_rect'><img src={rect} /></div>
                </div>
 

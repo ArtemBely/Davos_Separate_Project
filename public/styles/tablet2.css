@@ -6,6 +6,13 @@
     .footer {
         width: 730px;
     }
+    .oops {
+      width: 735px !important;
+      font-size: 18px !important;
+    }
+    .mistake404 {
+      font-size: 75px !important;
+    }
     .events__button > p:nth-child(2) {
       flex-basis: 27.8%;
     }
