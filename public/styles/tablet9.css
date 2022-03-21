@@ -43,13 +43,16 @@
       zoom: 0.72; /* Other non-webkit browsers */
       zoom: 72%; /* Webkit browsers */
   }
-  .wrap__sections {
-    left: -36px;
-  }
 }
 @media (min-width: 576px) and (max-width: 1520px) {
   .wrap_emtech {
     overflow: hidden;
+  }
+  .description__paragraph {
+        left: -50px;
+  }
+  .description__paragraph:last-of-type {
+        left: -19px;
   }
   .wrap_up {
     width: 10px;
@@ -347,9 +350,6 @@
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .wrap__sections {
-    max-width: 726px;
-  }
   .arrow-button__strategic2 {
     left: -24px;
   }

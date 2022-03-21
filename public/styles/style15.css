@@ -307,7 +307,7 @@
   font-family: 'WorkSans-Bold';
 }
 .date2 {
-  width: 300px;
+  width: 348px;
 }
 .wrap_each_event, .wrap_list_event {
   box-sizing: border-box;
@@ -373,15 +373,34 @@
   justify-content: end;
   align-items: center;
 }
+.time_of {
+  font-family: 'WorkSans-Bold';
+}
+#monetary {
+  position: relative;
+  width: 39px;
+  top: -5px;
+}
 .arr_sch > img {
   cursor: pointer;
   transition: 0.2s;
 }
+#al {
+  width: 350px;
+  position: relative;
+  top: 54px;
+}
+#banc {
+  position: relative;
+  width: 137px;
+  top: 1px;
+  left: -2px;
+}
 .first_col_of_events {
-  padding: 90px 10px 0px 100px;
+  padding: 54px 10px 54px 100px;
 }
 .second_col_of_events {
-  padding: 89px 0px;
+  padding: 54px 0px;
 }
 .date_spec {
   width: 315px;

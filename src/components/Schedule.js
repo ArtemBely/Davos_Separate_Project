@@ -1,5 +1,8 @@
 import React from 'react';
 import arrow from '../../public/images/Vector 42.svg';
+import banc from '../../public/images/Bancambios.png';
+import al from '../../public/images/al quazimi.png';
+import monetary from '../../public/images/photo_2022-03-02_20-20-06 1.png';
 
 import { NavLink } from 'react-router-dom';
 
@@ -65,120 +68,91 @@ class Schedule extends React.Component {
 
 
                     <div className='wrap_each_event'>
-                        <p className='date'>16 January, Sunday</p>
-                        <p className='date2'>Executives for Youth</p>
+                        <p className='date'>May 21, Saturday</p>
+                        <p className='date2'>Gala Opening Reception</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr1} onClick={this.openlist1}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list1}>
                         <p className='first_col_of_events'>
-                          <p className='date1'>12.00-18.00 — Masterclasses</p>
-                          <p className='date1'>18.00-21.00 — Networking reception</p>
-                          <p className='date1 date_spec'>6 hours. 4 Executives. 4 groups of 10 Young leaders. Unique opportunity.</p>
+                          <p className='date1'><span className='time_of'>18.00-22.00</span>
+                          </p>
+                          <p className='date1 date_spec'>Guests are invited to celebrate the unity of two worlds.</p>
                           <p className='apply_but'>Apply for masterclass</p>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>Masterclasses from Masterminds: business, growth and achievements.</p>
-                          <p className='date1'>This event starts the same way as new generations start the epoch.</p>
-                          <p className='date1'>The best investment in the future generation is education. The best education is out of practice and experience.
-                           The best practice and experience brings success!</p>
-                          <p className='date1'>For aspiring young leaders under 35 years old. The masterclass is available in VR format.</p>
-                          <p className='date1'>We are welcoming empowerment foundations and entities to join us for this session.</p>
-                          <p className='date1'> Masterclass will be followed by a networking reception.</p>
+                          <p className='date1'>A jazz concert, a dinner from a world-famous chef, a fireside chat. This time it will feel different.</p>
+                          <p className='date1'>Augmented, virtual and mixed reality dimensions will garnish the evening. Invitation only, with strict RSVP.</p>
                         </div>
                     </div>
 
                     <div className='wrap_each_event'>
-                        <p className='date'>17 January, Monday</p>
-                        <p className='date2'>Technologies of the Future</p>
+                        <p className='date'>May 22, Sunday</p>
+                        <p className='date2'>Biohacking</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr2} onClick={this.openlist2}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list2}>
                         <p className='first_col_of_events'>
-                          <p className='date1'>9:00-11:00 — Business Breakfast</p>
-                          <p className='date1 date_spec'>14:00-16:00 — Startup Pitch competition /
-                           trends of AI show / presentation of Robotics</p>
-                          <p className='date1'>16:00-17:30 — Media Hub</p>
-                          <p className='date1'>19:00-22:00 — Evening Reception</p>
+                          <p className='date1 date_spec'><span className='time_of'>12:00-21:00</span>
+                          <p> 300 years or older. What makes it possible? We will hear from leading experts.</p>
+                          </p>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>The opening night is dedicated to the technologies of the future.</p>
-                          <p className='date1'>This is a show-and-tell powered by truly impactful innovations.</p>
-                          <p className='date1'>The Gala Reception is accompanied by the most impressive technologies that everyone can touch, feel, and use.</p>
-                          <p className='date1'>Come along and experience it for yourself!</p>
+                          <p className='date1'>The day of Biohacking is co-hosted by our partners. Agenda on request.</p>
                         </div>
                     </div>
 
                     <div className='wrap_each_event'>
-                        <p className='date'>18 January, Tuesday</p>
-                        <p className='date2'>Beyond Blockchain</p>
+                        <p className='date'>May 23, Monday</p>
+                        <p className='date2'>Insights of DeFi</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr3} onClick={this.openlist3}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list3}>
-                        <p className='first_col_of_events' style={{opacity: 0}}>
-                          <p className='date1'>The future of decentralization. What comes next?</p>
-                          <p className='date1'>We delve deep into the discussion about what’s next for the crypto scene
-                          and provide unfiltered thoughts and questions like…</p>
-                          <p className='date1'>What would blockchain mass adoption look like?</p>
-                          <p className='date1'>Are digital collectibles - which are backed by NFTs -  redefining art space?</p>
+                        <p className='first_col_of_events'>
+                           <p className='date1 date_spec'><span className='time_of'>8:00 - 10:00</span>  <p>Decentralized trading for breakfast</p></p>
+                           <p className='date1 date_spec'><span className='time_of'>12:00 - 14:30</span>  <p>Legal Gaps of DeFi. Solutions from top-lawyers</p></p>
+                           <p className='date1 date_spec'><span className='time_of'>17:00 - 22:00</span> <p>Ecosystem leaders. Dive into Solana, Near, Harmony and Cardano and more</p></p>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>The future of decentralization. What comes next?</p>
-                          <p className='date1'>We delve deep into the discussion about what’s next for the crypto scene
-                          and provide unfiltered thoughts and questions like…</p>
-                          <p className='date1'>What would blockchain mass adoption look like?</p>
-                          <p className='date1'>Are digital collectibles - which are backed by NFTs -  redefining art space?</p>
-                          <p className='date1'>How does regulation in this field adjust?</p>
-                          <p className='date1'>Future-proof innovations side by side with governmental bodies to lighten the topic.</p>
+                           <p className='date1'>In partneship with <img src={banc} id='banc'/></p>
                         </div>
                     </div>
 
 
                     <div className='wrap_each_event'>
-                        <p className='date'>19 January, Wednesday</p>
-                        <p className='date2'>Other Worlds</p>
+                        <p className='date'>May 24, Tuesday</p>
+                        <p className='date2'>Sustainability</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr4} onClick={this.openlist4}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list4}>
-                        <p className='first_col_of_events' style={{opacity: 0}}>
-                          <p className='date1'>The future of decentralization. What comes next?</p>
-                          <p className='date1'>We delve deep into the discussion about what’s next for the crypto scene
-                          and provide unfiltered thoughts and questions like…</p>
-                          <p className='date1'>What would blockchain mass adoption look like?</p>
-                          <p className='date1'>Are digital collectibles - which are backed by NFTs -  redefining art space?</p>
+                        <p className='first_col_of_events'>
+                          <img src={al} id='al'/>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>Alternative realities.</p>
-                          <p className='date1'>Look around and discover yourselves in the middle of augmented and virtual realities, metaverse,
-                           digital immortality that are already a part of our world.</p>
-                          <p className='date1'>We create synergies across the future worlds.</p>
-                          <p className='date1'>We open the space at Davos for everyone so we can truly be without borders.</p>
+                          <p className='date1'>From green trends to corporate responsibilities.</p>
+                          <p className='date1'>Smart cities from UAE to Eurasia. What makes the shift?</p>
+                          <p className='date1'>Led by Governments and Intergovernmental bodies. The Agenda is to follow.</p>
                         </div>
                     </div>
 
                     <div className='wrap_each_event'>
-                        <p className='date'>20 January, Thursday</p>
-                        <p className='date2'>150 Years Old</p>
+                        <p className='date'>May 25, Wednesday</p>
+                        <p className='date2'>Global Finance</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr5} onClick={this.openlist5}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list5}>
-                        <p className='first_col_of_events' style={{opacity: 0}}>
-                          <p className='date1'>The future of decentralization. What comes next?</p>
-                          <p className='date1'>We delve deep into the discussion about what’s next for the crypto scene
-                          and provide unfiltered thoughts and questions like…</p>
-                          <p className='date1'>What would blockchain mass adoption look like?</p>
-                          <p className='date1'>Are digital collectibles - which are backed by NFTs -  redefining art space?</p>
+                        <p className='first_col_of_events'>
+                          <p className='date1'><span className='time_of'>8:00 - 10:00</span> <p>Media Business Breakfast</p></p>
+                          <p className='date1'><span className='time_of'>12:00 - 15:00</span> <p>Future of crypto banking</p></p>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>Longevity comes from science.</p>
-                          <p className='date1'>150 years old is not a dream but our future.</p>
-                          <p className='date1'>Med-, Health- and Bio- Tech will be our focus with more to show and learn from.</p>
-                          <p className='date1'>It will include the best Innovations for human well-being.</p>
+                          <p className='date1'><span className='time_of'>17:30 - 22:00</span> <p> Global Monetary Reset <img src={monetary} id='monetary'/></p></p>
+                          <p className='date1'>The event is a «scenario-based» debate focused on the current state of Monetary Policy. Confirmed speaker from IMF.</p>
                         </div>
                     </div>
 
                     <div className='wrap_each_event'>
-                        <p className='date'>21 January, Friday</p>
-                        <p className='date2'>Art Class</p>
+                        <p className='date'>May 26, Thursday</p>
+                        <p className='date2'>NFTs under review</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr6} onClick={this.openlist6}/></p>
                     </div>
                     <div className='wrap_list_event' ref={this.list6}>
@@ -195,8 +169,8 @@ class Schedule extends React.Component {
                     </div>
 
                     <div className='wrap_each_event' id='last_event'>
-                        <p className='date'>22-23 January, Sunday</p>
-                        <p className='date2'>Ski and Spa</p>
+                        <p className='date'>May 27-28, Friday</p>
+                        <p className='date2'>Monaco for professional investors</p>
                         <p className='arr_sch'><img src={arrow} ref={this.arr7} onClick={this.openlist7}/></p>
                     </div>
                     <div className='wrap_list_event' id='list7' ref={this.list7}>
@@ -206,10 +180,8 @@ class Schedule extends React.Component {
                           <p className='date1'>The weekend mood is guaranteed by the best DJs at the evening reception.</p>
                         </p>
                         <div className='second_col_of_events'>
-                          <p className='date1'>There’s an enormous amount of research and investment going into sports,
-                           winter sports including. Are you an avid skier, snowboarding fan or do you seek to conquer the highest peaks,
-                            powering your ascents with data? Then join us on this journey.</p>
-                          <p className='date1'>The weekend mood is guaranteed by the best DJs at the evening reception.</p>
+                          <p className='date1'>Private event at the F1 Race in Monaco.</p>
+                          <p className='date1'>Agenda on request.</p>
                         </div>
                     </div>
 

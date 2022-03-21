@@ -193,6 +193,8 @@ body {
     top: 75px;
     height: 50px;
     letter-spacing: 1px;
+    position: relative;
+    left: -36px;
 }
 .description__paragraph:last-of-type {
     margin: 0 auto 250px;
@@ -200,7 +202,7 @@ body {
     grid-row: 2 / 3;
     position: relative;
     top: -147px;
-    left: -13px;
+    left: -5px;
 }
 .wrap__plans {
   position: relative;
@@ -317,7 +319,7 @@ body {
 }
 .when1, .when2, .when3 {
   position: relative;
-  top: -172px;
+  top: -187px;
 }
 .when4 {
   grid-column: 1 / 4;
@@ -332,6 +334,8 @@ body {
 }
 .text2 {
   width: 197px;
+  position: relative;
+  top: 4px;
 }
 .speaker0 {
   font-size: 45px;

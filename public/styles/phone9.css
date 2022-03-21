@@ -35,11 +35,6 @@
     margin: 57px auto 10px;
   }
 
-  .description__paragraph {
-    font-size: 16px;
-    line-height: 25px;
-  }
-
   .description__paragraph:last-of-type {
     margin-bottom: 92px;
   }

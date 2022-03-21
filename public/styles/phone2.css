@@ -6,6 +6,17 @@
     .footer {
         width: 286px;
     }
+    .wrap_rect > img {
+      position: absolute;
+      top: 169px;
+    }
+    #al {
+      width: 234px !important;
+      top: 18px !important;
+    }
+    .date2 {
+      width: 264px !important;
+    }
     .oops {
       width: 320px !important;
       color: white;

@@ -16,7 +16,7 @@ function When() {
                   </div>
                   <div className='when2'>
                      <p className='when_title'>When</p>
-                     <p className='when_text text2'>January 16-23, 2022</p>
+                     <p className='when_text text2'>May 21-26, 2022</p>
                   </div>
                   <div className='when3'>
                      <p className='when_title'>For whom</p>
