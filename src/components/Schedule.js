@@ -77,7 +77,7 @@ class Schedule extends React.Component {
                           <p className='date1'><span className='time_of'>18.00-22.00</span>
                           </p>
                           <p className='date1 date_spec'>Guests are invited to celebrate the unity of two worlds.</p>
-                          <p className='apply_but'>Apply for masterclass</p>
+                          <p className='apply_but' style={{ display: "none" }}>Apply for masterclass</p>
                         </p>
                         <div className='second_col_of_events'>
                           <p className='date1'>A jazz concert, a dinner from a world-famous chef, a fireside chat. This time it will feel different.</p>
