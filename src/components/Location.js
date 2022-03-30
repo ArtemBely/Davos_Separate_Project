@@ -9,7 +9,7 @@ function Location() {
                     <p className='speaker0 loc0'>Location</p>
                     <p className='map'><img src={maps} id='maps'/></p>
                     <p className='address'>Promenade 63, Davos Platz</p>
-                    <a rel="nofollow" href='https://goo.gl/maps/X3bByJAhDkTjJjqV9' className='address add_link'>Open map</a>
+                    <a rel="nofollow" href='https://g.page/exdavos?share' className='address add_link'>Open map</a>
               </div>
         </div>
     )
