@@ -224,18 +224,21 @@
   }
   .partners {
         max-width: 992px;
+        grid-template-columns: repeat(3, 1fr);
   }
   .become_a_partner2{
         width: 302px;
         left: 325px;
         font-size: 18px;
-            top: 13px;
+        top: 82px;
   }
+
   .partners__title {
-        top: 79px;
+        top: 138px;
+        grid-column: 1 / 4;
   }
   .wrap_partners {
-        top: 274px;
+        top: 131px;
   }
   .strategic__title {
     font-size: 40px;
@@ -290,12 +293,13 @@
         width: 179px;
         font-size: 18px;
         line-height: 29px;
+        top: 106px;
   }
   .wrap_location{
         top: 303px;
   }
   .wrap__footer {
-    top: 518px;
+    top: 570px;
   }
   .footer {
     width: 992px;
@@ -347,11 +351,24 @@
   }
   .add_link {
         left: 319px;
+        top: 77px;
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {
   .arrow-button__strategic2 {
     left: -24px;
+  }
+  .wrap_partners {
+    top: 97px !important;
+  }
+  .loc0 {
+    top: -30px !important;
+  }
+  .strategic {
+        top: 189px !important;
+  }
+  .wrap_location {
+        top: 290px !important;
   }
   .header__burger {
     width: 22px;

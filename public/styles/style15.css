@@ -169,18 +169,82 @@
 }
 
 .partners {
-  max-width: 1290px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-gap: 0px 22px;
+    max-width: 1290px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 22px 1fr 22px 1fr 22px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr 0px 1fr 0px 1fr 0px 1fr 0px 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 25px 22px;
+}.partners > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(4) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(7) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(8) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(9) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(10) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(11) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(12) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(13) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(14) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(15) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(16) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(17) {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(18) {
+    -ms-grid-row: 9;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(19) {
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(20) {
+    -ms-grid-row: 9;
+    -ms-grid-column: 7;
 }
 .wrap_partners {
     position: relative;
-    top: 646px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    top: 438px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 .partners__title {
   font-family: 'WorkSans-Bold';
@@ -189,7 +253,7 @@
   font-size: 45px;
   line-height: 53px;
   color: #FFFFFF;
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   display: flex;
   justify-content: center;
   top: 112px;

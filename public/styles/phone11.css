@@ -5,7 +5,14 @@
     margin-bottom: 110px;
     left: -10px;
   }
-
+  #img10 {
+    position: relative;
+    top: -176px;
+  }
+  #img13 {
+    position: relative;
+    top: 173px;
+  }
   .strategic__contact {
     display: block;
     max-width: 235px;
@@ -342,6 +349,8 @@
   }
   .partners {
         height: 640px;
+        position: relative;
+        top: -177px;
         max-width: 320px;
         grid-template-columns: repeat(2, 1fr);
   }
@@ -354,7 +363,7 @@
         grid-row: 10/11;
   }
   .partners__title {
-        top: -14px;
+        top: 74px;
         font-size: 25px;
         line-height: 29px;
         grid-column: 1 / 3;
@@ -425,14 +434,15 @@
   }
   .address {
     width: 148px;
+    top: 31px;
     font-size: 16px;
     line-height: 26px;
   }
   .wrap_location{
-        top: 503px;
+        top: 520px;
   }
   .wrap__footer {
-    top: 625px;
+    top: 677px;
     overflow: hidden;
   }
   .footer {

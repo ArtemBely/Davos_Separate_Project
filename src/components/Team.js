@@ -6,7 +6,7 @@ import kir from '../../public/images/Rectangle 294.png';
 function Team() {
 
     return (
-        <div className="wrap_team">
+        <div className="wrap_team" style={{display: "none"}}>
               <div className="team">
                       <p id='team1'>Team</p>
                       <div>

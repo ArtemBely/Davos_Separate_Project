@@ -6,16 +6,16 @@ import blackArr from '../../public/images/Vector (1).svg';
 import worldEconomicForum from '../../public/images/WorldEconomicForum.png';
 import cross from '../../public/images/cross.svg';
 import img1 from '../../public/images/Frame 483.svg';
-import img2 from '../../public/images/Frame 484.svg';
 import img3 from '../../public/images/Frame 488.svg';
 import img4 from '../../public/images/Frame 486.svg';
-import img5 from '../../public/images/Frame 487.svg';
 import img6 from '../../public/images/Frame 485.svg';
 import img7 from '../../public/images/Frame 490.svg';
-import img8 from '../../public/images/Frame 491.svg';
 import img9 from '../../public/images/Frame 492.svg';
 import img10 from '../../public/images/Frame 493.svg';
 import img11 from '../../public/images/Frame 494.svg';
+import img12 from '../../public/images/Frame 534.svg';
+import img13 from '../../public/images/Frame 535.svg';
+import img14 from '../../public/images/Frame 536.svg';
 
 class DavosMain extends React.Component{
 
@@ -91,17 +91,19 @@ class DavosMain extends React.Component{
           <div className='wrap_partners'>
              <div className="partners">
                  <h3 className="partners__title" id='link_partners'>Partners</h3>
-                 <p id='img1'><img src={img1} className='com_parts'/></p>
-                 <p id='img2'><img src={img2} className='com_parts'/></p>
-                 <p id='img3'><img src={img3} className='com_parts'/></p>
-                 <p id='img4'><img src={img4} className='com_parts'/></p>
-                 <p id='img5' className='middle_top'><img src={img5} className='com_parts'/></p>
-                 <p id='img6' className='middle_top'><img src={img6} className='com_parts'/></p>
-                 <p id='img7' className='middle_top'><img src={img7} className='com_parts'/></p>
-                 <p id='img8' className='middle_top'><img src={img8} className='com_parts'/></p>
-                 <p id='img9' className='middle_top'><img src={img9} className='com_parts'/></p>
-                 <p id='img10' className='down_center'><img src={img10} className='com_parts'/></p>
-                 <p id='img11' className='down_center'><img src={img11} className='com_parts'/></p>
+
+                   <p id='img1'><img src={img1} className='com_parts'/></p>
+                   <p id='img3'><img src={img3} className='com_parts'/></p>
+                   <p id='img6' className='middle_top'><img src={img6} className='com_parts'/></p>
+                   <p id='img9' className='middle_top'><img src={img9} className='com_parts'/></p>
+                   <p id='img4'><img src={img4} className='com_parts'/></p>
+                   <p id='img12'><img src={img12} className='com_parts'/></p>
+                   <p id='img13'><img src={img13} className='com_parts'/></p>
+                   <p id='img14'><img src={img14} className='com_parts'/></p>
+                   <p id='img7' className='middle_top'><img src={img7} className='com_parts'/></p>
+                   <p id='img11' className='down_center'><img src={img11} className='com_parts'/></p>
+                   <p id='img10' className='down_center'><img src={img10} className='com_parts'/></p>
+
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>
               </div>
             </div>
