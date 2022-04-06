@@ -2,8 +2,9 @@
 
 @media (min-width: 320px) and (max-width: 575px) {
   .strategic {
-    margin-bottom: 110px;
+    margin-bottom: 0px;
     left: -10px;
+    top: 440px !important;
   }
   #img10 {
     position: relative;

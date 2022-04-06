@@ -13,7 +13,7 @@ import img7 from '../../public/images/Frame 490.svg';
 import img9 from '../../public/images/Frame 492.svg';
 import img10 from '../../public/images/Frame 493.svg';
 import img11 from '../../public/images/Frame 494.svg';
-import img12 from '../../public/images/Frame 534.svg';
+import img12 from '../../public/images/Logo Tarko Think Tank@2x.svg';
 import img13 from '../../public/images/Frame 535.svg';
 import img14 from '../../public/images/Frame 536.svg';
 
@@ -95,8 +95,8 @@ class DavosMain extends React.Component{
                    <p id='img1'><img src={img1} className='com_parts'/></p>
                    <p id='img3'><img src={img3} className='com_parts'/></p>
                    <p id='img6' className='middle_top'><img src={img6} className='com_parts'/></p>
-                   <p id='img9' className='middle_top'><img src={img9} className='com_parts'/></p>
-                   <p id='img4'><img src={img4} className='com_parts'/></p>
+                   <p id='img9' style={{display: "none"}} className='middle_top'><img src={img9} className='com_parts'/></p>
+                   <p id='img4' style={{display: "none"}}><img src={img4} className='com_parts'/></p>
                    <p id='img12'><img src={img12} className='com_parts'/></p>
                    <p id='img13'><img src={img13} className='com_parts'/></p>
                    <p id='img14'><img src={img14} className='com_parts'/></p>
