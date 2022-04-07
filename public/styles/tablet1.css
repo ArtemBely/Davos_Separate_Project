@@ -289,6 +289,13 @@
               width: 537px;
               grid-template-rows: 1fr 1fr;
           }
+        /*  #oraclesPlanch {
+            display: none !important;
+          }
+          #oracleSpec576 {
+            display: block !important;
+            position: absolute;
+          }*/
           #social_networks {
             left: 242px;
             top: -100px;

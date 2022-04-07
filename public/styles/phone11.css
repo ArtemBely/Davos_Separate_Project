@@ -4,7 +4,7 @@
   .strategic {
     margin-bottom: 0px;
     left: -10px;
-    top: 440px !important;
+    top: 338px !important;
   }
   #img10 {
     position: relative;
@@ -164,7 +164,7 @@
   }
   .when1 {
     grid-column: 1 / 2;
-    top: -300px;
+    top: -191px;
     left: 31px;
   }
   .why1 {
@@ -178,12 +178,13 @@
   .when2 {
     left: -203px;
     width: 69px;
+    top: -62px;
   }
   #steel1 {
     width: 712px;
   }
   .wrap_emtech {
-    top: -657px;
+    top: -632px;
     height: 410px;
   }
   .when_title {
@@ -210,25 +211,28 @@
         position: absolute;
         width: 285px;
         height: 876px;
-        border: 2px solid #F5D7A1;
         align-items: end;
         top: 334px;
   }
   .when4 {
     left: 0px;
-    top: -202px;
+    top: -193px;
     width: 282px;
   }
   .wrap_when {
     position: relative;
-    top: -416px;
+    top: -457px;
   }
   .text3 {
     width: 223px;
   }
   .when3 {
     left: -272px;
-    top: -45px;
+    top: 40px;
+  }
+  #oraclesSmallPhone > img {
+    position: relative;
+    top: -355px;
   }
   .speaker0 {
         top: 23px;
@@ -266,7 +270,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .wrap_sponsors {
-        top: 251px;
+        top: 173px;
   }
   .title_schedule {
     font-size: 25px;
@@ -321,7 +325,7 @@
     font-family: 'WorkSans-Light';
   }
   .wrap__schedule {
-        top: 440px;
+        top: 345px;
   }
   #team1 {
     top: 4px;
@@ -370,7 +374,7 @@
         grid-column: 1 / 3;
   }
   .wrap_partners {
-        top: 556px;
+        top: 453px;
   }
   .strategic__title {
     font-size: 25px;
@@ -396,7 +400,6 @@
     grid-template-rows: repeat(2, 1fr);
   }
   .strategic {
-        top: 503px;
         max-width: 320px;
   }
   .wrap_str{
@@ -440,10 +443,10 @@
     line-height: 26px;
   }
   .wrap_location{
-        top: 520px;
+        top: 406px;
   }
   .wrap__footer {
-    top: 677px;
+    top: 561px;
     overflow: hidden;
   }
   .footer {

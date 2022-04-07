@@ -23,7 +23,9 @@ body {
 #img1 {
     grid-column: 1 / 2;
 }
-
+#oracleSpec576 {
+  display: none;
+}
 #img5 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
@@ -318,18 +320,19 @@ body {
 }
 .when1, .when2, .when3 {
   position: relative;
-  top: -187px;
+  top: -149px;
 }
 .when4 {
   grid-column: 1 / 4;
   position: relative;
   left: 129px;
-  top: -121px;
-  width: 550px;
+  top: -114px;
+  width: 642px;
 }
 #oracles {
   position: absolute;
   z-index: -1;
+  top: -227px;
 }
 .text2 {
   width: 197px;

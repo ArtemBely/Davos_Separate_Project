@@ -133,6 +133,7 @@
     position: absolute;
     z-index: -1;
     width: 100%;
+    top: -206px;
   }
   .when4 {
     left: 98px;
