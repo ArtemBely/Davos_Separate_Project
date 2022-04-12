@@ -48,6 +48,12 @@
   .wrap_emtech {
     overflow: hidden;
   }
+  .specForTablet {
+    padding-left: 0px !important;
+  }
+  #al {
+    top: 0px !important;
+  }
   .description__paragraph {
         left: -50px;
   }

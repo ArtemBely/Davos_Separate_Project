@@ -6,13 +6,39 @@
     .footer {
         width: 286px;
     }
+    .specForTablet {
+      width: 244px !important;
+    }
+    .spec1 {
+      width: 260px !important;
+    }
+    .spec2 {
+      width: 211px !important;
+    }
+    .spec3 {
+      margin-top: 48px !important;
+      margin-bottom: 41px !important;
+    }
+    .spec4 {
+      width: 270px !important;
+    }
+    .spec6 {
+      padding-left: 0px !important;
+      margin-bottom: 41px !important;
+    }
+    .specForTablet {
+      padding-left: 0px !important;
+    }
+    .specForMobile3, .spec5, .specForMobile1 {
+      padding-left: 37px !important;
+    }
     .wrap_rect > img {
       position: absolute;
       top: 169px;
     }
     #al {
       width: 234px !important;
-      top: 18px !important;
+      top: -46px !important;
     }
     .date2 {
       width: 264px !important;
