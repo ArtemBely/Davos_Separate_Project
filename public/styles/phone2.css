@@ -6,6 +6,145 @@
     .footer {
         width: 286px;
     }
+    .events2 {
+          grid-template-columns: 1fr !important;
+    }
+    .common_events_blocks, .common_events_blocks2 {
+          width: 280px !important;
+          padding: 14px !important;
+          height: 93px !important;
+          margin-bottom: 12px !important;
+          z-index: 1;
+    }
+    #eco1 {
+          margin-bottom: 31px;
+    }
+    #al2 {
+          top: -72px;
+    }
+    #spec_event {
+        margin-top: -118px;
+        padding-right: 103px;
+    }
+
+    .spec_imgs {
+      height: 46px !important;
+    }
+    .spec_block {
+      height: 74px !important;
+    }
+    .bio_t {
+      top: -87px !important;
+    }
+    .wrap_arr {
+      top: 10px !important;
+      left: 16px;
+    }
+    .spec_arr2 {
+    top: 10px !important;
+}
+    .show_mob {
+      display: initial;
+    }
+    .events2 {
+          width: 279px !important;
+    }
+    .show_desc {
+      display: none;
+    }
+    .spec_arr {
+      top: -15px !important;
+    }
+    .spec_low {
+          top: -67px !important;
+    }
+    .when_text {
+          width: 214px !important;
+    }
+    .block11 {
+    height: 356px !important;
+}
+    .block22 {
+      height: 241px !important;
+    }
+    .block33 {
+    height: 442px !important;
+}
+.block44 {
+    height: 398px !important;
+}
+.block55 {
+    height: 340px !important;
+}
+.block66 {
+    height: 590px !important;
+}
+.block77 {
+    height: 236px !important;
+}
+.blockExtra2 {
+    height: 222px !important;
+}
+#monetary3 {
+      padding-right: 92px;
+}
+    .data22 {
+          position: relative;
+          top: -88px !important;
+    }
+    .date23 {
+      position: relative;
+      top: -71px !important;
+    }
+    .data25 {
+      position: relative;
+      top: -67px;
+    }
+    .text23 {
+          top: -78px !important;
+          font-size: 14px !important;
+    }
+    .text25 {
+              top: -75px !important;
+              font-size: 14px !important;
+        }
+    .common_txts {
+      top: -97px !important;
+          font-size: 14px !important;
+              width: 246px !important;
+    }
+    .gold_line {
+          top: -57px !important;
+    }
+    .gold_title {
+      font-size: 14px !important;
+      position: relative;
+      top: -66px;
+    }
+    .big_gold {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        width: 200px !important;
+        margin-bottom: 25px;
+        top: -84px !important;
+    }
+    .big_title {
+      font-size: 16px !important;
+      line-height: 22px !important;
+      width: 178px !important;
+    }
+    .low_title {
+      font-size: 16px !important;
+      line-height: 25px !important;
+      width: 156px !important;
+      position: relative;
+      top: -90px;
+      left: 82px;
+    }
+    .common_imgs {
+      width: 68px;
+      height: 65px;
+    }
     .specForTablet {
       width: 244px !important;
     }
@@ -39,7 +178,11 @@
     #al {
       width: 234px !important;
       top: -46px !important;
+      margin-bottom: 31px;
     }
+    #spec_agenda2 {
+    margin-top: -81px;
+}
     .date2 {
       width: 264px !important;
     }

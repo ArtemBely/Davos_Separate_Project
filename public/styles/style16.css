@@ -8,7 +8,135 @@
   position: relative;
   top: 397px;
 }
-
+.wrap_events {
+  display: flex;
+  justify-content: center;
+}
+.big_title {
+  color: #F6DBA8;
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "WorkSans-Bold";
+  width: 341px;
+}
+.common_imgs {
+  margin-bottom: 22px;
+}
+.common_txts, .text23, .text25 {
+  padding: 6px 0px;
+  position: relative;
+  top: -8px;
+}
+.low_title {
+  color: #F6DBA8;
+  font-size: 30px;
+  line-height: 48px;
+  margin-bottom: 14px;
+}
+.low_txt {
+  position: relative;
+  top: 4px;
+  margin: 16px 0px;
+}
+#spec_agenda2 {
+  top: -6px !important;
+}
+#al2 {
+  mix-blend-mode: lighten;
+    width: 100%;
+    position: relative;
+    left: -4px;
+    margin-bottom: 14px;
+}
+#monetary2 {
+  mix-blend-mode: lighten;
+  width: 42px;
+  position: relative;
+  left: 15px;
+  top: -11px;
+}
+.wrap_monetary {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+      top: 27px;
+}
+.gold_title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #F6DBA8;
+}
+#spec_event {
+      top: 12px !important;
+}
+#spec_agenda {
+  top: -6px !important;
+}
+.gold_line {
+  height: 1px;
+  background: #F6DBA8;
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+.big_gold {
+  font-size: 25px;
+  line-height: 40px;
+  color: #F6DBA8;
+  width: 300px;
+  position: relative;
+  top: 10px;
+}
+.wrap_arr {
+  float: right;
+  position: relative;
+  top: 18px;
+  height: 20px;
+  cursor: pointer;
+}
+.events2 {
+  width: 1290px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px 26px;
+}
+.block1 {
+  height: 841px !important;
+}
+.block2 {
+  height: 659px !important;
+}
+.block3 {
+  height: 912px !important;
+}
+.block4 {
+  height: 767px !important;
+}
+.block5 {
+  height: 794px !important;
+}
+.block6 {
+  height: 992px !important;
+}
+.block7 {
+  height: 639px !important;
+}
+.blockExtra {
+  height: 625px !important;
+}
+.common_events_blocks, .common_events_blocks2 {
+  background-color: #111419;
+  width: 410px;
+  overflow: hidden;
+  padding: 25px;
+  margin-bottom: 26px;
+}
+.common_events_blocks {
+  height: 438px;
+}
+.common_events_blocks2 {
+  height: 400px;
+}
 .strategic__title {
   font-family: "WorkSans-Bold";
   font-style: normal;

@@ -164,7 +164,7 @@
   }
   .when1 {
     grid-column: 1 / 2;
-    top: -191px;
+    top: -166px;
     left: 31px;
   }
   .why1 {
@@ -176,9 +176,9 @@
     top: 11px;
   }
   .when2 {
-    left: -203px;
-    width: 69px;
-    top: -62px;
+        left: -203px;
+        width: 69px;
+        top: -57px;
   }
   #steel1 {
     width: 712px;
@@ -192,10 +192,24 @@
     line-height: 35px;
     width: 234px;
   }
+  .arrows {
+    width: 13px;
+    opacity: 0.5;
+  }
+  .big_title {
+    position: relative;
+    top: -70px;
+    left: 83px;
+  }
+  .rec {
+    position: relative;
+    left: 153px;
+    top: -92px;
+  }
   .when_text {
     font-size: 16px;
-    width: 220px;
-    line-height: 26px;
+    width: 197px;
+    line-height: 22px;
   }
   .text2 {
     width: 158px;
@@ -216,19 +230,20 @@
   }
   .when4 {
     left: 0px;
-    top: -193px;
-    width: 282px;
+    top: -178px;
+    width: 157px;
   }
   .wrap_when {
     position: relative;
     top: -457px;
+    margin-bottom: 71px;
   }
   .text3 {
     width: 223px;
   }
   .when3 {
     left: -272px;
-    top: 40px;
+    top: 30px;
   }
   #oraclesSmallPhone > img {
     position: relative;
@@ -275,6 +290,7 @@
   .title_schedule {
     font-size: 25px;
     line-height: 35px;
+    top: -20px;
   }
   .date, .date2 {
     font-size: 16px;
@@ -307,7 +323,13 @@
     font-size: 16px;
     width: 245px;
     line-height: 26px;
+    position: relative;
     font-family: 'WorkSans-Light';
+        top: -69px;
+  }
+  #monetary2 {
+    left: 216px;
+    top: -42px;
   }
   .date_spec {
     width: 255px;

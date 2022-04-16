@@ -470,7 +470,7 @@
   width: 315px;
 }
 .dispGrid {
-  display: grid !important;
+  height: auto !important;
 }
 .imgRotate {
   transform: rotate(
