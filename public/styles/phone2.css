@@ -16,6 +16,10 @@
           margin-bottom: 12px !important;
           z-index: 1;
     }
+    #hunds {
+      top: 0px !important;
+      left: 0px;
+    }
     #eco1 {
           margin-bottom: 31px;
     }
@@ -23,10 +27,12 @@
           top: -72px;
     }
     #spec_event {
-        margin-top: -118px;
+        margin-top: -100px;
         padding-right: 103px;
     }
-
+    #f1 {
+        top: 0px !important;
+    }
     .spec_imgs {
       height: 46px !important;
     }
@@ -121,11 +127,13 @@
       position: relative;
       top: -66px;
     }
-    .big_gold {
+    .big_gold2 {
+      margin-bottom: 23px;
+    }
+    .big_gold, .big_gold2 {
         font-size: 14px !important;
         line-height: 22px !important;
         width: 200px !important;
-        margin-bottom: 25px;
         top: -84px !important;
     }
     .big_title {

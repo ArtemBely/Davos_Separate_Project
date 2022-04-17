@@ -70,7 +70,7 @@
       top: 12px !important;
 }
 #spec_agenda {
-  top: -6px !important;
+  top: -21px !important;
 }
 .gold_line {
   height: 1px;
@@ -79,7 +79,7 @@
   position: relative;
   top: 5px;
 }
-.big_gold {
+.big_gold, .big_gold2 {
   font-size: 25px;
   line-height: 40px;
   color: #F6DBA8;

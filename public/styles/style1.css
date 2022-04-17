@@ -55,6 +55,9 @@ body {
   display: flex;
   justify-content: center;
 }
+#f1 {
+   top: 0px;
+  }
 .header {
   margin: 15px 0px;
   width: 1290px;
