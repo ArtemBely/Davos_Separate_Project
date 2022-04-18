@@ -177,7 +177,8 @@ class Schedule extends React.Component {
                 <div className='events2'>
                    <div className='common_events_blocks spec_block' ref={this.list1}>
                       <img src={img1} className='common_imgs spec_imgs'/>
-                      <p className='big_title'>Opening </p> <p className='big_title rec'>Reception</p>
+                      <p className='big_title'>Opening </p>
+                      <p className='big_title rec'>Reception</p>
                       <p className='low_title'>May 20, <span className='show_desc'>Friday</span> <span className='show_mob'>Fri</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} onClick={this.openlist1} className='arrows'/></span></p>
 
                         <p className='when_text common_txts'>From 6 p.m. guests are invited to the opening event and
@@ -196,7 +197,8 @@ class Schedule extends React.Component {
                    </div>
                    <div className='common_events_blocks' ref={this.list3}>
                        <img src={img3} className='common_imgs'/>
-                           <p className='big_title bio_t'>Emerging </p><p className='big_title bio_t'>Technologies in War</p>
+                       <p className='big_title bio_t'>Emerging </p>
+                       <p className='big_title bio_t'>Technologies in War</p>
                            <p className='low_title'>May 22, <span className='show_desc'>Sunday</span> <span className='show_mob'>Sun</span> <span className='wrap_arr'><img src={arrow} ref={this.arr3} onClick={this.openlist3} className='arrows'/></span></p>
                            <p className='when_text common_txts'>Real cases that help Ukraine now. What we can learn from it. </p>
                            <span className='time_of date1 date_spec data22'>7:00 - 10:00</span>
@@ -256,9 +258,11 @@ class Schedule extends React.Component {
                    </div>
                    <div className='common_events_blocks' ref={this.list7}>
                       <img src={img7} className='common_imgs'/>
-                      <p className='big_title bio_t'>NFTs</p><p className='big_title bio_t'> and Metaverse</p>
+                      <p className='big_title bio_t'>NFTs</p>
+                      <p className='big_title bio_t'> and Metaverse</p>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} onClick={this.openlist7} className='arrows'/></span></p>
-                      <p className='big_gold'>Deep dive into </p><p className='big_gold2'>the topic from experts. Trends for business use.</p>
+                      <p className='big_gold'>Deep dive into</p>
+                      <p className='big_gold2'>the topic from experts. Trends for business use.</p>
                       <p className='when_text common_txts low_txt'>Agenda is available on the website.</p>
                    </div>
                    <div className='common_events_blocks' ref={this.listExtra}>
@@ -266,7 +270,8 @@ class Schedule extends React.Component {
                       <p className='big_title bio_t'>Monaco for professional investors</p>
                       <p className='low_title'>May 27-28, Fri-Sat <span className='wrap_arr spec_arr'><img src={arrow} ref={this.arrExtra} onClick={this.openlistExtra} className='arrows'/></span></p>
                       <p className='big_gold'>Be fast — be first</p>
-                      <p className='when_text common_txts' id='spec_event'>Private event</p><p className='when_text common_txts' id='f1'> at the F1 Race in Monaco.</p>
+                      <p className='when_text common_txts' id='spec_event'>Private event</p>
+                      <p className='when_text common_txts' id='f1'> at the F1 Race in Monaco.</p>
                      <p className='when_text common_txts low_txt' id='spec_agenda'>Agenda on request</p>
                    </div>
                 </div>
