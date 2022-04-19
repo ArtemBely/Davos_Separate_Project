@@ -16,7 +16,15 @@
           margin-bottom: 12px !important;
           z-index: 1;
     }
-    #hunds {
+    #rec2 {
+      left: 70px !important;
+      top: -22px !important;
+    }
+    #techInWar, #meta1 {
+      top: 0px !important;
+      left: 0px !important;
+    }
+    #hunds, #topic1 {
       top: 0px !important;
       left: 0px;
     }
@@ -31,7 +39,7 @@
         padding-right: 103px;
     }
     #f1 {
-        top: 0px !important;
+        top: -7px !important;
     }
     .spec_imgs {
       height: 46px !important;
