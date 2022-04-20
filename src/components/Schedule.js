@@ -11,6 +11,7 @@ import img5 from '../../public/images/Frame 585 1 (1) — копия.png';
 import img6 from '../../public/images/Frame 585 1 (2) — копия.png';
 import img7 from '../../public/images/Frame 585 1 (3).png';
 import img8 from '../../public/images/Frame 585 1 (4).png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { NavLink } from 'react-router-dom';
 
@@ -178,7 +179,7 @@ class Schedule extends React.Component {
                 <div className='wrap_events'>
                 <div className='events2'>
                    <div className='common_events_blocks spec_block' ref={this.list1}>
-                      <img src={img1} className='common_imgs spec_imgs'/>
+                   <LazyLoadImage src={img1} className='common_imgs spec_imgs'  />
                       <div className='big_title'>Opening <p className='big_title rec' id='rec2'>Reception</p></div>
                       <p className='low_title'>May 20, <span className='show_desc'>Friday</span> <span className='show_mob'>Fri</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} onClick={this.openlist1} className='arrows'/></span></p>
 
@@ -190,14 +191,20 @@ class Schedule extends React.Component {
 
                    </div>
                    <div className='common_events_blocks' ref={this.list2}>
-                      <img src={img2} className='common_imgs'/>
+                   <LazyLoadImage
+                   src={img2}
+                   className='common_imgs'
+                   />
                           <div className='big_title bio_t'>Biohacking<p className='big_title bio_t' id='hunds'>300 years or older</p></div>
                           <p className='low_title'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr2} onClick={this.openlist2} className='arrows'/></span></p>
                           <p className='when_text common_txts'>What makes it possible? We’ll hear from leading experts. The day of Biohacking is co-hosted by our partners. </p>
                           <p className='when_text common_txts low_txt'>Agenda on request.</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list3}>
-                       <img src={img3} className='common_imgs'/>
+                   <LazyLoadImage
+                   src={img3}
+                   className='common_imgs'
+                   />
                        <div className='big_title bio_t'>Emerging<p className='big_title bio_t' id='techInWar'>Technologies in War </p></div>
                            <p className='low_title'>May 22, <span className='show_desc'>Sunday</span> <span className='show_mob'>Sun</span> <span className='wrap_arr'><img src={arrow} ref={this.arr3} onClick={this.openlist3} className='arrows'/></span></p>
                            <p className='when_text common_txts'>Real cases that help Ukraine now. What we can learn from it. </p>
@@ -212,7 +219,10 @@ class Schedule extends React.Component {
 
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list4}>
-                      <img src={img4} className='common_imgs spec_imgs'/>
+                   <LazyLoadImage
+                   src={img4}
+                   className='common_imgs spec_imgs'
+                   />
                       <p className='big_title'>Insights of DeFi</p>
                       <p className='low_title spec_low'>May 23, <span className='show_desc'>Monday</span> <span className='show_mob'>Mon</span> <span className='wrap_arr'><img src={arrow}ref={this.arr4} onClick={this.openlist4} className='arrows'/></span></p>
                       <span className='time_of date1 date_spec date23'>8:00 - 10:00</span>
@@ -224,7 +234,10 @@ class Schedule extends React.Component {
                       <p className='when_text common_txts low_txt'>In partneship with <img src={banc} id='banc'/></p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5}>
-                    <img src={img5} className='common_imgs spec_imgs'/>
+                   <LazyLoadImage
+                   src={img5}
+                   className='common_imgs spec_imgs'
+                   />
                        <p className='big_title'>Sustainability</p>
                        <p className='low_title spec_low'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr5} onClick={this.openlist5} className='arrows'/></span></p>
                        <p><img src={al} id='al2'/></p>
@@ -234,7 +247,10 @@ class Schedule extends React.Component {
                       <p className='when_text common_txts low_txt' id='spec_agenda2'>The Agenda is to follow.</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list6}>
-                      <img src={img6} className='common_imgs spec_imgs'/>
+                   <LazyLoadImage
+                   src={img6}
+                   className='common_imgs spec_imgs'
+                   />
                       <p className='big_title'>Global Finance</p>
                       <p className='low_title spec_low'>May 25, <span className='show_desc'>Wednesday</span> <span className='show_mob'>Wed</span> <span className='wrap_arr spec_arr2'><img src={arrow} ref={this.arr6} onClick={this.openlist6} className='arrows'/></span></p>
                       <span className='time_of date1 date_spec data25'>8:00 - 10:00</span>
@@ -257,14 +273,20 @@ class Schedule extends React.Component {
                       </div>
                    </div>
                    <div className='common_events_blocks' ref={this.list7}>
-                      <img src={img7} className='common_imgs'/>
+                   <LazyLoadImage
+                   src={img7}
+                   className='common_imgs'
+                   />
                       <div className='big_title bio_t'>NFTs<p className='big_title bio_t' id='meta1'> and Metaverse</p></div>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} onClick={this.openlist7} className='arrows'/></span></p>
                       <div className='big_gold'>Deep dive into<p className='big_gold2' id='topic1'>the topic from experts. Trends for business use.</p></div>
                       <p className='when_text common_txts low_txt'>Agenda is available on the website.</p>
                    </div>
                    <div className='common_events_blocks' ref={this.listExtra}>
-                      <img src={img8} className='common_imgs'/>
+                   <LazyLoadImage
+                   src={img8}
+                   className='common_imgs'
+                   />
                       <p className='big_title bio_t'>Monaco for professional investors</p>
                       <p className='low_title'>May 27-28, Fri-Sat <span className='wrap_arr spec_arr'><img src={arrow} ref={this.arrExtra} onClick={this.openlistExtra} className='arrows'/></span></p>
                       <p className='big_gold'>Be fast — be first</p>

@@ -108,7 +108,7 @@ class DavosSection extends React.Component{
                <div className="wrap__sections">
                  <div className="description">
                    <p className="description__title">The future is now</p>
-                   <p className="description__paragraph">May 20-26, 2022</p>
+                   <p className="description__paragraph">May 20-28, 2022</p>
                    <p className="description__paragraph">Davos, Switzerland</p>
                  </div>
                  <p className='become_a_partner partner1' onClick={this.popup}>Become a partner</p>
