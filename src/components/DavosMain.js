@@ -17,6 +17,7 @@ import img12 from '../../public/images/Logo Tarko Think Tank@2x.svg';
 import img13 from '../../public/images/Frame 535.svg';
 import img14 from '../../public/images/Frame 536.svg';
 
+
 class DavosMain extends React.Component{
 
   constructor() {
@@ -92,17 +93,17 @@ class DavosMain extends React.Component{
              <div className="partners">
                  <h3 className="partners__title" id='link_partners'>Partners</h3>
 
-                   <p id='img1'><img src={img1} className='com_parts'/></p>
-                   <p id='img3'><img src={img3} className='com_parts'/></p>
-                   <p id='img6' className='middle_top'><img src={img6} className='com_parts'/></p>
+                   <p id='img1'><a href='https://hhshkqassimi.com/' target="_blank"><img src={img1} className='com_parts'/></a></p>
+                   <p id='img3'><a href='http://goweb.com/' target="_blank"><img src={img3} className='com_parts'/></a></p>
+                   <p id='img6' className='middle_top'><a href='https://coinspaid.com/' target="_blank"><img src={img6} className='com_parts'/></a></p>
                    <p id='img9' style={{display: "none"}} className='middle_top'><img src={img9} className='com_parts'/></p>
                    <p id='img4' style={{display: "none"}}><img src={img4} className='com_parts'/></p>
-                   <p id='img12'><img src={img12} className='com_parts'/></p>
-                   <p id='img13'><img src={img13} className='com_parts'/></p>
+                   <p id='img12'><a href='https://www.monetaryreset.net/' target="_blank"><img src={img12} className='com_parts'/></a></p>
+                   <p id='img13'><a href='https://bancambios.exchange/' target="_blank"><img src={img13} className='com_parts'/></a></p>
                    <p id='img14'><img src={img14} className='com_parts'/></p>
-                   <p id='img7' className='middle_top'><img src={img7} className='com_parts'/></p>
-                   <p id='img11' className='down_center'><img src={img11} className='com_parts'/></p>
-                   <p id='img10' className='down_center'><img src={img10} className='com_parts'/></p>
+                   <p id='img7' className='middle_top'><a href='https://vrt.one/' target="_blank"><img src={img7} className='com_parts'/></a></p>
+                   <p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>
+                   <p id='img10' className='down_center'><a href='https://agau.io/' target="_blank"><img src={img10} className='com_parts'/></a></p>
 
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>
               </div>
