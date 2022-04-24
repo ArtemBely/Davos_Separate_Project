@@ -4797,7 +4797,7 @@ body {
     height: 50px;
     letter-spacing: 1px;
     position: relative;
-    left: -36px;
+    left: -30px;
 }
 .description__paragraph:last-of-type {
     margin: 0 auto 250px;
@@ -6342,7 +6342,7 @@ body {
     top: 0px !important;
   }
   .description__paragraph {
-        left: -50px;
+        left: -44px;
   }
   .events2 {
     grid-template-columns: repeat(2, 1fr);
@@ -7401,7 +7401,7 @@ body {
     line-height: 40px;
     position: relative;
     top: 177px;
-    left: -66px;
+    left: -63px;
   }
   .description__paragraph:last-of-type {
         top: 169px;

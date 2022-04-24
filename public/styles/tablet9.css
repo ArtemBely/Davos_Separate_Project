@@ -55,7 +55,7 @@
     top: 0px !important;
   }
   .description__paragraph {
-        left: -50px;
+        left: -44px;
   }
   .events2 {
     grid-template-columns: repeat(2, 1fr);
