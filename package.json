@@ -2,7 +2,7 @@
   "name": "collab",
   "version": "1.0.0",
   "description": "project for official job with documents",
-  "main": "server.js",
+  "main": "serverDirection/server.js",
   "privat": true,
   "babel": {
     "presets": [
@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack && node server.js",
+    "start": "webpack && node serverDirection/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Artem Belyshev",
@@ -31,6 +31,7 @@
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "@babel/runtime": "^7.13.10",
+    "@loadable/component": "^5.15.2",
     "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -69,7 +70,7 @@
     "react": "^17.0.1",
     "react-device-detect": "^2.1.2",
     "react-dom": "^17.0.1",
-    "react-lazy-load-image-component": "^1.5.4",
+    "react-loadable-visibility": "^3.0.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scroll": "^1.8.4",

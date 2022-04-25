@@ -48,6 +48,9 @@
   .wrap_emtech {
     overflow: hidden;
   }
+  .wrap_lazy {
+    height: 300px;
+  }
   .specForTablet {
     padding-left: 0px !important;
   }

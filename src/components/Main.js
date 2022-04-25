@@ -1,11 +1,12 @@
 import React from 'react';
+import loadable from 'react-loadable-visibility/loadable-components'; // --> на сервер
 import Header from './Header';
 import DavosSection from './DavosSection';
 import EmTech from './EmTech';
-import DavosMain from './DavosMain';
+const DavosMain = loadable(() => import('./DavosMain'), { fallback: <div>Loading...</div> });
 import When from './When';
 import Sponsors from './Sponsors';
-import Schedule from './Schedule';
+const Schedule = loadable(() => import('./Schedule'), { fallback: <div>Loading...</div> });
 import Team from './Team';
 import Location from './Location';
 import Footer from './Footer'

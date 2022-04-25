@@ -78,6 +78,10 @@ body {
   padding: 0;
   font-family: 'WorkSans-Medium';
 }
+.wrap_lazy {
+  width: 358px;
+  height: 270px;
+}
 .show_mob {
   display: none;
 }
@@ -1651,6 +1655,14 @@ body {
           height: 93px !important;
           margin-bottom: 12px !important;
           z-index: 1;
+    }
+    .wrap_lazy {
+      width: 68px;
+      height: 48px;
+      margin-bottom: 22px;
+    }
+    .lazy_spec {
+          margin-bottom: 38px !important;
     }
     #rec2 {
       left: 70px !important;
@@ -6334,6 +6346,9 @@ body {
 @media (min-width: 576px) and (max-width: 1520px) {
   .wrap_emtech {
     overflow: hidden;
+  }
+  .wrap_lazy {
+    height: 300px;
   }
   .specForTablet {
     padding-left: 0px !important;

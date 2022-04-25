@@ -16,6 +16,14 @@
           margin-bottom: 12px !important;
           z-index: 1;
     }
+    .wrap_lazy {
+      width: 68px;
+      height: 48px;
+      margin-bottom: 22px;
+    }
+    .lazy_spec {
+          margin-bottom: 38px !important;
+    }
     #rec2 {
       left: 70px !important;
       top: -22px !important;

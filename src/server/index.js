@@ -137,7 +137,7 @@ app.get(['/', '/sendRequest'], (req, res, next) => {
                     <meta name="twitter:description" content="The International EmTech Investment Forum in Davos combines top networking, high tech shows and impact investment deal flow">
                     <meta name="twitter:image" content="https://emtechinvest.com/images/Group 300.svg">
 
-                      <script src='/bundle.js' defer></script>
+                      <script src='bundles//bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
                             <title>COLLAB</title>
                           </head>

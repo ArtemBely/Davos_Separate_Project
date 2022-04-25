@@ -43,6 +43,10 @@ body {
   padding: 0;
   font-family: 'WorkSans-Medium';
 }
+.wrap_lazy {
+  width: 358px;
+  height: 270px;
+}
 .show_mob {
   display: none;
 }
