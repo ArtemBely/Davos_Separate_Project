@@ -1,5 +1,5 @@
 import React from 'react';
-import loadable from 'react-loadable-visibility/loadable-components'; // --> на сервер
+import loadable from 'react-loadable-visibility/loadable-components';
 import Header from './Header';
 import DavosSection from './DavosSection';
 import EmTech from './EmTech';
