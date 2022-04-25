@@ -75,7 +75,7 @@ class DavosSection extends React.Component{
                       </p>
                       <form action='/sendRequest/participant' className="popup__form" method='POST'>
                           <input type="text" name="name" className="popup__input" placeholder="Company name" required/>
-                          <input type="text" name="purpose" className="popup__input" placeholder="Contact person" required/>
+                          <input type="email" name="purpose" className="popup__input" placeholder="Email" required/>
                           <input type="tel" name="phone_number" className="popup__input" placeholder="Attachments" required/>
                           <div className="popup__footer">
                               <button type='submit' className="popup__footer-btn">Send</button>
