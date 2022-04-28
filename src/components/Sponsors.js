@@ -9,7 +9,7 @@ function Sponsors() {
               <div className="sponsors">
                   <div className='wrap_each_speaker0'>
                      <p className='speaker0'>Speakers</p>
-                     <p className='speaker_text'>Will be announced April 15th</p>
+                     <p className='speaker_text'>Will be announced soon</p>
                   </div>
                   <div className='wrap_each_speaker'>
                      <p className='each_speaker'><img src={quest} className='each_quest'/></p>
