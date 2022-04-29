@@ -139,7 +139,19 @@ app.get(['/', '/sendRequest'], (req, res, next) => {
 
                       <script src='bundles//bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
-                            <title>COLLAB</title>
+
+                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GP8WXF813S"></script>
+                            <script>
+                            setTimeout(() => {
+                              window.dataLayer = window.dataLayer || [];
+                              function gtag(){dataLayer.push(arguments);}
+                              gtag('js', new Date());
+
+                              gtag('config', 'G-GP8WXF813S');
+                            }, 10000)
+                            </script>
+
                           </head>
                         <body>
                        <div id="app">
