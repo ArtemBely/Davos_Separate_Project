@@ -140,15 +140,15 @@ app.get(['/', '/sendRequest'], (req, res, next) => {
                       <script src='bundles//bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
 
-                        <!-- Global site tag (gtag.js) - Google Analytics -->
-                            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GP8WXF813S"></script>
-                            <script>
-                            setTimeout(() => {
+                          <!-- Global site tag (gtag.js) - Google Analytics -->
+                          <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XLQ0TJ9H"></script>
+                          <script>
+                          setTimeout(() => {
                               window.dataLayer = window.dataLayer || [];
                               function gtag(){dataLayer.push(arguments);}
                               gtag('js', new Date());
 
-                              gtag('config', 'G-GP8WXF813S');
+                              gtag('config', 'G-N6XLQ0TJ9H');
                             }, 10000)
                             </script>
 

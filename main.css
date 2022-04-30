@@ -78,6 +78,13 @@ body {
   padding: 0;
   font-family: 'WorkSans-Medium';
 }
+#insta1 {
+    grid-column: 6 / 7;
+    position: relative;
+    top: -7px;
+    left: -80px;
+    width: 50px;
+}
 .wrap_lazy {
   width: 358px;
   height: 270px;
@@ -1664,6 +1671,14 @@ body {
     .lazy_spec {
           margin-bottom: 38px !important;
     }
+    #insta1 {
+      grid-column: 6 / 7;
+      position: relative;
+      top: 137px;
+      left: -297px;
+      width: 30px;
+      height: 30px;
+}
     #rec2 {
       left: 70px !important;
       top: -22px !important;
@@ -6356,6 +6371,13 @@ body {
   #al {
     top: 0px !important;
   }
+  #insta1 {
+    position: relative;
+    top: 71px;
+    left: -133px;
+    width: 50px;
+    height: 50px;
+  }
   .description__paragraph {
         left: -44px;
   }
@@ -6689,9 +6711,18 @@ body {
     grid-column: 2 / 3;
   }
   #lnkdin {
-    top: 72px;
-    left: 95px;
+        top: 72px;
+        left: 65px;
+        height: 27px;
+        width: 30px;
   }
+  #fb1 {
+    grid-column: 5 / 6;
+    position: relative;
+    top: 72px;
+    left: 49px;
+    height: 30px;
+}
   .wrap_up {
     top: 96px;
     left: 236px;

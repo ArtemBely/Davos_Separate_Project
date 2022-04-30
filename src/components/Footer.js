@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import logo from '../../public/images/Logo — копия.svg';
 import arrow from '../../public/images/Vector 42.svg';
-import Instagram from '../../public/images/inst_ico.svg';
-import Facebook from '../../public/images/facebook_ico.svg';
+import linked from '../../public/images/inst_ico.svg';
+import facebook from '../../public/images/facebook_ico.svg';
+import instagram from '../../public/images/instagram.svg';
 
 class Footer extends React.Component {
 
@@ -93,9 +94,14 @@ class Footer extends React.Component {
               <a href='#' className='each_foot_link hidden_policy'>Refund and cancellation policy</a>
               <p className='each_foot_link' id='collab'>In collaboration with <span id='bold_emtech'>EmTech Metaverse</span></p>
               <a href='https://emtechassociation.com/' itemProp="name" className='each_foot_link' id='emtech2'>International EmTech Investment Association</a>
-                  <img src={Instagram} className='footer__link3-img' id='lnkdin'></img>
-                  <a rel="nofollow" href='https://www.facebook.com/International-EmTech-Investment-Association-101085159068669' id='fb1'>
-                  <img src={Facebook} className='footer__link3-img'></img>
+                  <a rel="nofollow" href="https://www.linkedin.com/events/6922285420902825984/about/" id='lnkdin'>
+                    <img src={linked} className='footer__link3-img'></img>
+                  </a>
+                  <a rel="nofollow" href='https://www.facebook.com/Emtechinvest-109159918432447/?notif_id=1650919970525933&notif_t=page_user_activity&ref=notif' id='fb1'>
+                    <img src={facebook} className='footer__link3-img'></img>
+                  </a>
+                  <a rel="nofollow" href='https://www.instagram.com/emtechinvest/' id='insta1'>
+                    <img src={instagram} className='footer__link3-img'></img>
                   </a>
               <p className='wrap_up'>
                           <Link activeClass="active"

@@ -43,6 +43,13 @@ body {
   padding: 0;
   font-family: 'WorkSans-Medium';
 }
+#insta1 {
+    grid-column: 6 / 7;
+    position: relative;
+    top: -7px;
+    left: -80px;
+    width: 50px;
+}
 .wrap_lazy {
   width: 358px;
   height: 270px;

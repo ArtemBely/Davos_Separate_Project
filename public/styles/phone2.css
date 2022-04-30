@@ -24,6 +24,14 @@
     .lazy_spec {
           margin-bottom: 38px !important;
     }
+    #insta1 {
+      grid-column: 6 / 7;
+      position: relative;
+      top: 137px;
+      left: -297px;
+      width: 30px;
+      height: 30px;
+}
     #rec2 {
       left: 70px !important;
       top: -22px !important;
