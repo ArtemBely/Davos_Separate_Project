@@ -28,7 +28,7 @@ class Main extends React.Component{
           <Team />
           <DavosMain />
           <DavosSection2 />
-          <Media />
+          
           <Location />
           <Footer />
       </div>
