@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../public/images/Logo — копия.svg';
+import logo from '../../public/images/Logo.svg';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
 

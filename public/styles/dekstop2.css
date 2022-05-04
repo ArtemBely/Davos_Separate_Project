@@ -18,7 +18,9 @@
     font-size: 40px;
     line-height: 47px;
   }
-
+  .wrap__sections {
+    top: -138px;
+  }
   .concept__wrapper {
     display: flex;
     justify-content: space-between;

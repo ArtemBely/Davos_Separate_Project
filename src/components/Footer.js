@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
-import logo from '../../public/images/Logo — копия.svg';
+import logo from '../../public/images/Logo.svg';
 import arrow from '../../public/images/Vector 42.svg';
 import linked from '../../public/images/inst_ico.svg';
 import facebook from '../../public/images/facebook_ico.svg';

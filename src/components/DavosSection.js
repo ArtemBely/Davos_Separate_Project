@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../../public/images/Group 300.svg';
-import mainImage from '../../public/images/Group467.jpg';
+import logo from '../../public/images/Logo.svg';
+import mainImage from '../../public/images/mainScreen.png';
 import rect from '../../public/images/Rectangle 90.png';
 import cross from '../../public/images/cross.svg';
 
@@ -108,7 +108,7 @@ class DavosSection extends React.Component{
                <div className="wrap__sections">
                  <div className="description">
                    <p className="description__title">The future is now</p>
-                   <p className="description__paragraph">May 20-26, 2022</p>
+                   <p className="description__paragraph">May 21-26, 2022</p>
                    <p className="description__paragraph">Davos, Switzerland</p>
                  </div>
                  <p className='become_a_partner partner1' onClick={this.popup}>Become a partner</p>

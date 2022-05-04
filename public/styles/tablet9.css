@@ -48,8 +48,24 @@
   .wrap_emtech {
     overflow: hidden;
   }
+  .branding {
+    width: 992px;
+  }
   .wrap_lazy {
     height: 300px;
+  }
+  .wrap_branding {
+    top: 256px;
+  }
+  .cart_txt {
+    margin-top: 27px;
+  }
+  .posts {
+    width: 100%;
+  }
+  .carts {
+    width: 385px;
+    height: 353px;
   }
   .specForTablet {
     padding-left: 0px !important;

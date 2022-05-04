@@ -6,6 +6,53 @@
     .footer {
         width: 286px;
     }
+    .branding {
+      width: 320px !important;
+    }
+    .emtech_text2 {
+      font-size: 16px !important;
+      line-height: 160% !important;
+      top: 109px !important;
+      width: 302px !important;
+    }
+    .low_brand {
+      grid-template-columns: 1fr !important;
+      width: 100% !important;
+      top: -263px !important;
+    }
+    .posts {
+      width: 100% !important;
+    }
+    .carts {
+      width: 320px !important;
+      height: 310px !important;
+    }
+    .high_brand {
+      grid-template-columns: 1fr !important;
+    }
+    .cart_txt {
+      font-size: 16px !important;
+          margin-top: 21px !important;
+    }
+    .become_a_partner3 {
+      width: 320px !important;
+      font-size: 18px !important;
+    }
+    #partnerButton3 {
+      left: 0px !important;
+      top: -243px !important;
+    }
+    .wrap_branding {
+      background-repeat: initial !important;
+      top: 464px !important;
+    }
+    .wrap_branding {
+          margin-bottom: 524px !important;
+    }
+    #brand_title {
+      height: 71px !important;
+      top: 32px !important;
+    }
     .events2 {
           grid-template-columns: 1fr !important;
     }
