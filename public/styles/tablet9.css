@@ -101,25 +101,25 @@
     width: 466px;
   }
   .block1 {
-      height: 760px !important;
+      height: 725px !important;
   }
   .block2 {
-      height: 650px !important;
+      height: 1686px !important;
   }
   .block3 {
-      height: 883px !important;
+      height: 1322px !important;
   }
   .block4 {
-      height: 717px !important;
+      height: 2422px !important;
   }
   .block5 {
-      height: 767px !important;
+      height: 831px !important;
   }
   .block6 {
-      height: 980px !important;
+      height: 500px !important;
   }
   .block7 {
-      height: 676px !important;
+      height: 1123px !important;
   }
   .blockExtra {
       height: 655px !important;
@@ -143,9 +143,7 @@
   .navigation-item {
     margin-left: 34px;
   }
-  .lead__logo {
-    width: 709px;
-  }
+
   .main_title1 {
     width: 992px;
   }
