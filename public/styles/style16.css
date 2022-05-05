@@ -100,26 +100,29 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px 26px;
 }
+.panel {
+  font-family: "WorkSans-Bold";
+}
 .block1 {
-  height: 841px !important;
+  height: 781px !important;
 }
 .block2 {
-  height: 659px !important;
+  height: 1924px !important;
 }
 .block3 {
-  height: 912px !important;
+  height: 1525px !important;
 }
 .block4 {
-  height: 767px !important;
+  height: 2811px !important;
 }
 .block5 {
-  height: 794px !important;
+  height: 832px !important;
 }
 .block6 {
-  height: 992px !important;
+  height: 511px !important;
 }
 .block7 {
-  height: 639px !important;
+  height: 1208px !important;
 }
 .blockExtra {
   height: 625px !important;

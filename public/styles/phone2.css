@@ -6,6 +6,53 @@
     .footer {
         width: 286px;
     }
+    .branding {
+      width: 320px !important;
+    }
+    .emtech_text2 {
+      font-size: 16px !important;
+      line-height: 160% !important;
+      top: 109px !important;
+      width: 302px !important;
+    }
+    .low_brand {
+      grid-template-columns: 1fr !important;
+      width: 100% !important;
+      top: -263px !important;
+    }
+    .posts {
+      width: 100% !important;
+    }
+    .carts {
+      width: 320px !important;
+      height: 310px !important;
+    }
+    .high_brand {
+      grid-template-columns: 1fr !important;
+    }
+    .cart_txt {
+      font-size: 16px !important;
+          margin-top: 21px !important;
+    }
+    .become_a_partner3 {
+      width: 320px !important;
+      font-size: 18px !important;
+    }
+    #partnerButton3 {
+      left: 0px !important;
+      top: -243px !important;
+    }
+    .wrap_branding {
+      background-repeat: initial !important;
+      top: 464px !important;
+    }
+    .wrap_branding {
+          margin-bottom: 524px !important;
+    }
+    #brand_title {
+      height: 71px !important;
+      top: 32px !important;
+    }
     .events2 {
           grid-template-columns: 1fr !important;
     }
@@ -16,9 +63,28 @@
           margin-bottom: 12px !important;
           z-index: 1;
     }
+    .wrap_lazy {
+      width: 68px;
+      height: 48px;
+      margin-bottom: 22px;
+    }
+    .lazy_spec {
+          margin-bottom: 38px !important;
+    }
+    #insta1 {
+      grid-column: 6 / 7;
+      position: relative;
+      top: 137px;
+      left: -297px;
+      width: 30px;
+      height: 30px;
+}
     #rec2 {
-      left: 70px !important;
-      top: -22px !important;
+      left: 0px !important;
+      top: 0px !important;
+    }
+    .spec_low2 {
+      top: -71px !important;
     }
     #techInWar, #meta1 {
       top: 0px !important;
@@ -55,7 +121,7 @@
       left: 16px;
     }
     .spec_arr2 {
-    top: 10px !important;
+    top: -17px !important;
 }
     .show_mob {
       display: initial;
@@ -75,26 +141,34 @@
     .when_text {
           width: 214px !important;
     }
+    #war1 {
+      position: relative;
+      top: 16px !important;
+      left: 0px !important;
+    }
+    #may24 {
+          top: -73px !important;
+    }
     .block11 {
-    height: 356px !important;
+    height: 342px !important;
 }
     .block22 {
-      height: 241px !important;
+      height: 1274px !important;
     }
     .block33 {
-    height: 442px !important;
+    height: 920px !important;
 }
 .block44 {
-    height: 398px !important;
+    height: 1912px !important;
 }
 .block55 {
-    height: 340px !important;
+    height: 402px !important;
 }
 .block66 {
-    height: 590px !important;
+    height: 152px !important;
 }
 .block77 {
-    height: 236px !important;
+    height: 640px !important;
 }
 .blockExtra2 {
     height: 222px !important;
@@ -123,7 +197,7 @@
               font-size: 14px !important;
         }
     .common_txts {
-      top: -97px !important;
+      top: -76px !important;
           font-size: 14px !important;
               width: 246px !important;
     }

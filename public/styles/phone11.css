@@ -14,6 +14,9 @@
     position: relative;
     top: 173px;
   }
+  .lead__logo {
+    width: 208px;
+  }
   .strategic__contact {
     display: block;
     max-width: 235px;
@@ -101,7 +104,7 @@
     position: relative;
     left: 23px;
     width: 208px;
-    transform: scale(1.5);
+    transform: scale(1.95);
   }
   .main_title1 {
     width: 320px;

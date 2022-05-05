@@ -48,11 +48,37 @@
   .wrap_emtech {
     overflow: hidden;
   }
+  .branding {
+    width: 992px;
+  }
+  .wrap_lazy {
+    height: 300px;
+  }
+  .wrap_branding {
+    top: 256px;
+  }
+  .cart_txt {
+    margin-top: 27px;
+  }
+  .posts {
+    width: 100%;
+  }
+  .carts {
+    width: 385px;
+    height: 353px;
+  }
   .specForTablet {
     padding-left: 0px !important;
   }
   #al {
     top: 0px !important;
+  }
+  #insta1 {
+    position: relative;
+    top: 71px;
+    left: -133px;
+    width: 50px;
+    height: 50px;
   }
   .description__paragraph {
         left: -44px;
@@ -75,25 +101,25 @@
     width: 466px;
   }
   .block1 {
-      height: 760px !important;
+      height: 725px !important;
   }
   .block2 {
-      height: 650px !important;
+      height: 1686px !important;
   }
   .block3 {
-      height: 883px !important;
+      height: 1322px !important;
   }
   .block4 {
-      height: 717px !important;
+      height: 2422px !important;
   }
   .block5 {
-      height: 767px !important;
+      height: 831px !important;
   }
   .block6 {
-      height: 980px !important;
+      height: 500px !important;
   }
   .block7 {
-      height: 676px !important;
+      height: 1123px !important;
   }
   .blockExtra {
       height: 655px !important;
@@ -117,9 +143,7 @@
   .navigation-item {
     margin-left: 34px;
   }
-  .lead__logo {
-    width: 709px;
-  }
+
   .main_title1 {
     width: 992px;
   }
@@ -387,9 +411,18 @@
     grid-column: 2 / 3;
   }
   #lnkdin {
-    top: 72px;
-    left: 95px;
+        top: 72px;
+        left: 65px;
+        height: 27px;
+        width: 30px;
   }
+  #fb1 {
+    grid-column: 5 / 6;
+    position: relative;
+    top: 72px;
+    left: 49px;
+    height: 30px;
+}
   .wrap_up {
     top: 96px;
     left: 236px;

@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../public/images/Strategic_logo.png";
-import mainImage from "../../public/images/Group467.jpg";
 import arrowBtn from '../../public/images/download-arrow.svg';
 import blackArr from '../../public/images/Vector (1).svg';
 import vesnea from '../../public/images/Group 513.svg';
@@ -68,7 +67,7 @@ function DavosSection2() {
                     <div className="download-wrap__strategic">
                         <img className="arrow-button__strategic" src={arrowBtn} alt="Download"/>
                         <img className="arrow-button__strategic2" src={blackArr} alt="Download"/>
-                        <a href='https://drive.google.com/file/d/1HhB8-ThpZ5_KMvQx-N3XUCJ1xfpr_wAx/view?usp=sharing'
+                        <a href='https://drive.google.com/file/d/1Q7zQNxCrS87REakPl1nEqdVTTRgZMb-G/view?usp=sharing'
                          className="strategic-donwload__text">Download presentation</a>
                     </div>
                 </button>
