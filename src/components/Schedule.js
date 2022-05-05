@@ -46,10 +46,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list1.current.classList.toggle('block11');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block77', 'blockExtra2');
       });
     }
@@ -62,10 +62,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list2.current.classList.toggle('block22');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block11', 'block33',
+        item.classList.remove('block11', 'block44',
           'block77', 'blockExtra2');
       });
     }
@@ -78,10 +78,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list3.current.classList.toggle('block33');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block11',
+        item.classList.remove('block22', 'block44',
            'block77', 'blockExtra2');
       });
     }
@@ -94,10 +94,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list4.current.classList.toggle('block44');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -110,10 +110,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list5.current.classList.toggle('block55');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block66');
+        item.classList.remove('block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -126,10 +126,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list6.current.classList.toggle('block66');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44');
+        item.classList.remove('block55', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -142,10 +142,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list7.current.classList.toggle('block77');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44', 'block66');
+        item.classList.remove('block55', 'block33', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'blockExtra2');
       });
     }
@@ -158,10 +158,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.listExtra.current.classList.toggle('blockExtra2');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44', 'block66');
+        item.classList.remove('block55', 'block33', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77');
       });
     }
@@ -312,7 +312,6 @@ class Schedule extends React.Component {
                    /></div>
                        <p className='big_title'>Polygon lounge</p>
                        <p className='low_title spec_low'>May 25, <span className='show_desc'>Wednesday</span> <span className='show_mob'>Wed</span> <span className='wrap_arr'><img src={arrow} ref={this.arr5} className='arrows'/></span></p>
-                      {/* <p><img src={al} id='al2'/></p>*/}
                        <p className='when_text common_txts gold_time'>10 am to 7 pm</p>
                        <p className='when_text common_txts panel'>Polygon lounge </p>
                        <p className='when_text common_txts'>Ecosystem Talks</p>
