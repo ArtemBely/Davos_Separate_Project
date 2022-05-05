@@ -350,7 +350,7 @@ class Schedule extends React.Component {
                                 <p>→ Volunteering and identity protection</p>
                                 <p>→ Regulation</p>
                               </p>
-                           <p className='date1 date_spec'><span className='time_of'>20:00 - 22:00</span> <p style={{width: '367px'}} className='spec2'>Blockchain mass adoption.<p> Rebuild Ukraine with transparency</p></p></p>
+                           <p className='date1 date_spec'><span className='time_of'>20:00 - 22:00</span> <p style={{width: '367px'}} className='spec2'>Blockchain mass adoption.<p>Rebuild Ukraine with transparency</p></p></p>
                            <p className='date1 date_spec'><span className='time_of'>22:00 - 2:00</span>  <p style={{width: '448px'}} className='spec2'>Charity night auction with world famous DJ</p></p>
                            <p></p>
                            <p className='date1 date_spec spec3' style={{marginTop: '48px'}}>Lead by community</p>
@@ -432,7 +432,7 @@ class Schedule extends React.Component {
                     </div>
                     <div className='wrap_list_event' ref={this.list6}>
                         <p className='first_col_of_events'>
-                          <p className='date1' style={{width: '274px'}}>Deep dive into  the topic from experts. Trends for business use.</p>
+                          <p className='date1' style={{width: '274px'}}>Deep dive into the topic from experts. Trends for business use.</p>
                         </p>
                         <div className='second_col_of_events spec5' style={{paddingLeft: '100px'}}>
                           <p className='date1'>Agenda is available on the website.</p>
@@ -446,7 +446,7 @@ class Schedule extends React.Component {
                     </div>
                     <div className='wrap_list_event' id='list7' ref={this.list7}>
                         <p className='first_col_of_events'>
-                          <p className='date1'>Private event  <br/> at the F1 Race in Monaco.</p>
+                          <p className='date1'>Private event <br/> at the F1 Race in Monaco.</p>
                         </p>
                         <div className='second_col_of_events spec5' style={{paddingLeft: '100px'}}>
                           <p className='date1'>Agenda on request.</p>
