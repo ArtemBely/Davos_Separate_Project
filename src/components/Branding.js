@@ -70,6 +70,10 @@ class Branding extends React.Component{
                     <p className="become_a_partner3" id="partnerButton3" onClick={this.popup}>Become a partner</p>
               </div>
               <div className='low_brand'>
+                    <div className='carts help_divs' style={{opacity: 0}}>
+
+                        <p className='cart_txt'></p>
+                    </div>
                     <div className='carts'>
                         <img src={post1} className='posts'/>
                         <p className='cart_txt'>Windows on the promenade side</p>
@@ -85,6 +89,10 @@ class Branding extends React.Component{
                     <div className='carts'>
                         <img src={post4} className='posts'/>
                         <p className='cart_txt'>Branded botles</p>
+                    </div>
+                    <div className='carts help_divs' style={{opacity: 0}}>
+
+                        <p className='cart_txt'></p>
                     </div>
               </div>
           </div>

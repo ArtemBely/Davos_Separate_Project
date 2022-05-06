@@ -18,7 +18,11 @@
     .low_brand {
       grid-template-columns: 1fr !important;
       width: 100% !important;
-      top: -263px !important;
+      top: -243px !important;
+      left: 0px !important;
+    }
+    .help_divs {
+      display: none !important;
     }
     .posts {
       width: 100% !important;

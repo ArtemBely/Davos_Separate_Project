@@ -54,6 +54,10 @@
   .wrap_lazy {
     height: 300px;
   }
+  .low_brand {
+    left: -102px;
+    width: 167% !important;
+  }
   .wrap_branding {
     top: 256px;
   }
@@ -298,12 +302,17 @@
         max-width: 992px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 0px;
+  }
+  #saphi {
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
   }
   .become_a_partner2{
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 82px;
+        top: 389px;
   }
 
   .partners__title {
@@ -312,6 +321,7 @@
   }
   .wrap_partners {
         top: 131px;
+            margin-bottom: 176px;
   }
   .strategic__title {
     font-size: 40px;

@@ -8,11 +8,15 @@
   }
   #img10 {
     position: relative;
-    top: -176px;
   }
   #img13 {
     position: relative;
-    top: 173px;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+  }
+  .middle_top {
+    position: relative;
+    top: 61px;
   }
   .lead__logo {
     width: 208px;
@@ -376,6 +380,7 @@
   }
   .com_parts {
         width: 136px;
+        top: 0px !important;
   }
   .partners {
         height: 640px;
@@ -388,7 +393,7 @@
         width: 320px;
         left: 0px;
         font-size: 18px;
-        top: 13px;
+        top: 160px;
         grid-column: 1 / 3;
         grid-row: 10/11;
   }
@@ -400,7 +405,50 @@
   }
   .wrap_partners {
         top: 453px;
+        margin-bottom: 279px;
   }
+  #img1 {
+    grid-column: 1 / 2;
+}
+  #img3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  #img6 {
+     grid-column: 2 / 3;
+  }
+  #img7 {
+        grid-row: 6 / 7;
+  }
+  #img12 {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
+  }
+  #img14 {
+    grid-row: 9 / 10;
+    grid-column: 2 / 3;
+  }
+  #euci {
+    grid-row: 10 /11;
+    grid-column: 1 / 2;
+  }
+  #saphi {
+    grid-row: 10 / 11;
+    grid-column: 2 / 3;
+  }
+  #ieee {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+#fast {
+      grid-column: 1 / 2;
+}
+#trust {
+    grid-column: 2 / 3;
+}
+#pax {
+      grid-row: 5 / 6;
+}
   .strategic__title {
     font-size: 25px;
     line-height: 29px;

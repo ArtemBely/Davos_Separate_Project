@@ -11,6 +11,8 @@ import img5 from '../../public/images/Frame 585 1 (1) — копия.png';
 import img6 from '../../public/images/Frame 585 1 (2) — копия.png';
 import img7 from '../../public/images/Frame 585 1 (3).png';
 import img8 from '../../public/images/Frame 585 1 (4).png';
+import space from '../../public/images/Frame 585 12.png';
+import pink from '../../public/images/7 — копия.png';
 //import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { NavLink } from 'react-router-dom';
@@ -179,7 +181,7 @@ class Schedule extends React.Component {
                 <div className='wrap_events'>
                 <div className='events2'>
                    <div className='common_events_blocks' ref={this.list1} onClick={this.openlist1}>
-                    <div className='wrap_lazy'> <img src={img1} className='common_imgs'  /></div>
+                    <div className='wrap_lazy'> <img src={img6} className='common_imgs'  /></div>
                       <div className='big_title'>Warm up<p className='big_title rec' id='rec2'> and welcome</p></div>
                       <p className='low_title spec_low2'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} className='arrows'/></span></p>
 
@@ -192,7 +194,7 @@ class Schedule extends React.Component {
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
                    <div className='wrap_lazy lazy_spec'><img
-                   src={img2}
+                   src={img5}
                    className='common_imgs'
                    /></div>
                           <div className='big_title bio_t'>Sustainability<p className='big_title bio_t' id='hunds'>in Finance and Tech</p></div>
@@ -255,7 +257,7 @@ class Schedule extends React.Component {
                    </div>
 
                    <div className='common_events_blocks' ref={this.list4} onClick={this.openlist4}>
-                   <div className='wrap_lazy'><img src={img3} className='common_imgs'/></div>
+                   <div className='wrap_lazy'><img src={space} className='common_imgs'/></div>
                    <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in War. </p></div>
                        <p className='low_title' id='may24'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr4} className='arrows'/></span></p>
                            <p className='when_text common_txts'>Real cases that help Ukraine now and what we can learn from it.</p>
@@ -307,7 +309,7 @@ class Schedule extends React.Component {
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
                    <div className='wrap_lazy'> <img
-                   src={img5}
+                   src={pink}
                    className='common_imgs spec_imgs'
                    /></div>
                        <p className='big_title'>Polygon lounge</p>
@@ -348,7 +350,7 @@ class Schedule extends React.Component {
 
                    <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6}>
                    <div className='wrap_lazy'><img
-                   src={img6}
+                   src={img2}
                    className='common_imgs spec_imgs'
                    /></div>
                       <p className='big_title'>Where next?</p>

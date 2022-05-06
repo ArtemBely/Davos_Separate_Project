@@ -12,10 +12,11 @@
   margin-bottom: 425px;
 }
 .branding {
-  width: 1290px;
+  width: 1397px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 726px 1px;
+  justify-items: center;
 }
 .high_brand {
   display: grid;
@@ -24,12 +25,13 @@
 .low_brand {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(6, 400px);
   grid-gap: 34px;
   top: -118px;
   overflow-x: scroll;
   height: 675px;
-  width: 135%;
+  width: 154%;
+  left: 49px;
 }
 .low_brand::-webkit-scrollbar {
   width: 0;
@@ -224,4 +226,12 @@
 }
 .wrap_imgs_brands {
   height: 46px;
+}
+#ieee {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+#img13 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
 }

@@ -56,7 +56,7 @@ function DavosSection2() {
                       <p className="strategic__contact-email">
                         <span className="info">E-mail</span>Investormilton@bridgingnetworks.com
                       </p>
-                      <p className="strategic__contact-phone">
+                      <p className="strategic__contact-phone" style={{display: "none"}}>
                         <span className="info">Mobile</span>+491 515 881 83 70
                       </p>
                   </div>
