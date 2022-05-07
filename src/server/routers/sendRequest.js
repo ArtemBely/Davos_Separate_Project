@@ -32,7 +32,7 @@ async function main() {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: '"Order from site" <project1@acorn.ws>', // sender address
-      to: "a.yudina@qlstrategy.ch", // list of receivers
+      to: "guests@emtechinvest.com", // list of receivers
       subject: "New partner ✔", // Subject line
       text: "Hello world?", // plain text body
       html: output // html body
@@ -73,8 +73,8 @@ async function main() {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: '"Order from site" <project1@acorn.ws>', // sender address
-      to: "a.yudina@qlstrategy.ch", // list of receivers
-      subject: "New partner ✔", // Subject line
+      to: "guests@emtechinvest.com"", // list of receivers
+      subject: "New participant ✔", // Subject line
       text: "Hello world?", // plain text body
       html: output // html body
     });
