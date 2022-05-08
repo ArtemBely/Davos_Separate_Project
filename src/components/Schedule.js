@@ -258,54 +258,21 @@ class Schedule extends React.Component {
 
                    <div className='common_events_blocks' ref={this.list4} onClick={this.openlist4}>
                    <div className='wrap_lazy'><img src={space} className='common_imgs'/></div>
-                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in War. </p></div>
+                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in crisis. </p></div>
                        <p className='low_title' id='may24'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr4} className='arrows'/></span></p>
-                           <p className='when_text common_txts'>Real cases that help Ukraine now and what we can learn from it.</p>
-                           <p className='when_text common_txts panel'>Managed by Ukrainian hackers and crypto community</p>
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business media breakfast</p>
                            <p className='when_text common_txts gold_time'>1 pm - 5 pm </p>
                            <p className='when_text common_txts'>Real cases of real people. Precious experience that hard to forget</p>
-
                            <p className='when_text common_txts'>→ Cyber war </p>
-                           <p className='when_text common_txts panel'>Topic ideas: </p>
-                           <p className='when_text common_txts'>Open cyber war or guerilla cyber war? Decentralized communities/DAOs for cyber retaliation against bad actors.
-                                Usage of technologies for the effective digital guerilla warfare
-                                Asymmetric encryption - principle of force asymmetry
-                                </p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>Everything bad can be used for good. Milestone for Cyber security awareness</p>
-
                           <p className='when_text common_txts'>→ Fintech in the times of crisis</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of had to come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>How technology has helped in times of crisis ?
-                                  Human Factor?
-                                  New registrations, Daily users, Volume ?
-                                  Forget the personal, focus on the important ?
-                                  After… ?</p>
-
                           <p className='when_text common_txts'>→ Volunteering and identity protection</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of has come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>ID Verification as a tool of protection, not a challenge for customers </p>
-
                           <p className='when_text common_txts'>→ Regulation</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of has come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>Verification as a tool of protection, not a challenge for customers </p>
 
                           <p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
-                          <p className='when_text common_txts'>Blockchain mass adoption</p>
-                          <p className='when_text common_txts'>Rebuild Ukraine with transparency</p>
+                          <p className='when_text common_txts'>Mass adoption of blockchain</p>
+                          <p className='when_text common_txts'>Rebuild with transparency</p>
 
-                          <p className='when_text common_txts panel'>Charity auction </p>
-                          <p className='when_text common_txts'>Choose the NFT object from the Hologram  and donate for
-                          its restoration. Track the funds/crypto with blockchain transparency. Help directly.</p>
-                          <p className='when_text common_txts panel'>The day is followed by the introduction of the Ukrainian culture, food and traditional music</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
                    <div className='wrap_lazy'> <img

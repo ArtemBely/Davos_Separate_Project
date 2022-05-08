@@ -1,6 +1,6 @@
 import React from 'react';
 import wave from '../../public/images/wave2.png';
-import post1 from '../../public/images/Frame 585 1 — копия 2.png';
+import post1 from '../../public/images/Group 808.png';
 import post2 from '../../public/images/Group 809.png';
 import post3 from '../../public/images/Group 811.png';
 import post4 from '../../public/images/Group 812.png';

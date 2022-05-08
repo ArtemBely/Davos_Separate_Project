@@ -61,6 +61,9 @@
   .wrap_branding {
     top: 256px;
   }
+  .description {
+    width: 992px;
+  }
   .cart_txt {
     margin-top: 27px;
   }
@@ -85,7 +88,7 @@
     height: 50px;
   }
   .description__paragraph {
-        left: -44px;
+        left: -84px;
   }
   .events2 {
     grid-template-columns: repeat(2, 1fr);
@@ -114,7 +117,7 @@
       height: 1322px !important;
   }
   .block4 {
-      height: 2422px !important;
+      height: 957px !important;
   }
   .block5 {
       height: 831px !important;
@@ -129,7 +132,7 @@
       height: 655px !important;
   }
   .description__paragraph:last-of-type {
-        left: -19px;
+        left: -53px;
   }
   .wrap_up {
     width: 10px;
@@ -158,7 +161,7 @@
     left: 525px;
   }
   .description__title {
-    left: 201px;
+    left: 64px;
   }
   .wrap_main_title {
     top: -685px;
