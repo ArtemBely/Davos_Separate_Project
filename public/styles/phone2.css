@@ -6,7 +6,14 @@
     .footer {
         width: 286px;
     }
-
+    #logo {
+      display: none;
+    }
+    #mobileLogo {
+      display: block !important;
+      position: relative;
+      left: -124px;
+    }
     .branding {
       width: 320px !important;
     }
@@ -158,22 +165,22 @@
     height: 342px !important;
 }
     .block22 {
-      height: 1274px !important;
+      height: 814px !important;
     }
     .block33 {
-    height: 920px !important;
+    height: 796px !important;
 }
 .block44 {
-    height: 533px !important;
+    height: 353px !important;
 }
 .block55 {
-    height: 402px !important;
+    height: 365px !important;
 }
 .block66 {
     height: 152px !important;
 }
 .block77 {
-    height: 640px !important;
+    height: 571px !important;
 }
 .blockExtra2 {
     height: 222px !important;

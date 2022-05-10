@@ -8,6 +8,9 @@
   position: relative;
   top: 397px;
 }
+#mobileLogo {
+  display: none;
+}
 .wrap_events {
   display: flex;
   justify-content: center;
@@ -104,25 +107,25 @@
   font-family: "WorkSans-Bold";
 }
 .block1 {
-  height: 781px !important;
+  height: 716px !important;
 }
 .block2 {
-  height: 1924px !important;
+  height: 1358px !important;
 }
 .block3 {
-  height: 1525px !important;
+  height: 1349px !important;
 }
 .block4 {
-  height: 993px !important;
+  height: 786px !important;
 }
 .block5 {
-  height: 832px !important;
+  height: 786px !important;
 }
 .block6 {
   height: 511px !important;
 }
 .block7 {
-  height: 1208px !important;
+  height: 1056px !important;
 }
 .blockExtra {
   height: 625px !important;

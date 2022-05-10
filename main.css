@@ -1654,7 +1654,14 @@ body {
     .footer {
         width: 286px;
     }
-
+    #logo {
+      display: none;
+    }
+    #mobileLogo {
+      display: block !important;
+      position: relative;
+      left: -124px;
+    }
     .branding {
       width: 320px !important;
     }
@@ -1806,22 +1813,22 @@ body {
     height: 342px !important;
 }
     .block22 {
-      height: 1274px !important;
+      height: 814px !important;
     }
     .block33 {
-    height: 920px !important;
+    height: 796px !important;
 }
 .block44 {
-    height: 533px !important;
+    height: 353px !important;
 }
 .block55 {
-    height: 402px !important;
+    height: 365px !important;
 }
 .block66 {
     height: 152px !important;
 }
 .block77 {
-    height: 640px !important;
+    height: 571px !important;
 }
 .blockExtra2 {
     height: 222px !important;
@@ -5548,6 +5555,9 @@ body {
   position: relative;
   top: 397px;
 }
+#mobileLogo {
+  display: none;
+}
 .wrap_events {
   display: flex;
   justify-content: center;
@@ -5644,25 +5654,25 @@ body {
   font-family: "WorkSans-Bold";
 }
 .block1 {
-  height: 781px !important;
+  height: 716px !important;
 }
 .block2 {
-  height: 1924px !important;
+  height: 1358px !important;
 }
 .block3 {
-  height: 1525px !important;
+  height: 1349px !important;
 }
 .block4 {
-  height: 993px !important;
+  height: 786px !important;
 }
 .block5 {
-  height: 832px !important;
+  height: 786px !important;
 }
 .block6 {
   height: 511px !important;
 }
 .block7 {
-  height: 1208px !important;
+  height: 1056px !important;
 }
 .blockExtra {
   height: 625px !important;
@@ -6733,22 +6743,22 @@ body {
       height: 725px !important;
   }
   .block2 {
-      height: 1686px !important;
+      height: 1228px !important;
   }
   .block3 {
-      height: 1322px !important;
+      height: 1218px !important;
   }
   .block4 {
-      height: 957px !important;
+      height: 762px !important;
   }
   .block5 {
-      height: 831px !important;
+      height: 791px !important;
   }
   .block6 {
       height: 500px !important;
   }
   .block7 {
-      height: 1123px !important;
+      height: 983px !important;
   }
   .blockExtra {
       height: 655px !important;

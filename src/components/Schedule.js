@@ -186,11 +186,10 @@ class Schedule extends React.Component {
                       <p className='low_title spec_low2'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} className='arrows'/></span></p>
 
                         <p className='when_text common_txts gold_time'>2 pm - 5 pm</p>
-                        <p className='when_text common_txts'>Smart Contract basics. As simple as it gets.</p>
+                        <p className='when_text common_txts'>Smart Contract basics. Workshops from Cardano and Polkadot.</p>
                          <p className='when_text common_txts gold_time'>6 pm - midnight</p>
-                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality
-                            Welcome drinks and competition from Pax World
-                            MDH Hologram show. Crypto payments from Trustody</p>
+                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality.  Welcome
+                         drinks and VR-competition from Pax World</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
                    <div className='wrap_lazy lazy_spec'><img
@@ -204,31 +203,25 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts'>Business Media Breakfast. Sustainability of DAO. Legal and social challenges.</p>
                           <p className='when_text common_txts gold_time'>12 pm - 1 pm</p>
                           <p className='when_text common_txts panel'>Panel: Blockchain for sustainability</p>
-                          <p className='when_text common_txts'>John deVadoss, Global Business Blockchain Council (GBBC)
+                          {/*<p className='when_text common_txts'>John deVadoss, Global Business Blockchain Council (GBBC)
                                   Ramesh Ramadoss, IEEE Blockchain Initiative
                                   Sheila Warren, Crypto Council For Innovation (CCI) - tbd
                                   Maxime Nassour, Saphi Ecosystem
-                                  </p>
+                                  </p>*/}
                           <p className='when_text common_txts gold_time'>1 pm - 2 pm</p>
                           <p className='when_text common_txts panel'>Panel: Bridging GCC and Europe. Payments and fintech legislation</p>
-                          <p className='when_text common_txts'>FasTToken</p>
+                          {/*<p className='when_text common_txts'>FasTToken</p>
                           <p className='when_text common_txts'>SwissBorg</p>
                           <p className='when_text common_txts'>SEBA - tbd</p>
-                          <p className='when_text common_txts'>Abu Dhabi Investment office - tbd</p>
+                          <p className='when_text common_txts'>Abu Dhabi Investment office - tbd</p>*/}
                           <p className='when_text common_txts gold_time'>2 pm - 3 pm</p>
                           <p className='when_text common_txts panel'>Panel: Blockchain powered Smart Cities</p>
-                          <p className='when_text common_txts'>Moderated by Office of HH Sheikh Al Quasimi
 
-                                Mr Tony Cho CEO & Founder Future of Cities
-                                European Crypto Initiative (EU carbon credit trade)
-                                Sustainable city of Dubai
-                                FasTToken
-                                </p>
                           <p className='when_text common_txts gold_time'>3 pm - 6 pm</p>
                           <p className='when_text common_txts'>Banking and Web 3. Opportunities and examples</p>
-                          <p className='when_text common_txts'>Stable coins</p>
                           <p className='when_text common_txts gold_time'>8 pm - 2 am</p>
-                          <p className='when_text common_txts'>Light dinner and networking paired with live music</p>
+                          <p className='when_text common_txts'>Light dinner and networking paired with
+                           live music Supported by The Private Office of HH Sheikh Saqer al Qasimi</p>
 
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list3} onClick={this.openlist3} >
@@ -237,9 +230,9 @@ class Schedule extends React.Component {
                            <p className='low_title'>May 23, <span className='show_desc'>Monday</span> <span className='show_mob'>Mon</span> <span className='wrap_arr'><img src={arrow} ref={this.arr3} className='arrows'/></span></p>
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business Media Breakfast.</p>
-                           <p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
+                           {/*<p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
                                 No stupid questions exist. Question challenge: “Ask me anything”.
-                                </p>
+                                </p>*/}
                           <p className='when_text common_txts gold_time'>12 pm - 2 pm</p>
                           <p className='when_text common_txts'>Lunch with DAO. How to build a truly decentralized community.</p>
                           <p className='when_text common_txts gold_time'>2 pm - 4 pm</p>
@@ -247,13 +240,12 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts panel'>Panel: Cross-chain solutions</p>
                           <p className='when_text common_txts gold_time'>4 pm - 5 pm</p>
                           <p className='when_text common_txts'>Learn and Earn. Easy to use guide into DeFi by SwissBorg</p>
-                          <p className='when_text common_txts'>With Q&A</p>
-
+                          <p className='when_text common_txts gold_time'>5 pm - 6 pm</p>
                           <p className='when_text common_txts panel'>Workshop: Where is the money on blockchain? Find opportunities Lending, Staking, LP, Trading</p>
                           <p className='when_text common_txts gold_time'>7 pm - 8 pm</p>
                           <p className='when_text common_txts'>Payments and storage solutions. Presentation and drink from CoinsPaid</p>
                           <p className='when_text common_txts gold_time'>8 pm - 1 am</p>
-                          <p className='when_text common_txts'>Party for everybody</p>
+                          <p className='when_text common_txts'>Evening reception with live music</p>
                    </div>
 
                    <div className='common_events_blocks' ref={this.list4} onClick={this.openlist4}>
@@ -263,15 +255,14 @@ class Schedule extends React.Component {
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business media breakfast</p>
                            <p className='when_text common_txts gold_time'>1 pm - 5 pm </p>
-                           <p className='when_text common_txts'>Real cases of real people. Precious experience that hard to forget</p>
+                           <p className='when_text common_txts'>Real life case studies</p>
                            <p className='when_text common_txts'>→ Cyber war </p>
                           <p className='when_text common_txts'>→ Fintech in the times of crisis</p>
                           <p className='when_text common_txts'>→ Volunteering and identity protection</p>
-                          <p className='when_text common_txts'>→ Regulation</p>
 
-                          <p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
+                          {/*<p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
                           <p className='when_text common_txts'>Mass adoption of blockchain</p>
-                          <p className='when_text common_txts'>Rebuild with transparency</p>
+                          <p className='when_text common_txts'>Rebuild with transparency</p>*/}
 
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
@@ -282,7 +273,6 @@ class Schedule extends React.Component {
                        <p className='big_title'>Polygon lounge</p>
                        <p className='low_title spec_low'>May 25, <span className='show_desc'>Wednesday</span> <span className='show_mob'>Wed</span> <span className='wrap_arr'><img src={arrow} ref={this.arr5} className='arrows'/></span></p>
                        <p className='when_text common_txts gold_time'>10 am to 7 pm</p>
-                       <p className='when_text common_txts panel'>Polygon lounge </p>
                        <p className='when_text common_txts'>Ecosystem Talks</p>
                        <p className='when_text common_txts'>Matic payments</p>
                        <p className='when_text common_txts'>Special menu</p>
@@ -301,18 +291,16 @@ class Schedule extends React.Component {
                       <div className='big_title bio_t'>NFTs<p className='big_title bio_t' id='meta1'>and Metaverse</p></div>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} className='arrows'/></span></p>
                       <p className='when_text common_txts gold_time'>9 am - 11 am</p>
-                      <p className='when_text common_txts'>Business breakfast. </p>
-                      <p className='when_text common_txts'>Leading Media: CoinTelegraph </p>
-                      <p className='when_text common_txts gold_time'>12 pm - 5 pm</p>
-                      <p className='when_text common_txts'>→ Metaverse for Business. Use cases and potential</p>
-                      <p className='when_text common_txts'>→ Banking in Metaverse. Kingdom of Saudi Arabia at the edge of tech. </p>
-                      <p className='when_text common_txts'>→ NFT workshop. Create and mint your own NFT </p>
-                      <p className='when_text common_txts'>→ NFT market places and POAP Gallery. How to store and show your collection</p>
-                      <p className='when_text common_txts'>→ NFTs as authenticity stamps. From Art to IPs</p>
+                      <p className='when_text common_txts'>Business breakfast with CoinTelegraph. </p>
+                      <p className='when_text common_txts gold_time'>12 pm - 4 pm</p>
+                      <p className='when_text common_txts'>Digital Art Exposition</p>
+                      <p className='when_text common_txts panel'>Panel: Banking in Metaverse.</p>
+                      <p className='when_text common_txts'>Showcases: Pax world, GOGO, Adresta and Metablocks</p>
+                      <p className='when_text common_txts panel'>Panel: NFT Valuation & Legal Considerations</p>
                       <p className='when_text common_txts gold_time'>7 pm - 2 am</p>
                       <p className='when_text common_txts'>Closing Party</p>
-                      <p className='when_text common_txts'>Coolest Swiss DJ </p>
-                      <p className='when_text common_txts'>NFT Auction by Saphi Ecosystem</p>
+                      <p className='when_text common_txts'>Electro Space Out Party with Supersstar DJ Stil Taktvoll</p>
+                      <p className='when_text common_txts'>NFT Auction Saphi</p>
                    </div>
 
                    <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6}>
