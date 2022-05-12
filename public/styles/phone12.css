@@ -13,6 +13,7 @@
   .each_quest {
     position: absolute;
     width: 100%;
+	 height: 173px;
   }
   .tech_0_ai, .tech_0_dlt {
     width: 288px !important;

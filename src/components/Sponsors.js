@@ -7,10 +7,10 @@ import kris from '../../public/images/Kristina Lucrezia Corner.jpg';
 import caroline from '../../public/images/caroline taylor.jfif.jpeg';
 import al from '../../public/images/Rectangle 287.png';
 import bak from '../../public/images/Georg Bak.jfif.jpeg';
-import leonie from '../../public/images/Leonie Flückiger.jfif.jpeg';
+import leonie from '../../public/images/LeonieFlückiger.jpeg';
 import bundi from '../../public/images/David Bundi.png';
 import dustin from '../../public/images/Dustin Plantholt.png';
-import dobrauz from '../../public/images/günther-dobrauz.jpeg';
+import dobrauz from '../../public/images/günther-dobrauz.jpeg';
 import mark from '../../public/images/JM.Seigneur.jpeg';
 import zhang from '../../public/images/J.Zhang.jpeg';
 import ernst from '../../public/images/E.Ernst.jpeg';
@@ -165,7 +165,7 @@ function Sponsors() {
                                            <p className='wrap_photo_sponsor'><img src={dobrauz} className='each_quest' /></p>
                                            <p className='name_of_speaker'>Guenther Dobrauz</p>
                                            <p className='descr_of_speaker'>Partner& Leader PwC Legal Switzerland,
-                                                      Member of PwC’s Global,
+                                                      Member of PwC`s Global,
                                                       Legal Leadership Team</p>
                                     </div>
                                     <div className='each_speaker del1'>

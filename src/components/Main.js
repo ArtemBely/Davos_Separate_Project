@@ -11,8 +11,8 @@ const Branding = loadable(() => import('./Branding'), { fallback: <div>Loading..
 import Team from './Team';
 const Media = loadable(() => import('./Media'), { fallback: <div>Loading...</div> });
 import Location from './Location';
-import Footer from './Footer'
-import DavosSection2 from './DavosSection2'
+import Footer from './Footer';
+import DavosSection2 from './DavosSection2';
 
 class Main extends React.Component{
   render() {

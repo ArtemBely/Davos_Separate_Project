@@ -270,12 +270,16 @@
         line-height: 160%;
   }
   .del1 {
-    display: none;
+    display: block;
   }
   .each_speaker {
     height: 173px;
     width: 136px;
-        position: relative;
+   position: relative;
+  }
+  .descr_of_speaker,.name_of_speaker{
+	font-size: 16px;
+	line-height: 26px;
   }
   .each_img_speak {
     position: absolute;
@@ -287,9 +291,20 @@
     position: relative;
   }
   .wrap_each_speaker {
-    grid-gap: 16px;
+    grid-column-gap: 9px;
+	 grid-row-gap: 50px;
     left: -15px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 330px) 310px 500px repeat(4, 310px) 550px 340px 400px 420px 310px 310px;
+	 grid-template-columns:repeat(2, 133px) ;
+  }
+  .wrap_photo_sponsor{
+		height: 173px;
+  }
+  #noorani, #bundi{
+	  width: 132px;
+  }
+  #kris{
+	  height: 173px;
   }
   .wrap_sponsors {
         top: 173px;
