@@ -11,6 +11,8 @@ import img5 from '../../public/images/Frame 585 1 (1) — копия.png';
 import img6 from '../../public/images/Frame 585 1 (2) — копия.png';
 import img7 from '../../public/images/Frame 585 1 (3).png';
 import img8 from '../../public/images/Frame 585 1 (4).png';
+import space from '../../public/images/Frame 585 12.png';
+import pink from '../../public/images/7 — копия.png';
 //import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { NavLink } from 'react-router-dom';
@@ -46,10 +48,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list1.current.classList.toggle('block11');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block77', 'blockExtra2');
       });
     }
@@ -62,10 +64,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list2.current.classList.toggle('block22');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block11', 'block33',
+        item.classList.remove('block11', 'block44',
           'block77', 'blockExtra2');
       });
     }
@@ -78,10 +80,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list3.current.classList.toggle('block33');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block55', 'block66');
+        item.classList.remove('block55', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block11',
+        item.classList.remove('block22', 'block44',
            'block77', 'blockExtra2');
       });
     }
@@ -94,10 +96,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list4.current.classList.toggle('block44');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block66');
+        item.classList.remove('block55', 'block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -110,10 +112,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list5.current.classList.toggle('block55');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block44', 'block66');
+        item.classList.remove('block66', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -126,10 +128,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list6.current.classList.toggle('block66');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44');
+        item.classList.remove('block55', 'block33');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
     }
@@ -142,10 +144,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.list7.current.classList.toggle('block77');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44', 'block66');
+        item.classList.remove('block55', 'block33', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'blockExtra2');
       });
     }
@@ -158,10 +160,10 @@ class Schedule extends React.Component {
     if(window.innerWidth > 320 && window.innerWidth < 575) {
       this.listExtra.current.classList.toggle('blockExtra2');
       document.querySelectorAll('.common_events_blocks2').forEach(item => {
-        item.classList.remove('block55', 'block44', 'block66');
+        item.classList.remove('block55', 'block33', 'block66');
       });
       document.querySelectorAll('.common_events_blocks').forEach(item => {
-        item.classList.remove('block22', 'block33',
+        item.classList.remove('block22', 'block44',
          'block11', 'block77');
       });
     }
@@ -179,20 +181,19 @@ class Schedule extends React.Component {
                 <div className='wrap_events'>
                 <div className='events2'>
                    <div className='common_events_blocks' ref={this.list1} onClick={this.openlist1}>
-                    <div className='wrap_lazy'> <img src={img1} className='common_imgs'  /></div>
+                    <div className='wrap_lazy'> <img src={img6} className='common_imgs'  /></div>
                       <div className='big_title'>Warm up<p className='big_title rec' id='rec2'> and welcome</p></div>
                       <p className='low_title spec_low2'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} className='arrows'/></span></p>
 
                         <p className='when_text common_txts gold_time'>2 pm - 5 pm</p>
-                        <p className='when_text common_txts'>Smart Contract basics. As simple as it gets.</p>
+                        <p className='when_text common_txts'>Smart Contract basics. Workshops from Cardano and Polkadot.</p>
                          <p className='when_text common_txts gold_time'>6 pm - midnight</p>
-                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality
-                            Welcome drinks and competition from Pax World
-                            MDH Hologram show. Crypto payments from Trustody</p>
+                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality.  Welcome
+                         drinks and VR-competition from Pax World</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
                    <div className='wrap_lazy lazy_spec'><img
-                   src={img2}
+                   src={img5}
                    className='common_imgs'
                    /></div>
                           <div className='big_title bio_t'>Sustainability<p className='big_title bio_t' id='hunds'>in Finance and Tech</p></div>
@@ -202,31 +203,25 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts'>Business Media Breakfast. Sustainability of DAO. Legal and social challenges.</p>
                           <p className='when_text common_txts gold_time'>12 pm - 1 pm</p>
                           <p className='when_text common_txts panel'>Panel: Blockchain for sustainability</p>
-                          <p className='when_text common_txts'>John deVadoss, Global Business Blockchain Council (GBBC)
+                          {/*<p className='when_text common_txts'>John deVadoss, Global Business Blockchain Council (GBBC)
                                   Ramesh Ramadoss, IEEE Blockchain Initiative
                                   Sheila Warren, Crypto Council For Innovation (CCI) - tbd
                                   Maxime Nassour, Saphi Ecosystem
-                                  </p>
+                                  </p>*/}
                           <p className='when_text common_txts gold_time'>1 pm - 2 pm</p>
                           <p className='when_text common_txts panel'>Panel: Bridging GCC and Europe. Payments and fintech legislation</p>
-                          <p className='when_text common_txts'>FasTToken</p>
+                          {/*<p className='when_text common_txts'>FasTToken</p>
                           <p className='when_text common_txts'>SwissBorg</p>
                           <p className='when_text common_txts'>SEBA - tbd</p>
-                          <p className='when_text common_txts'>Abu Dhabi Investment office - tbd</p>
+                          <p className='when_text common_txts'>Abu Dhabi Investment office - tbd</p>*/}
                           <p className='when_text common_txts gold_time'>2 pm - 3 pm</p>
                           <p className='when_text common_txts panel'>Panel: Blockchain powered Smart Cities</p>
-                          <p className='when_text common_txts'>Moderated by Office of HH Sheikh Al Quasimi
 
-                                Mr Tony Cho CEO & Founder Future of Cities
-                                European Crypto Initiative (EU carbon credit trade)
-                                Sustainable city of Dubai
-                                FasTToken
-                                </p>
                           <p className='when_text common_txts gold_time'>3 pm - 6 pm</p>
                           <p className='when_text common_txts'>Banking and Web 3. Opportunities and examples</p>
-                          <p className='when_text common_txts'>Stable coins</p>
                           <p className='when_text common_txts gold_time'>8 pm - 2 am</p>
-                          <p className='when_text common_txts'>Light dinner and networking paired with live music</p>
+                          <p className='when_text common_txts'>Light dinner and networking paired with
+                           live music Supported by The Private Office of HH Sheikh Saqer al Qasimi</p>
 
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list3} onClick={this.openlist3} >
@@ -235,9 +230,9 @@ class Schedule extends React.Component {
                            <p className='low_title'>May 23, <span className='show_desc'>Monday</span> <span className='show_mob'>Mon</span> <span className='wrap_arr'><img src={arrow} ref={this.arr3} className='arrows'/></span></p>
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business Media Breakfast.</p>
-                           <p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
+                           {/*<p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
                                 No stupid questions exist. Question challenge: “Ask me anything”.
-                                </p>
+                                </p>*/}
                           <p className='when_text common_txts gold_time'>12 pm - 2 pm</p>
                           <p className='when_text common_txts'>Lunch with DAO. How to build a truly decentralized community.</p>
                           <p className='when_text common_txts gold_time'>2 pm - 4 pm</p>
@@ -245,76 +240,39 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts panel'>Panel: Cross-chain solutions</p>
                           <p className='when_text common_txts gold_time'>4 pm - 5 pm</p>
                           <p className='when_text common_txts'>Learn and Earn. Easy to use guide into DeFi by SwissBorg</p>
-                          <p className='when_text common_txts'>With Q&A</p>
-
+                          <p className='when_text common_txts gold_time'>5 pm - 6 pm</p>
                           <p className='when_text common_txts panel'>Workshop: Where is the money on blockchain? Find opportunities Lending, Staking, LP, Trading</p>
                           <p className='when_text common_txts gold_time'>7 pm - 8 pm</p>
                           <p className='when_text common_txts'>Payments and storage solutions. Presentation and drink from CoinsPaid</p>
                           <p className='when_text common_txts gold_time'>8 pm - 1 am</p>
-                          <p className='when_text common_txts'>Party for everybody</p>
+                          <p className='when_text common_txts'>Evening reception with live music</p>
                    </div>
 
                    <div className='common_events_blocks' ref={this.list4} onClick={this.openlist4}>
-                   <div className='wrap_lazy'><img src={img3} className='common_imgs'/></div>
-                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in War. </p></div>
+                   <div className='wrap_lazy'><img src={space} className='common_imgs'/></div>
+                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in crisis. </p></div>
                        <p className='low_title' id='may24'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr4} className='arrows'/></span></p>
-                           <p className='when_text common_txts'>Real cases that help Ukraine now and what we can learn from it.</p>
-                           <p className='when_text common_txts panel'>Managed by Ukrainian hackers and crypto community</p>
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business media breakfast</p>
                            <p className='when_text common_txts gold_time'>1 pm - 5 pm </p>
-                           <p className='when_text common_txts'>Real cases of real people. Precious experience that hard to forget</p>
-
+                           <p className='when_text common_txts'>Real life case studies</p>
                            <p className='when_text common_txts'>→ Cyber war </p>
-                           <p className='when_text common_txts panel'>Topic ideas: </p>
-                           <p className='when_text common_txts'>Open cyber war or guerilla cyber war? Decentralized communities/DAOs for cyber retaliation against bad actors.
-                                Usage of technologies for the effective digital guerilla warfare
-                                Asymmetric encryption - principle of force asymmetry
-                                </p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>Everything bad can be used for good. Milestone for Cyber security awareness</p>
-
                           <p className='when_text common_txts'>→ Fintech in the times of crisis</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of had to come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>How technology has helped in times of crisis ?
-                                  Human Factor?
-                                  New registrations, Daily users, Volume ?
-                                  Forget the personal, focus on the important ?
-                                  After… ?</p>
-
                           <p className='when_text common_txts'>→ Volunteering and identity protection</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of has come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>ID Verification as a tool of protection, not a challenge for customers </p>
 
-                          <p className='when_text common_txts'>→ Regulation</p>
-                          <p className='when_text common_txts panel'>Topic ideas: </p>
-                          <p className='when_text common_txts'>Mass adoption of crypto, what we dreamed of has come</p>
-                          <p className='when_text common_txts panel'>Lesson to be learned:</p>
-                          <p className='when_text common_txts'>Verification as a tool of protection, not a challenge for customers </p>
+                          {/*<p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
+                          <p className='when_text common_txts'>Mass adoption of blockchain</p>
+                          <p className='when_text common_txts'>Rebuild with transparency</p>*/}
 
-                          <p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
-                          <p className='when_text common_txts'>Blockchain mass adoption</p>
-                          <p className='when_text common_txts'>Rebuild Ukraine with transparency</p>
-
-                          <p className='when_text common_txts panel'>Charity auction </p>
-                          <p className='when_text common_txts'>Choose the NFT object from the Hologram  and donate for
-                          its restoration. Track the funds/crypto with blockchain transparency. Help directly.</p>
-                          <p className='when_text common_txts panel'>The day is followed by the introduction of the Ukrainian culture, food and traditional music</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
                    <div className='wrap_lazy'> <img
-                   src={img5}
+                   src={pink}
                    className='common_imgs spec_imgs'
                    /></div>
                        <p className='big_title'>Polygon lounge</p>
                        <p className='low_title spec_low'>May 25, <span className='show_desc'>Wednesday</span> <span className='show_mob'>Wed</span> <span className='wrap_arr'><img src={arrow} ref={this.arr5} className='arrows'/></span></p>
-                      {/* <p><img src={al} id='al2'/></p>*/}
                        <p className='when_text common_txts gold_time'>10 am to 7 pm</p>
-                       <p className='when_text common_txts panel'>Polygon lounge </p>
                        <p className='when_text common_txts'>Ecosystem Talks</p>
                        <p className='when_text common_txts'>Matic payments</p>
                        <p className='when_text common_txts'>Special menu</p>
@@ -333,23 +291,21 @@ class Schedule extends React.Component {
                       <div className='big_title bio_t'>NFTs<p className='big_title bio_t' id='meta1'>and Metaverse</p></div>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} className='arrows'/></span></p>
                       <p className='when_text common_txts gold_time'>9 am - 11 am</p>
-                      <p className='when_text common_txts'>Business breakfast. </p>
-                      <p className='when_text common_txts'>Leading Media: CoinTelegraph </p>
-                      <p className='when_text common_txts gold_time'>12 pm - 5 pm</p>
-                      <p className='when_text common_txts'>→ Metaverse for Business. Use cases and potential</p>
-                      <p className='when_text common_txts'>→ Banking in Metaverse. Kingdom of Saudi Arabia at the edge of tech. </p>
-                      <p className='when_text common_txts'>→ NFT workshop. Create and mint your own NFT </p>
-                      <p className='when_text common_txts'>→ NFT market places and POAP Gallery. How to store and show your collection</p>
-                      <p className='when_text common_txts'>→ NFTs as authenticity stamps. From Art to IPs</p>
+                      <p className='when_text common_txts'>Business breakfast with CoinTelegraph. </p>
+                      <p className='when_text common_txts gold_time'>12 pm - 4 pm</p>
+                      <p className='when_text common_txts'>Digital Art Exposition</p>
+                      <p className='when_text common_txts panel'>Panel: Banking in Metaverse.</p>
+                      <p className='when_text common_txts'>Showcases: Pax world, GOGO, Adresta and Metablocks</p>
+                      <p className='when_text common_txts panel'>Panel: NFT Valuation & Legal Considerations</p>
                       <p className='when_text common_txts gold_time'>7 pm - 2 am</p>
                       <p className='when_text common_txts'>Closing Party</p>
-                      <p className='when_text common_txts'>Coolest Swiss DJ </p>
-                      <p className='when_text common_txts'>NFT Auction by Saphi Ecosystem</p>
+                      <p className='when_text common_txts'>Electro Space Out Party with Supersstar DJ Stil Taktvoll</p>
+                      <p className='when_text common_txts'>NFT Auction Saphi</p>
                    </div>
 
                    <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6}>
                    <div className='wrap_lazy'><img
-                   src={img6}
+                   src={img2}
                    className='common_imgs spec_imgs'
                    /></div>
                       <p className='big_title'>Where next?</p>

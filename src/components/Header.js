@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../public/images/Logo.svg';
+import mobileLogo from '../../public/images/Subtract-2.svg';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
 
@@ -23,6 +24,7 @@ class Header extends React.Component {
           <div className='header'>
               <div className="navigation">
                 <NavLink to='/'><img src={logo} id='logo' /></NavLink>
+                <NavLink to='/' id='mobileLogo'><img src={mobileLogo} /></NavLink>
                 <div className="header__burger" ref={this.head} onClick={this.addClass}>
                   <span></span>
                 </div>

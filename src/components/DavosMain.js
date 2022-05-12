@@ -16,6 +16,16 @@ import img11 from '../../public/images/Frame 494.svg';
 import img12 from '../../public/images/Logo Tarko Think Tank@2x.svg';
 import img13 from '../../public/images/Frame 535.svg';
 import img14 from '../../public/images/Frame 536.svg';
+import poly from '../../public/images/poly.svg';
+import fast from '../../public/images/fast.svg';
+import ovix from '../../public/images/ovix.svg';
+import trust from '../../public/images/trust.svg';
+import pax from '../../public/images/pax.svg';
+import hologram from '../../public/images/hologram.svg';
+import gbbc from '../../public/images/gbbc.svg';
+import euci from '../../public/images/euci.svg';
+import saphi from '../../public/images/saphi.svg';
+import ieee from '../../public/images/ieee.svg';
 
 
 class DavosMain extends React.Component{
@@ -93,17 +103,30 @@ class DavosMain extends React.Component{
              <div className="partners">
                  <h3 className="partners__title" id='link_partners'>Partners</h3>
 
-                   <p id='img1'><a href='https://hhshkqassimi.com/' target="_blank"><img src={img1} className='com_parts'/></a></p>
-                   <p id='img3'><a href='http://goweb.com/' target="_blank"><img src={img3} className='com_parts'/></a></p>
+                   <p id='img1' className='middle_top'><a href='https://hhshkqassimi.com/' target="_blank"><img src={img1} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={poly} className='com_parts'/></a></p>
+                   <p id='fast' className='middle_top'><a href='#' target="_blank"><img src={fast} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={ovix} className='com_parts'/></a></p>
+                   <p id='trust' className='middle_top'><a href='#' target="_blank"><img src={trust} className='com_parts'/></a></p>
+                   <p id='img3' className='middle_top'><a href='http://goweb.com/' target="_blank"><img src={img3} className='com_parts'/></a></p>
                    <p id='img6' className='middle_top'><a href='https://coinspaid.com/' target="_blank"><img src={img6} className='com_parts'/></a></p>
+                   <p id='pax' className='middle_top'><a href='#' target="_blank"><img src={pax} className='com_parts'/></a></p>
+                   <p id='img7' className='middle_top'><a href='https://vrt.one/' target="_blank"><img src={img7} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={gbbc} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={hologram} className='com_parts'/></a></p>
+                   <p id='img10' className='down_center middle_top'><a href='https://agau.io/' target="_blank"><img src={img10} className='com_parts'/></a></p>
+                   <p id='img14' className='middle_top'><img src={img14} className='com_parts'/></p>
+                   <p id='euci' className='middle_top'><a href='#' target="_blank"><img src={euci} className='com_parts'/></a></p>
+                   <p id='img12' className='middle_top'><a href='https://www.monetaryreset.net/' target="_blank"><img src={img12} className='com_parts'/></a></p>
+                   <p id='saphi' className='middle_top'><a href='#' target="_blank"><img src={saphi} className='com_parts'/></a></p>
+                   <p id='img13' className='middle_top'><a href='https://bancambios.exchange/' target="_blank"><img src={img13} className='com_parts'/></a></p>
+                   <p id='ieee' className='middle_top'><a href='#' target="_blank"><img src={ieee} className='com_parts'/></a></p>
+
                    <p id='img9' style={{display: "none"}} className='middle_top'><img src={img9} className='com_parts'/></p>
                    <p id='img4' style={{display: "none"}}><img src={img4} className='com_parts'/></p>
-                   <p id='img12'><a href='https://www.monetaryreset.net/' target="_blank"><img src={img12} className='com_parts'/></a></p>
-                   <p id='img13'><a href='https://bancambios.exchange/' target="_blank"><img src={img13} className='com_parts'/></a></p>
-                   <p id='img14'><img src={img14} className='com_parts'/></p>
-                   <p id='img7' className='middle_top'><a href='https://vrt.one/' target="_blank"><img src={img7} className='com_parts'/></a></p>
-                   <p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>
-                   <p id='img10' className='down_center'><a href='https://agau.io/' target="_blank"><img src={img10} className='com_parts'/></a></p>
+
+
+                   {/*<p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>*/}
 
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>
               </div>

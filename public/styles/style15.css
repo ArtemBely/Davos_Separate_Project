@@ -177,6 +177,7 @@
     -ms-grid-rows: 1fr 0px 1fr 0px 1fr 0px 1fr 0px 1fr;
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 25px 22px;
+    margin-bottom: 228px;
 }.partners > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -340,16 +341,19 @@
   width: 230px;
   background: #1B1B1B;
   position: relative;
-  overflow: hidden;
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 .wrap_each_speaker {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 34px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 350px 0px;
   position: relative;
   top: 38px;
+}
+#noorani {
+  width: auto;
 }
 .date1 {
   font-size: 20px;
@@ -384,8 +388,14 @@
   border-left: 2px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
 }
+#kris {
+  height: 125%;
+}
 #last_event {
   border-bottom: 2px solid #FFFFFF;
+}
+#bundi {
+  width: auto;
 }
 .wrap_each_event {
   border-top: 2px solid #FFFFFF;

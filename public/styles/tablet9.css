@@ -54,8 +54,15 @@
   .wrap_lazy {
     height: 300px;
   }
+  .low_brand {
+    left: -102px;
+    width: 167% !important;
+  }
   .wrap_branding {
     top: 256px;
+  }
+  .description {
+    width: 992px;
   }
   .cart_txt {
     margin-top: 27px;
@@ -81,7 +88,7 @@
     height: 50px;
   }
   .description__paragraph {
-        left: -44px;
+        left: -84px;
   }
   .events2 {
     grid-template-columns: repeat(2, 1fr);
@@ -104,28 +111,28 @@
       height: 725px !important;
   }
   .block2 {
-      height: 1686px !important;
+      height: 1228px !important;
   }
   .block3 {
-      height: 1322px !important;
+      height: 1218px !important;
   }
   .block4 {
-      height: 2422px !important;
+      height: 762px !important;
   }
   .block5 {
-      height: 831px !important;
+      height: 791px !important;
   }
   .block6 {
       height: 500px !important;
   }
   .block7 {
-      height: 1123px !important;
+      height: 983px !important;
   }
   .blockExtra {
       height: 655px !important;
   }
   .description__paragraph:last-of-type {
-        left: -19px;
+        left: -53px;
   }
   .wrap_up {
     width: 10px;
@@ -154,7 +161,7 @@
     left: 525px;
   }
   .description__title {
-    left: 201px;
+    left: 64px;
   }
   .wrap_main_title {
     top: -685px;
@@ -298,12 +305,17 @@
         max-width: 992px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 0px;
+  }
+  #saphi {
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
   }
   .become_a_partner2{
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 82px;
+        top: 389px;
   }
 
   .partners__title {
@@ -312,6 +324,7 @@
   }
   .wrap_partners {
         top: 131px;
+            margin-bottom: 176px;
   }
   .strategic__title {
     font-size: 40px;
