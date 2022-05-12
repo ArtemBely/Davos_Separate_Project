@@ -345,12 +345,15 @@
   justify-content: center;
 }
 .wrap_each_speaker {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-gap: 350px 0px;
-  position: relative;
-  top: 38px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 434px 600px 444px 600px 503px 440px;
+      grid-gap: 72px 0px;
+      position: relative;
+      top: 38px;
+}
+#arys {
+  width: auto;
 }
 #noorani {
   width: auto;

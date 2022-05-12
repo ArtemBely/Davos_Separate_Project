@@ -292,19 +292,25 @@
   }
   .wrap_each_speaker {
     grid-column-gap: 9px;
-	 grid-row-gap: 50px;
-    left: -15px;
-    grid-template-rows: repeat(3, 330px) 310px 500px repeat(4, 310px) 550px 340px 400px 420px 310px 310px;
-	 grid-template-columns:repeat(2, 133px) ;
+	  grid-row-gap: 34px;
+    left: -10px;
+    grid-template-rows: repeat(3, 330px) 310px 500px 319px 209px 209px 291px 550px 340px 400px 420px 234px 211px;
+	  grid-template-columns:repeat(2, 133px) ;
   }
   .wrap_photo_sponsor{
 		height: 173px;
+    position: relative;
   }
-  #noorani, #bundi{
-	  width: 132px;
+
+  #bundi {
+    width: auto;
+  }
+  #noorani {
+    width: 253px;
   }
   #kris{
-	  height: 173px;
+    height: 258px;
+    position: relative;
   }
   .wrap_sponsors {
         top: 173px;

@@ -121,7 +121,7 @@ function Sponsors() {
                                     <p className='descr_of_speaker'>The co-founder and president of MetaverseTalks</p>
                              </div>
                              <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={leonova} className='each_quest' /></p>
+                                     <p className='wrap_photo_sponsor'><img src={leonova} className='each_quest' id='leonova'/></p>
                                      <p className='name_of_speaker'>Dr. Leonova</p>
                                      <p className='descr_of_speaker'>A Deputy GM and a Head of Innovation and
                                                     Technology in the Private Office of HH Sheikh Saqer al Qasimi</p>
@@ -135,7 +135,7 @@ function Sponsors() {
                                                      and Group of Companies</p>
                                </div>
                                <div className='each_speaker del1'>
-                                       <p className='wrap_photo_sponsor'><img src={arys} className='each_quest'/></p>
+                                       <p className='wrap_photo_sponsor'><img src={arys} className='each_quest' id='arys'/></p>
                                        <p className='name_of_speaker'>Thierry Arys Ruiz</p>
                                        <p className='descr_of_speaker'>Chairman & CEO, AgAu AG,
                                                       Founder of Tarco Think Tank</p>
