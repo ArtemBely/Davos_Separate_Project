@@ -5053,7 +5053,7 @@ body {
   font-size: 20px;
   line-height: 160%;
   color: #FAFAFA;
-  display: flex;
+  display: none;
   justify-content: center;
   position: relative;
   top: 8px;
@@ -5408,16 +5408,19 @@ body {
   width: 230px;
   background: #1B1B1B;
   position: relative;
-  overflow: hidden;
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 .wrap_each_speaker {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 34px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 350px 0px;
   position: relative;
   top: 38px;
+}
+#noorani {
+  width: auto;
 }
 .date1 {
   font-size: 20px;
@@ -5452,8 +5455,14 @@ body {
   border-left: 2px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
 }
+#kris {
+  height: 125%;
+}
 #last_event {
   border-bottom: 2px solid #FFFFFF;
+}
+#bundi {
+  width: auto;
 }
 .wrap_each_event {
   border-top: 2px solid #FFFFFF;
@@ -6379,6 +6388,32 @@ body {
 #img13 {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
+}
+.name_of_speaker {
+    color: #F6DBA8;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: "WorkSans-Bold";
+    text-align: center;
+    padding: 15px 0px;
+}
+.descr_of_speaker {
+    color: #FAFAFA;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+.wrap_photo_sponsor {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.each_quest {
+    width: 131%;
 }
 
 @media (min-width: 992px) and (max-width: 1320px) {

@@ -235,3 +235,29 @@
     grid-column: 2 / 3;
     grid-row: 6 / 7;
 }
+.name_of_speaker {
+    color: #F6DBA8;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: "WorkSans-Bold";
+    text-align: center;
+    padding: 15px 0px;
+}
+.descr_of_speaker {
+    color: #FAFAFA;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+.wrap_photo_sponsor {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.each_quest {
+    width: 131%;
+}
