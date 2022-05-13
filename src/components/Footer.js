@@ -6,6 +6,7 @@ import arrow from '../../public/images/Vector 42.svg';
 import linked from '../../public/images/inst_ico.svg';
 import facebook from '../../public/images/facebook_ico.svg';
 import instagram from '../../public/images/instagram.svg';
+import youtube from '../../public/images/youtube.svg';
 
 class Footer extends React.Component {
 
@@ -100,13 +101,16 @@ class Footer extends React.Component {
                   <a rel="nofollow" href='https://www.facebook.com/Emtechinvest-109159918432447/?notif_id=1650919970525933&notif_t=page_user_activity&ref=notif' id='fb1'>
                     <img src={facebook} className='footer__link3-img'></img>
                   </a>
+                  <a rel="nofollow" href='https://www.youtube.com/channel/UCDy7yH4NLFDsWvn3wS3kVYQ' id='youtube'>
+                    <img src={youtube} className='footer__link3-img'></img>
+                  </a>
                   <a rel="nofollow" href='https://www.instagram.com/emtechinvest/' id='insta1'>
                     <img src={instagram} className='footer__link3-img'></img>
                   </a>
               <p className='wrap_up'>
                           <Link activeClass="active"
                           className='footer_nav'
-                          to="logo"
+                          to="wrap_header"
                           spy={true}
                           smooth={true}
                           hashSpy={true}

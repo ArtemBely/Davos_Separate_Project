@@ -80,11 +80,11 @@ body {
   overflow-x: hidden;
 }
 #insta1 {
-    grid-column: 6 / 7;
-    position: relative;
-    top: -7px;
-    left: -80px;
-    width: 50px;
+  grid-column: 6 / 7;
+  position: relative;
+  top: -35px;
+  left: 0px;
+  width: 50px;
 }
 .wrap_lazy {
   width: 358px;
@@ -1657,6 +1657,15 @@ body {
     #logo {
       display: none;
     }
+    #youtube {
+      grid-column: 6 / 7 !important;
+      position: relative !important;
+      left: -291px !important;
+      top: 188px !important;
+      height: 50px !important;
+      width: 50px !important;
+      cursor: pointer !important;
+    }
     #mobileLogo {
       display: block !important;
       position: relative;
@@ -1734,8 +1743,8 @@ body {
     #insta1 {
       grid-column: 6 / 7;
       position: relative;
-      top: 137px;
-      left: -297px;
+      top: 59px;
+      left: -228px;
       width: 30px;
       height: 30px;
 }
@@ -6105,12 +6114,19 @@ body {
   grid-column: 6 / 7;
   grid-row: 3 / 4;
   position: relative;
-  top: 5px;
+  top: 28px;
   left: 175px;
-  transform: rotate(
-180deg);
+  transform: rotate( 180deg);
 }
 .wrap_up > img {
+  cursor: pointer;
+}
+#youtube {
+  grid-column: 6 / 7;
+  position: relative;
+  left: -79px;
+  top: 3px;
+  width: 50px;
   cursor: pointer;
 }
 #fb1 {
@@ -6118,6 +6134,8 @@ body {
   position: relative;
   top: 72px;
   left: 49px;
+  width: 50px;
+  cursor: pointer;
 }
 #lnkdin {
   position: relative;
@@ -6125,6 +6143,7 @@ body {
   top: 73px;
   left: 178px;
   cursor: pointer;
+  width: 50px;
 }
 .nav_links_foot {
   position: relative;
@@ -6792,10 +6811,17 @@ body {
   }
   #insta1 {
     position: relative;
-    top: 71px;
-    left: -133px;
+    top: -2px;
+    left: -19px;
     width: 50px;
     height: 50px;
+  }
+  #youtube {
+    grid-column: 6 / 7;
+    position: relative;
+    left: -133px;
+    top: 70px;
+    width: 50px;
   }
   .description__paragraph {
         left: -84px;
@@ -8334,7 +8360,7 @@ body {
     top: -32px;
   }
   #emtech2 {
-    top: -141px;
+    top: -69px;
     height: 55px;
     line-height: 31px;
     grid-column: 1 / 3;
@@ -8384,16 +8410,19 @@ body {
     left: 141px;
   }
   #fb1 {
-    top: 138px;
+    top: 190px;
     left: -278px;
     height: 34px;
+    width: 34px;
   }
   .header__burger {
     top: -8px;
   }
   #lnkdin {
-    top: 138px;
+    top: 190px;
     left: -225px;
+    width: 30px;
+    height: 30px;
   }
   .wrap_up {
         top: 459px;

@@ -82,10 +82,17 @@
   }
   #insta1 {
     position: relative;
-    top: 71px;
-    left: -133px;
+    top: -2px;
+    left: -19px;
     width: 50px;
     height: 50px;
+  }
+  #youtube {
+    grid-column: 6 / 7;
+    position: relative;
+    left: -133px;
+    top: 70px;
+    width: 50px;
   }
   .description__paragraph {
         left: -84px;

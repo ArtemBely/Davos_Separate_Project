@@ -9,6 +9,15 @@
     #logo {
       display: none;
     }
+    #youtube {
+      grid-column: 6 / 7 !important;
+      position: relative !important;
+      left: -291px !important;
+      top: 188px !important;
+      height: 50px !important;
+      width: 50px !important;
+      cursor: pointer !important;
+    }
     #mobileLogo {
       display: block !important;
       position: relative;
@@ -86,8 +95,8 @@
     #insta1 {
       grid-column: 6 / 7;
       position: relative;
-      top: 137px;
-      left: -297px;
+      top: 59px;
+      left: -228px;
       width: 30px;
       height: 30px;
 }

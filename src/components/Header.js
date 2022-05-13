@@ -20,7 +20,7 @@ class Header extends React.Component {
 
   render() {
     return(
-      <div className='wrap__header'>
+      <div className='wrap__header' id="wrap_header">
           <div className='header'>
               <div className="navigation">
                 <NavLink to='/'><img src={logo} id='logo' /></NavLink>

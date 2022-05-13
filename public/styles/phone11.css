@@ -569,7 +569,7 @@
     top: -32px;
   }
   #emtech2 {
-    top: -141px;
+    top: -69px;
     height: 55px;
     line-height: 31px;
     grid-column: 1 / 3;
@@ -619,16 +619,19 @@
     left: 141px;
   }
   #fb1 {
-    top: 138px;
+    top: 190px;
     left: -278px;
     height: 34px;
+    width: 34px;
   }
   .header__burger {
     top: -8px;
   }
   #lnkdin {
-    top: 138px;
+    top: 190px;
     left: -225px;
+    width: 30px;
+    height: 30px;
   }
   .wrap_up {
         top: 459px;

@@ -138,12 +138,19 @@
   grid-column: 6 / 7;
   grid-row: 3 / 4;
   position: relative;
-  top: 5px;
+  top: 28px;
   left: 175px;
-  transform: rotate(
-180deg);
+  transform: rotate( 180deg);
 }
 .wrap_up > img {
+  cursor: pointer;
+}
+#youtube {
+  grid-column: 6 / 7;
+  position: relative;
+  left: -79px;
+  top: 3px;
+  width: 50px;
   cursor: pointer;
 }
 #fb1 {
@@ -151,6 +158,8 @@
   position: relative;
   top: 72px;
   left: 49px;
+  width: 50px;
+  cursor: pointer;
 }
 #lnkdin {
   position: relative;
@@ -158,6 +167,7 @@
   top: 73px;
   left: 178px;
   cursor: pointer;
+  width: 50px;
 }
 .nav_links_foot {
   position: relative;
