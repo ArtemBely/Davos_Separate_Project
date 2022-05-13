@@ -317,15 +317,12 @@
         grid-template-rows: repeat(4, 1fr);
         margin-bottom: 0px;
   }
-  #saphi {
-    grid-row: 6 / 7;
-    grid-column: 1 / 2;
-  }
+
   .become_a_partner2{
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 389px;
+        top: 556px;
   }
 
   .partners__title {
