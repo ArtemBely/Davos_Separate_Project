@@ -353,10 +353,19 @@
       top: 38px;
 }
 #arys {
-  width: auto;
+  width: 154%;
 }
 #noorani {
-  width: auto;
+  width: 170%;
+}
+#mark {
+  width: 113%;
+}
+#dobrauz {
+  width: 109%;
+}
+#leonova {
+  width: 100%;
 }
 .date1 {
   font-size: 20px;
@@ -392,13 +401,14 @@
   border-top: 2px solid #FFFFFF;
 }
 #kris {
-  height: 125%;
+  height: 114%;
+  width: 100%;
 }
 #last_event {
   border-bottom: 2px solid #FFFFFF;
 }
 #bundi {
-  width: auto;
+  width: 300%;
 }
 .wrap_each_event {
   border-top: 2px solid #FFFFFF;

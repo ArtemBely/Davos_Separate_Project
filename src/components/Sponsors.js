@@ -86,7 +86,7 @@ function Sponsors() {
                              <p className='descr_of_speaker'>The Editor-in-Chief of Cointelegraph</p>
                       </div>
                       <div className='each_speaker del1'>
-                              <p className='wrap_photo_sponsor'><img src={al} className='each_quest'/></p>
+                              <p className='wrap_photo_sponsor'><img src={al} className='each_quest' id='alena'/></p>
                               <p className='name_of_speaker'>Alena Yudina</p>
                               <p className='descr_of_speaker'>Host of the EmTech Invest Hub at Davos</p>
                        </div>
@@ -106,7 +106,7 @@ function Sponsors() {
                                  <p className='descr_of_speaker'></p>
                           </div>
                           <div className='each_speaker del1'>
-                                  <p className='wrap_photo_sponsor'><img src={leonie} className='each_quest'/></p>
+                                  <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
                                   <p className='name_of_speaker'>Leonie Flückiger</p>
                                   <p className='descr_of_speaker'></p>
                            </div>
@@ -154,7 +154,7 @@ function Sponsors() {
                                                       UNCTAD</p>
                                   </div>
                                   <div className='each_speaker del1'>
-                                          <p className='wrap_photo_sponsor'><img src={mark} className='each_quest' id='bundi'/></p>
+                                          <p className='wrap_photo_sponsor'><img src={mark} className='each_quest' id='mark'/></p>
                                           <p className='name_of_speaker'>Jean Marc Seigneur</p>
                                           <p className='descr_of_speaker'>Director CAS DLT & Blockchain,
                                                       University of Geneva,
@@ -162,7 +162,7 @@ function Sponsors() {
                                                       UN ITU</p>
                                    </div>
                                    <div className='each_speaker del1'>
-                                           <p className='wrap_photo_sponsor'><img src={dobrauz} className='each_quest' /></p>
+                                           <p className='wrap_photo_sponsor'><img src={dobrauz} className='each_quest' id='dobrauz'/></p>
                                            <p className='name_of_speaker'>Guenther Dobrauz</p>
                                            <p className='descr_of_speaker'>Partner& Leader PwC Legal Switzerland,
                                                       Member of PwC`s Global,
@@ -181,7 +181,7 @@ function Sponsors() {
                                              <p className='descr_of_speaker'></p>
                                       </div>
                                       <div className='each_speaker del1'>
-                                              <p className='wrap_photo_sponsor'><img src={leonie} className='each_quest'/></p>
+                                              <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
                                               <p className='name_of_speaker'>Ramesh Ramadoss</p>
                                               <p className='descr_of_speaker'></p>
                                        </div>

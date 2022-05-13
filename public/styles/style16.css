@@ -11,6 +11,9 @@
 #mobileLogo {
   display: none;
 }
+#alena {
+  width: 100%;
+}
 .wrap_events {
   display: flex;
   justify-content: center;

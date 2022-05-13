@@ -309,7 +309,6 @@
     width: 253px;
   }
   #kris{
-    height: 258px;
     position: relative;
   }
   .wrap_sponsors {
@@ -414,7 +413,7 @@
         width: 320px;
         left: 0px;
         font-size: 18px;
-        top: 160px;
+        top: 240px;
         grid-column: 1 / 3;
         grid-row: 10/11;
   }
@@ -426,7 +425,7 @@
   }
   .wrap_partners {
         top: 453px;
-        margin-bottom: 279px;
+        margin-bottom: 364px;
   }
   #img1 {
     grid-column: 1 / 2;
@@ -456,6 +455,24 @@
   #saphi {
     grid-row: 10 / 11;
     grid-column: 2 / 3;
+  }
+  #meta {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+  #hologram {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+  }
+  #swiss {
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+  }
+  #talks {
+    grid-column: 2 / 3;
+  }
+  #ovix {
+    grid-column: 1 / 2;
   }
   #ieee {
     grid-column: 2 / 3;

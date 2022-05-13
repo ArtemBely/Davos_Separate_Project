@@ -207,7 +207,13 @@
   left: 0px;
 }
 .slowAnim {
-  animation: slidein 0.6s 1;
+  -webkit-animation: slidein 0.6s 1;
+          animation: slidein 0.6s 1;
+}
+@-webkit-keyframes slidein {
+  0% { left: 0px; }
+  50% { left: -1300px; opacity: 0; }
+  100% { left: 1300px; }
 }
 @keyframes slidein {
   0% { left: 0px; }
@@ -227,12 +233,29 @@
 .wrap_imgs_brands {
   height: 46px;
 }
+#swiss {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6 / 7;
+}
+
 #ieee {
-  grid-column: 3 / 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6 / 7;
 }
 #img13 {
-    grid-column: 2 / 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
     grid-row: 6 / 7;
 }
 .name_of_speaker {
@@ -255,8 +278,12 @@
   width: 100%;
   height: 300px;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .each_quest {
     width: 131%;
