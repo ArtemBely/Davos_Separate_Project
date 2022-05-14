@@ -74,7 +74,7 @@ class Branding extends React.Component{
 
                         <p className='cart_txt'></p>
                     </div>
-                    <div className='carts'>
+                    <div className='carts' style={{display: "none"}}>
                         <img src={post1} className='posts'/>
                         <p className='cart_txt'>Windows on the promenade side</p>
                     </div>

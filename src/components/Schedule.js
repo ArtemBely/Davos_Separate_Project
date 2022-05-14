@@ -11,7 +11,7 @@ import img5 from '../../public/images/Frame 585 1 (1) — копия.png';
 import img6 from '../../public/images/Frame 585 1 (2) — копия.png';
 import img7 from '../../public/images/Frame 585 1 (3).png';
 import img8 from '../../public/images/Frame 585 1 (4).png';
-import space from '../../public/images/Frame 585 12.png';
+import space from '../../public/images/32.png';
 import pink from '../../public/images/7 — копия.png';
 //import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -188,7 +188,7 @@ class Schedule extends React.Component {
                         <p className='when_text common_txts gold_time'>2 pm - 5 pm</p>
                         <p className='when_text common_txts'>Smart Contract basics. Workshops from Cardano and Polkadot.</p>
                          <p className='when_text common_txts gold_time'>6 pm - midnight</p>
-                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality.  Welcome
+                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality. Welcome
                          drinks and VR-competition from Pax World</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
@@ -303,7 +303,7 @@ class Schedule extends React.Component {
                       <p className='when_text common_txts'>NFT Auction Saphi</p>
                    </div>
 
-                   <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6}>
+                   <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6} style={{display: "none"}}>
                    <div className='wrap_lazy'><img
                    src={img2}
                    className='common_imgs spec_imgs'
