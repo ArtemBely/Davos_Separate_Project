@@ -252,7 +252,7 @@
   }
   .wrap_each_speaker {
 	grid-template-columns: repeat(5, 184px);
-	grid-template-rows: 400px 540px 375px 575px 460px 400px;
+	grid-template-rows: 400px 540px 375px 405px 580px 460px 380px;
    grid-column-gap: 9px;
 	grid-row-gap: 70px;
   }

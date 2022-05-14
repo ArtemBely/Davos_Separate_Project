@@ -347,22 +347,22 @@
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 434px 600px 444px 600px 503px 440px;
+      grid-template-rows: 440px 600px 444px 450px 600px  500px 450px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
 }
 #arys {
-  width: 154%;
+  width: 100%;
 }
 #noorani {
-  width: 170%;
+  width: 100%;
 }
 #mark {
-  width: 113%;
+  width: 100%;
 }
 #dobrauz {
-  width: 109%;
+  width: 100%;
 }
 #leonova {
   width: 100%;

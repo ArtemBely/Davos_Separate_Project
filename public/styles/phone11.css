@@ -294,8 +294,9 @@
     grid-column-gap: 9px;
 	  grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: repeat(3, 330px) 310px 500px 319px 209px 209px 291px 550px 340px 400px 420px 234px 211px;
+    grid-template-rows: repeat(3, 345px) 320px 500px 319px 239px 239px 315px 350px 550px 340px 395px 415px 320px 210px;
 	  grid-template-columns:repeat(2, 133px) ;
+	  height: 6200px;
   }
   .wrap_photo_sponsor{
 		height: 173px;
@@ -306,7 +307,7 @@
     width: auto;
   }
   #noorani {
-    width: 253px;
+    width: 100%;
   }
   #kris{
     position: relative;
