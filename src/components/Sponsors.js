@@ -78,7 +78,7 @@ function Sponsors() {
                      <div className='each_speaker del1'>
                             <p className='wrap_photo_sponsor'><img src={garry} className='each_quest'/></p>
                             <p className='name_of_speaker'>Garry Krugljakow</p>
-                            <p className='descr_of_speaker'>Founder & Degen</p>
+                            <p className='descr_of_speaker'>Founder & CEO of 0VIX and GOGO Protocols</p>
                      </div>
                      <div className='each_speaker del1'>
                             <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
@@ -86,7 +86,7 @@ function Sponsors() {
                             <p className='descr_of_speaker'>CEO and founder of Bancambios</p>
                     </div>
                     <div className='each_speaker del1'>
-                            <p className='wrap_photo_sponsor'><img src={emi} className='each_quest'/></p>
+                            <p className='wrap_photo_sponsor'><img src={emi} className='each_quest' id='emi'/></p>
                             <p className='name_of_speaker'>Emi Lorincz</p>
                             <p className='descr_of_speaker'> President of Crypto Valley Association,
                                 Director of Sales and Business Development at Ledger,
@@ -107,7 +107,7 @@ function Sponsors() {
                                <p className='name_of_speaker'>Caroline Taylor</p>
                                <p className='descr_of_speaker'>MetaverseTalks</p>
                         </div>
-                        <div className='each_speaker del1'>
+                        <div className='each_speaker del1' style={{display: "none"}}>
                                 <p className='wrap_photo_sponsor'><img src={bak} className='each_quest'/></p>
                                 <p className='name_of_speaker'>Georg Bak</p>
                                 <p className='descr_of_speaker'>MetaverseTalks</p>

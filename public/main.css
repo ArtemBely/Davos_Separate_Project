@@ -1654,9 +1654,18 @@ body {
     .footer {
         width: 286px;
     }
+    .investors {
+    height: 134px !important;
+}
     #logo {
       display: none;
     }
+    #sphere {
+      width: auto;
+      position: relative;
+      left: -14px;
+    }
+
     #youtube {
       grid-column: 6 / 7 !important;
       position: relative !important;
@@ -1731,6 +1740,12 @@ body {
           height: 93px !important;
           margin-bottom: 12px !important;
           z-index: 1;
+    }
+    .investors  {
+      width: 280px !important;
+      padding: 14px !important;
+      margin-bottom: 12px !important;
+      z-index: 1;
     }
     .wrap_lazy {
       width: 68px;
@@ -1828,7 +1843,7 @@ body {
     height: 796px !important;
 }
 .block44 {
-    height: 353px !important;
+    height: 480px !important;
 }
 .block55 {
     height: 365px !important;
@@ -5423,10 +5438,13 @@ body {
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 440px 600px 444px 450px 600px  500px 450px;
+      grid-template-rows: 440px 600px 444px 450px 600px  500px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
+}
+.investors {
+      height: 485px;
 }
 #arys {
   width: 100%;
@@ -5483,9 +5501,7 @@ body {
 #last_event {
   border-bottom: 2px solid #FFFFFF;
 }
-#bundi {
-  width: 300%;
-}
+
 .wrap_each_event {
   border-top: 2px solid #FFFFFF;
   display: grid;
@@ -5697,7 +5713,7 @@ body {
   height: 1349px !important;
 }
 .block4 {
-  height: 786px !important;
+  height: 950px !important;
 }
 .block5 {
   height: 786px !important;
@@ -5711,7 +5727,7 @@ body {
 .blockExtra {
   height: 625px !important;
 }
-.common_events_blocks, .common_events_blocks2 {
+.common_events_blocks, .common_events_blocks2, .investors {
   background-color: #111419;
   width: 410px;
   overflow: hidden;
@@ -6475,7 +6491,10 @@ body {
           justify-content: center;
 }
 .each_quest {
-    width: 131%;
+    width: 100%;
+}
+#emi {
+  width: 120%;
 }
 
 @media (min-width: 992px) and (max-width: 1320px) {
@@ -6840,8 +6859,11 @@ body {
 .common_events_blocks2 {
     height: 430px;
 }
-  .common_events_blocks, .common_events_blocks2 {
+  .common_events_blocks, .common_events_blocks2, .investors  {
     width: 466px;
+  }
+  .investors {
+    height: 515px;
   }
   .block1 {
       height: 725px !important;
@@ -6853,7 +6875,7 @@ body {
       height: 1218px !important;
   }
   .block4 {
-      height: 762px !important;
+      height: 819px !important;
   }
   .block5 {
       height: 791px !important;
@@ -6981,7 +7003,7 @@ body {
   }
   .wrap_each_speaker {
 	grid-template-columns: repeat(5, 184px);
-	grid-template-rows: 400px 540px 375px 405px 580px 460px 380px;
+	grid-template-rows: 400px 540px 375px 405px 580px 460px;
    grid-column-gap: 9px;
 	grid-row-gap: 70px;
   }
@@ -8083,11 +8105,11 @@ body {
   }
   .wrap_each_speaker {
     grid-column-gap: 9px;
-	  grid-row-gap: 34px;
+    grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: repeat(3, 345px) 320px 500px 319px 239px 239px 315px 350px 550px 340px 395px 415px 320px 210px;
-	  grid-template-columns:repeat(2, 133px) ;
-	  height: 6200px;
+    grid-template-rows: repeat(3, 345px) 320px 500px 319px 239px 239px 315px 424px 550px 340px 419px 318px;
+    grid-template-columns: repeat(2, 133px);
+    height: 5834px;
   }
   .wrap_photo_sponsor{
 		height: 173px;
@@ -8465,9 +8487,6 @@ body {
     position: absolute;
     width: auto;
 	  height: 173px;
-  }
-  #leonova {
-    height: 183px;
   }
   .tech_0_ai, .tech_0_dlt {
     width: 288px !important;

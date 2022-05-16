@@ -347,10 +347,13 @@
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 440px 600px 444px 450px 600px  500px 450px;
+      grid-template-rows: 440px 600px 444px 450px 600px  500px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
+}
+.investors {
+      height: 485px;
 }
 #arys {
   width: 100%;
@@ -407,9 +410,7 @@
 #last_event {
   border-bottom: 2px solid #FFFFFF;
 }
-#bundi {
-  width: 300%;
-}
+
 .wrap_each_event {
   border-top: 2px solid #FFFFFF;
   display: grid;

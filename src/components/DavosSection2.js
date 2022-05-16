@@ -67,7 +67,7 @@ function DavosSection2() {
                     <div className="download-wrap__strategic">
                         <img className="arrow-button__strategic" src={arrowBtn} alt="Download"/>
                         <img className="arrow-button__strategic2" src={blackArr} alt="Download"/>
-                        <a href='https://drive.google.com/file/d/1nJTsDGh93UCgp69S1Gmqs-aliN40dQJI/view?usp=sharing'
+                        <a href='https://drive.google.com/file/d/1C1FsHMBhubfKq2IGAvwzvw8ewy3Xc5x6/view?usp=sharing'
                          className="strategic-donwload__text">Download presentation</a>
                     </div>
                 </button>

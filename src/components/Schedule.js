@@ -54,6 +54,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
          'block77', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
       this.list1.current.classList.toggle('block1');
@@ -70,6 +71,7 @@ class Schedule extends React.Component {
         item.classList.remove('block11', 'block44',
           'block77', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
       this.list2.current.classList.toggle('block2');
@@ -86,6 +88,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
            'block77', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
         this.list3.current.classList.toggle('block3');
@@ -118,6 +121,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
           this.list5.current.classList.toggle('block5');
@@ -134,6 +138,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
          'block11', 'block77', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
           this.list6.current.classList.toggle('block6');
@@ -150,6 +155,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
          'block11', 'blockExtra2');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
           this.list7.current.classList.toggle('block7');
@@ -166,6 +172,7 @@ class Schedule extends React.Component {
         item.classList.remove('block22', 'block44',
          'block11', 'block77');
       });
+      this.list4.current.classList.remove('block44');
     }
     else {
       this.listExtra.current.classList.toggle('blockExtra');
@@ -248,22 +255,19 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts'>Evening reception with live music</p>
                    </div>
 
-                   <div className='common_events_blocks' ref={this.list4} onClick={this.openlist4}>
-                   <div className='wrap_lazy'><img src={space} className='common_imgs'/></div>
-                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>Emerging Technologies in crisis. </p></div>
+                   <div className='investors' ref={this.list4} onClick={this.openlist4}>
+                   <div className='wrap_lazy'><img src={space} className='common_imgs' id='sphere'/></div>
+                   <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>The Investor day: Insights from VCs with over 400 millions AUM</p></div>
                        <p className='low_title' id='may24'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr4} className='arrows'/></span></p>
-                           <p className='when_text common_txts gold_time'>9 am - 11 am</p>
-                           <p className='when_text common_txts'>Business media breakfast</p>
-                           <p className='when_text common_txts gold_time'>1 pm - 5 pm </p>
-                           <p className='when_text common_txts'>Real life case studies</p>
-                           <p className='when_text common_txts'>→ Cyber war </p>
-                          <p className='when_text common_txts'>→ Fintech in the times of crisis</p>
-                          <p className='when_text common_txts'>→ Volunteering and identity protection</p>
+                           <p className='when_text common_txts'>Among participants are VC funds with over 400 millions AUM, private investors, extremely fast growing blockchain\&tech projects. 
+                                  Funds and investors will shed the light on how it’s better 
 
-                          {/*<p className='when_text common_txts gold_time'>8 pm  - 11 pm </p>
-                          <p className='when_text common_txts'>Mass adoption of blockchain</p>
-                          <p className='when_text common_txts'>Rebuild with transparency</p>*/}
+                                  to streamline the process of setting up the business, pitching business models etc. 
 
+                                  Each project will not only participate in the FinTech Start up award, but also be given valuable assessment and feedback 
+
+                                  on strategy & business model presentation.
+                                  </p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
                    <div className='wrap_lazy'> <img

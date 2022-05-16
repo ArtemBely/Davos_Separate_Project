@@ -119,7 +119,7 @@
   height: 1349px !important;
 }
 .block4 {
-  height: 786px !important;
+  height: 950px !important;
 }
 .block5 {
   height: 786px !important;
@@ -133,7 +133,7 @@
 .blockExtra {
   height: 625px !important;
 }
-.common_events_blocks, .common_events_blocks2 {
+.common_events_blocks, .common_events_blocks2, .investors {
   background-color: #111419;
   width: 410px;
   overflow: hidden;

@@ -6,9 +6,18 @@
     .footer {
         width: 286px;
     }
+    .investors {
+    height: 134px !important;
+}
     #logo {
       display: none;
     }
+    #sphere {
+      width: auto;
+      position: relative;
+      left: -14px;
+    }
+
     #youtube {
       grid-column: 6 / 7 !important;
       position: relative !important;
@@ -83,6 +92,12 @@
           height: 93px !important;
           margin-bottom: 12px !important;
           z-index: 1;
+    }
+    .investors  {
+      width: 280px !important;
+      padding: 14px !important;
+      margin-bottom: 12px !important;
+      z-index: 1;
     }
     .wrap_lazy {
       width: 68px;
@@ -180,7 +195,7 @@
     height: 796px !important;
 }
 .block44 {
-    height: 353px !important;
+    height: 480px !important;
 }
 .block55 {
     height: 365px !important;

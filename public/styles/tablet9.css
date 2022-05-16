@@ -111,8 +111,11 @@
 .common_events_blocks2 {
     height: 430px;
 }
-  .common_events_blocks, .common_events_blocks2 {
+  .common_events_blocks, .common_events_blocks2, .investors  {
     width: 466px;
+  }
+  .investors {
+    height: 515px;
   }
   .block1 {
       height: 725px !important;
@@ -124,7 +127,7 @@
       height: 1218px !important;
   }
   .block4 {
-      height: 762px !important;
+      height: 819px !important;
   }
   .block5 {
       height: 791px !important;
@@ -252,7 +255,7 @@
   }
   .wrap_each_speaker {
 	grid-template-columns: repeat(5, 184px);
-	grid-template-rows: 400px 540px 375px 405px 580px 460px 380px;
+	grid-template-rows: 400px 540px 375px 405px 580px 460px;
    grid-column-gap: 9px;
 	grid-row-gap: 70px;
   }

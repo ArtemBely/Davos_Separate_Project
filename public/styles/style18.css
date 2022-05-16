@@ -286,5 +286,8 @@
           justify-content: center;
 }
 .each_quest {
-    width: 131%;
+    width: 100%;
+}
+#emi {
+  width: 120%;
 }
