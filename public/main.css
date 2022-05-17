@@ -7742,6 +7742,8 @@ body {
     justify-content: center;
   }
 }
+/*Day21*/
+
 
 /* DavosSection */
 
@@ -8783,5 +8785,607 @@ body {
     width: 20px !important;
     height: 358px !important;
   }
+}
+
+/*Day21*/
+.container_day{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+}
+.wrap_day21{
+	width: 1120px;
+}
+.day21_img{
+	margin: 25px 0 30px 0;
+	display: flex;
+	justify-content: center;
+}
+.day21_title{
+	font-family: 'WorkSans-Bold';
+	font-size: 75px;
+	line-height: 88px;
+	color: #F6DBA8;
+	letter-spacing: -0.02em;
+	text-align: center;
+	width: 480px;
+	margin: 0 auto;
+}
+.day21_data{
+	font-family: 'WorkSans-Thin';
+	font-size: 45px;
+	line-height: 54px;
+	color: #F6DBA8;
+	margin: 20px 0 35px 0;
+	text-align: center;
+}
+.wrap_day21_button{
+	display: flex;
+	justify-content: center;
+}
+.day21_button{
+	box-sizing: border-box;
+	text-decoration: none;
+	width: 410px;
+	height: 50px;
+	border: 1.5px solid #F5D7A1;
+	font-family: 'WorkSans-Light';
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 8px 146px;
+	transition: 0.5s;
+}
+.day21_button:hover{
+	background-color: #ffff;
+   color: #05060B;
+}
+.schedule_day21_title{
+	font-family: 'WorkSans-Bold';
+	letter-spacing: -0.02em;
+	font-size: 45px;
+	line-height: 63px;
+	margin: 200px 0 30px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+.schedule_day21{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 403px 410px;
+	grid-column-gap: 37px;
+	justify-content: center;
+}
+.schedule_block1, .schedule_block2{
+	width: 403px;
+	height: 329px;
+	background: #111419;
+	padding: 31px 26px;
+}
+.schedule_block2{
+	width: 410px;
+}
+.schedule_block_time{
+	font-family: 'WorkSans-Thin';
+	color: #F6DBA8;
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0 0 10px 0;
+}
+.schedule_block_text{
+	font-family: 'WorkSans-Bold';
+	color: #FFFFFF;
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0;
+}
+.schedule_block_text2{
+	font-family: 'WorkSans-Thin';
+	color: #FFFFFF;
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0 0 30px 0;
+	text-shadow: 0px 0px 13px #000000;
+}
+.schedule21_logo1, .schedule21_logo2, .schedule21_logo3,
+.schedule21_logo4, .schedule21_logo5{
+	position: relative;
+	display: inline-block;
+}
+.schedule21_logo1{
+	margin: 0 50px 0 0;
+}
+.schedule21_logo3{
+	margin-top: 30px;
+}
+.schedule21_logo4{
+	left: 50px;
+}
+.schedule21_logo5{
+	top: 28px;
+}
+.speakers_day21_title{
+	font-family: 'WorkSans-Bold';
+	font-size: 45px;
+	line-height: 53px;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	margin:200px 0 10px 0;
+	text-align: center;
+}
+.speakers_day21_subtitle{
+	font-family: 'WorkSans-Light';
+	font-size: 20px;
+	line-height: 32px;
+	color: #FAFAFA;
+	margin: 0;
+	text-align: center;
+}
+.speakers_day21_wrap{
+	display: grid;
+	margin: 30px 0 0 0;
+	grid-template-columns: repeat(5, 230px);
+	grid-column-gap: 35px;
+	justify-content: center;
+}
+.day21_speaker{
+	width: 230px;
+	height: 500px;
+}
+.wrap_photo_d21{
+	width: 230px;
+}
+.nameSpeaker_d21{
+	color: #F6DBA8;
+	font-size: 20px;
+	line-height: 160%;
+	font-family: "WorkSans-Bold";
+	text-align: center;
+	padding: 15px 0px;
+}
+.descrSpeaker_d21{
+	color: #FAFAFA;
+	font-size: 20px;
+	line-height: 160%;
+	text-align: center;
+	position: relative;
+}
+.partners_day21_title{
+	color: #FFFFFF;
+	font-size: 45px;
+	line-height: 53px;
+	font-family: "WorkSans-Bold";
+	letter-spacing: -0.02em;
+	margin: 200px 0 0 0;
+	text-align: center;
+}
+.wrap_partners_day21{
+	justify-content: center;
+	display: grid;
+	margin: 63px 0 0 0;
+	grid-template-columns: repeat(4,300px);
+	grid-template-rows: repeat(2, 139px);
+	grid-gap: 30px;
+}
+.partner_1, .partner_2, .partner_3,
+.partner_4, .partner_5{
+	text-align: center;
+   align-self: center;
+}
+.partners_day21_btn{
+	box-sizing: border-box;
+	text-decoration: none;
+	width: 410px;
+	height: 50px;
+	border: 1.5px solid #F5D7A1;
+	font-family: 'WorkSans-Light';
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding: 5px 117.5px;
+	transition: 0.5s;
+	margin-top: 40px;
+	position: relative;
+}
+.partners_day21_btn:hover{
+	background-color: #ffff;
+   color: #05060B;
+}
+.strategic{
+	top: 200px;
+}
+.margin-top{
+	margin-top: 0;
+}
+@media (min-width: 992px) and (max-width: 1290px) {
+	/*Day21*/
+	.wrap_day21{
+		width: 930px;
+	}
+	.day21_img{
+		margin: 25px 0 30px 0;
+	}
+	#img_day21{
+		width: 992px;
+	}
+	.speakers_day21_wrap{
+		margin: 30px 0 0 0;
+		grid-template-columns: repeat(5, 180px);
+		grid-column-gap: 6px;
+	}
+	.day21_speaker{
+		width: 180px;
+		height: 500px;
+	}
+	.wrap_photo_d21{
+		width: 180px;
+	}
+	.speaker_day21{
+		width: 180px;
+	}
+	.nameSpeaker_d21{
+		font-size: 20px;
+		line-height: 160%;
+		padding: 15px 0px;
+	}
+	.descrSpeaker_d21{
+		font-size: 20px;
+		line-height: 160%;
+		width: 180px;
+	}
+	.wrap_partners_day21{
+		justify-content: center;
+		display: grid;
+		margin: 63px 0 0 0;
+		grid-template-columns: repeat(4,200px);
+		grid-template-rows: repeat(2, 139px);
+		grid-gap: 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.wrap_day21{
+		width: 690px;
+	}
+	#img_day21{
+		width: 768px;
+	}
+	.schedule_day21{
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 330px 330px;
+		grid-column-gap: 30px;
+		justify-content: center;
+	}
+	.schedule_block1, .schedule_block2{
+		width: 330px;
+		height: 329px;
+		background: #111419;
+		padding: 25px 20px;
+	}
+	.schedule_block2{
+		width: 330px;
+	}
+	.schedule_block_time{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0 0 10px 0;
+	}
+	.schedule_block_text{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0;
+	}
+	.schedule_block_text2{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0 0 20px 0;
+	}
+	.schedule21_logo2{
+		top: -27px;
+		left: 160px;
+	}
+	.schedule21_logo3{
+		margin-top: 20px;
+	}
+	.schedule21_logo4{
+		left: 30px;
+	}
+	.schedule21_logo5{
+		top: 20px;
+	}
+	.day21_speaker{
+		width: 210px;
+		height: 450px;
+	}
+	.wrap_photo_d21{
+		width: 210px;
+	}
+	.speaker_day21{
+		width: 210px;
+	}
+	.speakers_day21_wrap{
+		margin: 30px 0 0 0;
+		grid-template-columns: repeat(3, 210px);
+		grid-column-gap: 20px;
+		grid-row-gap: 30px;
+	}
+	.wrap_partners_day21{
+		margin: 63px 0 0 0;
+		grid-template-columns: repeat(3,200px);
+		grid-template-rows: repeat(2, 139px);
+		grid-gap: 30px;
+	}
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.wrap_day21{
+		width: 513px;
+	}
+	#img_day21{
+		width: 500px;
+	}
+	.day21_img{
+		margin: 23px 0 20px 0;
+	}
+	.day21_title{
+		font-size: 35px;
+		line-height: 40px;
+		width: 280px;
+	}
+	.day21_data{
+		font-size: 30px;
+		line-height: 35px;
+		margin: 14px 0 24px 0;
+	}
+	.day21_button{
+		width: 276px;
+		height: 56px;
+		font-size: 19px;
+		line-height: 28px;
+		padding: 10px 85px;
+	}
+	.schedule_day21_title{
+		font-size: 30px;
+		line-height: 40px;
+		margin: 100px 0 20px 0;
+	}
+	.schedule_day21{
+		grid-template-columns: 280px;
+		grid-template-rows: 251px 251px;
+		grid-row-gap: 10px;
+		grid-column-gap: 0px;
+	}
+	.schedule_block1, .schedule_block2{
+		width: 280px;
+		height: 251px;
+		padding: 31px 26px;
+	}
+	#sch21_logo1{
+		width: 97px;
+	}
+	#sch21_logo2{
+		width: 81px;
+	}
+	#sch21_logo3{
+		width: 76px;
+	}
+	#sch21_logo4, #sch21_logo5{
+		width: 90px;
+	}
+	.schedule_block_time, .schedule_block_text,
+	.schedule_block_text2{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.schedule21_logo2{
+		top: 0px;
+		left: 0px;
+	}
+	.schedule21_logo3{
+		margin-top: 30px;
+	}
+	.schedule21_logo4{
+		left: 50px;
+	}
+	.schedule21_logo5{
+		top: 20px;
+	}
+	.speakers_day21_title{
+		font-size: 25px;
+		line-height: 29px;
+		margin:100px 0 4px 0;
+	}
+	.speaker_day21{
+		width: 130px;
+	}
+	.speakers_day21_subtitle{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.speakers_day21_wrap{
+		margin: 12px 0 0 0;
+		grid-template-columns: repeat(2, 210px);
+		grid-gap: 20px;
+	}
+	.day21_speaker{
+		width: 210px;
+		height: 380px;
+	}
+	.wrap_photo_d21{
+		width: 210px;
+	}
+	.nameSpeaker_d21{
+		font-size: 18px;
+		line-height: 28px;
+		padding: 15px 0px;
+	}
+	.descrSpeaker_d21{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.partners_day21_title{
+		font-size: 30px;
+		line-height: 40px;
+		margin: 100px 0 0 0;
+	}
+	.wrap_partners_day21{
+		margin: 18px 0 0 0;
+		grid-template-columns: repeat(2,200px);
+		grid-template-rows: repeat(3, 63px);
+		grid-gap: 20px;
+	}
+	.partners_day21_btn{
+		width: 280px;
+		height: 56px;
+		font-size: 16px;
+		line-height: 26px;
+		padding: 13px 70px;
+		margin-top: 14px;
+	}
+	.strategic{
+		top: 100px;
+	}
+	#cardano_d21, #polkadot_d21, #pax_d21,
+	#hologram_d21, #trust_d21{
+		width: 180px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+	.wrap_day21{
+		width: 290px;
+	}
+	#img_day21{
+		width: 280px;
+	}
+	.day21_img{
+		margin: 23px 0 20px 0;
+	}
+	.day21_title{
+		font-size: 30px;
+		line-height: 35px;
+		width: 280px;
+	}
+	.day21_data{
+		font-size: 25px;
+		line-height: 30px;
+		margin: 14px 0 24px 0;
+	}
+	.day21_button{
+		width: 276px;
+		height: 56px;
+		font-size: 16px;
+		line-height: 26px;
+		padding: 15px 92.5px;
+	}
+	.schedule_day21_title{
+		font-size: 25px;
+		line-height: 35px;
+		margin: 100px 0 10px 0;
+	}
+	.schedule_day21{
+		grid-template-columns: 280px;
+		grid-template-rows: 251px 251px;
+		grid-row-gap: 10px;
+		grid-column-gap: 0px;
+	}
+	.schedule_block1, .schedule_block2{
+		width: 280px;
+		height: 251px;
+		padding: 31px 26px;
+	}
+	#sch21_logo1{
+		width: 97px;
+	}
+	#sch21_logo2{
+		width: 81px;
+	}
+	#sch21_logo3{
+		width: 76px;
+	}
+	#sch21_logo4, #sch21_logo5{
+		width: 90px;
+	}
+	.schedule_block_time, .schedule_block_text,
+	.schedule_block_text2{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.schedule21_logo2{
+		top: 0px;
+		left: 0px;
+	}
+	.schedule21_logo3{
+		margin-top: 30px;
+	}
+	.schedule21_logo4{
+		left: 50px;
+	}
+	.schedule21_logo5{
+		top: 20px;
+	}
+	.speakers_day21_title{
+		font-size: 25px;
+		line-height: 29px;
+		margin:100px 0 4px 0;
+	}
+	.speaker_day21{
+		width: 130px;
+	}
+	.speakers_day21_subtitle{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.speakers_day21_wrap{
+		margin: 12px 0 0 0;
+		grid-template-columns: repeat(2, 130px);
+		grid-gap: 20px;
+	}
+	.day21_speaker{
+		width: 130px;
+		height: 380px;
+	}
+	.wrap_photo_d21{
+		width: 130px;
+	}
+	.nameSpeaker_d21{
+		font-size: 16px;
+		line-height: 26px;
+		padding: 15px 0px;
+	}
+	.descrSpeaker_d21{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.partners_day21_title{
+		font-size: 25px;
+		line-height: 29px;
+		margin: 100px 0 0 0;
+	}
+	.wrap_partners_day21{
+		margin: 18px 0 0 0;
+		grid-template-columns: repeat(2,136px);
+		grid-template-rows: repeat(3, 63px);
+		grid-gap: 8px;
+	}
+	.partners_day21_btn{
+		width: 280px;
+		height: 56px;
+		font-size: 16px;
+		line-height: 26px;
+		padding: 13px 70px;
+		margin-top: 14px;
+	}
+	.strategic{
+		top: 100px;
+	}
+	#cardano_d21, #polkadot_d21, #pax_d21,
+	#hologram_d21, #trust_d21{
+		width: 125px;
+	}
 }
 

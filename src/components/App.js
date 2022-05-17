@@ -51,6 +51,10 @@ import '../../public/styles/phone9.css';
 import '../../public/styles/phone10.css';
 import '../../public/styles/phone11.css';
 import '../../public/styles/phone12.css';
+//Day21
+import '../../public/styles/style19.css';
+import '../../public/styles/tablet12.css';
+import '../../public/styles/phone13.css';
 
 class App extends React.Component {
   render() {

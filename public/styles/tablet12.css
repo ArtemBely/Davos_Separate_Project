@@ -1,0 +1,122 @@
+@media (min-width: 992px) and (max-width: 1290px) {
+	/*Day21*/
+	.wrap_day21{
+		width: 930px;
+	}
+	.day21_img{
+		margin: 25px 0 30px 0;
+	}
+	#img_day21{
+		width: 992px;
+	}
+	.speakers_day21_wrap{
+		margin: 30px 0 0 0;
+		grid-template-columns: repeat(5, 180px);
+		grid-column-gap: 6px;
+	}
+	.day21_speaker{
+		width: 180px;
+		height: 500px;
+	}
+	.wrap_photo_d21{
+		width: 180px;
+	}
+	.speaker_day21{
+		width: 180px;
+	}
+	.nameSpeaker_d21{
+		font-size: 20px;
+		line-height: 160%;
+		padding: 15px 0px;
+	}
+	.descrSpeaker_d21{
+		font-size: 20px;
+		line-height: 160%;
+		width: 180px;
+	}
+	.wrap_partners_day21{
+		justify-content: center;
+		display: grid;
+		margin: 63px 0 0 0;
+		grid-template-columns: repeat(4,200px);
+		grid-template-rows: repeat(2, 139px);
+		grid-gap: 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.wrap_day21{
+		width: 690px;
+	}
+	#img_day21{
+		width: 768px;
+	}
+	.schedule_day21{
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 330px 330px;
+		grid-column-gap: 30px;
+		justify-content: center;
+	}
+	.schedule_block1, .schedule_block2{
+		width: 330px;
+		height: 329px;
+		background: #111419;
+		padding: 25px 20px;
+	}
+	.schedule_block2{
+		width: 330px;
+	}
+	.schedule_block_time{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0 0 10px 0;
+	}
+	.schedule_block_text{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0;
+	}
+	.schedule_block_text2{
+		font-size: 23px;
+		line-height: 38px;
+		margin: 0 0 20px 0;
+	}
+	.schedule21_logo2{
+		top: -27px;
+		left: 160px;
+	}
+	.schedule21_logo3{
+		margin-top: 20px;
+	}
+	.schedule21_logo4{
+		left: 30px;
+	}
+	.schedule21_logo5{
+		top: 20px;
+	}
+	.day21_speaker{
+		width: 210px;
+		height: 450px;
+	}
+	.wrap_photo_d21{
+		width: 210px;
+	}
+	.speaker_day21{
+		width: 210px;
+	}
+	.speakers_day21_wrap{
+		margin: 30px 0 0 0;
+		grid-template-columns: repeat(3, 210px);
+		grid-column-gap: 20px;
+		grid-row-gap: 30px;
+	}
+	.wrap_partners_day21{
+		margin: 63px 0 0 0;
+		grid-template-columns: repeat(3,200px);
+		grid-template-rows: repeat(2, 139px);
+		grid-gap: 30px;
+	}
+}
+
+
+
