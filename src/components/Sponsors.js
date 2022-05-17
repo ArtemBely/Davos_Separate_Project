@@ -44,6 +44,7 @@ import jasmin from '../../public/images/Jasmin Karatas.png';
 import oskar from '../../public/images/Oscar L. Andrade.png';
 import fazel from '../../public/images/alexander Fazel.png';
 import fazel2 from '../../public/images/cyrus fazel.png';
+import wyss from '../../public/images/Matthias Wyss.png';
 
 
 function Sponsors() {
@@ -74,7 +75,7 @@ function Sponsors() {
                             <p className='descr_of_speaker'>Serial Entrepreneur & Investor focused on FinTech</p>
                      </div>
                      <div className='each_speaker del1'>
-                            <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                            <p className='wrap_photo_sponsor'><img src={wyss} className='each_quest'/></p>
                             <p className='name_of_speaker'>Matthias Wyss</p>
                             <p className='descr_of_speaker'>CEO of Pax World</p>
                     </div>

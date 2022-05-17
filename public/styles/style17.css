@@ -5,6 +5,9 @@
   grid-template-columns: repeat(2, 1fr);
       left: 54px;
 }
+.wrap_star {
+  height: 485px;
+}
 .wrap_alert {
   position: relative;
   width: 100%;

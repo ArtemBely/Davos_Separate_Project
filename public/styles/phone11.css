@@ -9,6 +9,9 @@
   #img10 {
     position: relative;
   }
+  .wrap_star {
+    height: 157px;
+  }
   #img13 {
     position: relative;
     grid-column: 1 / 2;
