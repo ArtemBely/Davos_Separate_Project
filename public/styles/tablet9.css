@@ -45,6 +45,31 @@
   }
 }
 @media (min-width: 576px) and (max-width: 1520px) {
+  .wrap_finance {
+      top: 151px;
+  }
+  .finance {
+       width: 992px;
+       margin: 118px 0px;
+  }
+  .future_title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .middle_grid {
+    margin-left: -23px;
+  }
+  .agendas_panel {
+        width: 240px;
+  }
+  .wrap_future {
+    top: 109px;
+    left: 22px;
+  }
+  .wrap_arr2 {
+    top: 0px;
+    left: -66px;
+  }
   .wrap_emtech {
     overflow: hidden;
   }
@@ -254,10 +279,10 @@
     width: 992px;
   }
   .wrap_each_speaker {
-	grid-template-columns: repeat(5, 184px);
-	grid-template-rows: 400px 540px 375px 405px 580px 460px;
-   grid-column-gap: 9px;
-	grid-row-gap: 70px;
+    grid-template-columns: repeat(5, 184px);
+    grid-template-rows: 572px 400px 397px 459px 454px 400px 430px 399px 365px;
+    grid-column-gap: 9px;
+    grid-row-gap: 70px;
   }
   .name_of_speaker, .descr_of_speaker{
 	  font-size: 19px;

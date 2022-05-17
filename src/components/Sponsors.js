@@ -2,7 +2,7 @@ import React from 'react';
 import oracles from '../../public/images/Group 492.jpg';
 import quest from '../../public/images/Group 584.png';
 import max from '../../public/images/Maxime N.Nassour.png';
-import emi from '../../public/images/E.Lorincz.jpeg';
+import emi from '../../public/images/Emi Lorincz.png';
 import kris from '../../public/images/Kristina Lucrezia Cornèr.png';
 import caroline from '../../public/images/Caroline Taylor.png';
 import al from '../../public/images/Alena Udina.png';
@@ -26,8 +26,24 @@ import ramesh from '../../public/images/Ramesh Ramadoss.png';
 import john from '../../public/images/John deVadoss.png';
 import oliver from '../../public/images/Oliver Mag Gingrich.png';
 import olga from '../../public/images/Olga Cooper.png';
-
-
+import frank from '../../public/images/Frank Fitzgerald.png';
+import dietz from '../../public/images/Joel Dietz.png';
+import pinna from '../../public/images/Daniele Pinna.png';
+import nov from '../../public/images/Владимир Новицкий.png';
+import lar from '../../public/images/Victor Larionov.png';
+import kumardev from '../../public/images/Kumardev Chatterjee.png';
+import florian from '../../public/images/Florian Ducommun.png';
+import anna from '../../public/images/Anna Tutova.png';
+import ahmed from '../../public/images/Sheraz Ahmed.png';
+import palma from '../../public/images/Giovanni Palma.png';
+import pavlov from '../../public/images/Alexey Pavlov.png';
+import senn from '../../public/images/Benjamin Senn.png';
+import bud from '../../public/images/Dyma Budorin.png';
+import fed from '../../public/images/Federica Palma.png';
+import jasmin from '../../public/images/Jasmin Karatas.png';
+import oskar from '../../public/images/Oscar L. Andrade.png';
+import fazel from '../../public/images/alexander Fazel.png';
+import fazel2 from '../../public/images/cyrus fazel.png';
 
 
 function Sponsors() {
@@ -40,6 +56,13 @@ function Sponsors() {
                      <p className='speaker_text'>Will be announced soon</p>
                   </div>
                   <div className='wrap_each_speaker'>
+                  <div className='each_speaker del1'>
+                          <p className='wrap_photo_sponsor'><img src={noorani} className='each_quest' id='noorani'/></p>
+                          <p className='name_of_speaker'>Adnan Al Noorani</p>
+                          <p className='descr_of_speaker'>Founder of the Future Innovation Summit
+                           and the Chairman of the Board of the Private Office of
+                           Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies</p>
+                   </div>
                      <div className='each_speaker'>
                             <p className='wrap_photo_sponsor'><img src={zahn} className='each_quest'/></p>
                             <p className='name_of_speaker'>Philipp Zahn</p>
@@ -48,27 +71,22 @@ function Sponsors() {
                      <div className='each_speaker'>
                             <p className='wrap_photo_sponsor'><img src={ammer} className='each_quest'/></p>
                             <p className='name_of_speaker'>Victor Ammer</p>
-                            <p className='descr_of_speaker'>Serial Entrepreneur & Investor focused on FinTech - Trustody</p>
-                     </div>
-                     <div className='each_speaker del1'>
-                            <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
-                            <p className='name_of_speaker'>Giovanni Palma</p>
-                            <p className='descr_of_speaker'>Owner MDH Hologram - MDH Hologram</p>
+                            <p className='descr_of_speaker'>Serial Entrepreneur & Investor focused on FinTech</p>
                      </div>
                      <div className='each_speaker del1'>
                             <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
                             <p className='name_of_speaker'>Matthias Wyss</p>
-                            <p className='descr_of_speaker'>CEO of metameet, creators of pax.world - Pax World</p>
+                            <p className='descr_of_speaker'>CEO of Pax World</p>
                     </div>
                     <div className='each_speaker del1'>
                             <p className='wrap_photo_sponsor'><img src={max} className='each_quest'/></p>
                             <p className='name_of_speaker'>Maxime N.Nassour</p>
-                            <p className='descr_of_speaker'>Co-Founder & SEO - Saphi international Holding Corp</p>
+                            <p className='descr_of_speaker'>Co-Founder & SEO of Saphi international Holding Corp.</p>
                      </div>
                      <div className='each_speaker'>
                             <p className='wrap_photo_sponsor'><img src={marina} className='each_quest'/></p>
                             <p className='name_of_speaker'>Marina Markezic</p>
-                            <p className='descr_of_speaker'>Co-Founder - European Crypto Initiative</p>
+                            <p className='descr_of_speaker'>Co-Founder of European Crypto Initiative</p>
                      </div>
                      <div className='each_speaker'>
                             <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
@@ -81,16 +99,14 @@ function Sponsors() {
                             <p className='descr_of_speaker'>Founder & CEO of 0VIX and GOGO Protocols</p>
                      </div>
                      <div className='each_speaker del1'>
-                            <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                            <p className='wrap_photo_sponsor'><img src={oskar} className='each_quest'/></p>
                             <p className='name_of_speaker'>Oscar L. Andrade</p>
                             <p className='descr_of_speaker'>CEO and founder of Bancambios</p>
                     </div>
                     <div className='each_speaker del1'>
                             <p className='wrap_photo_sponsor'><img src={emi} className='each_quest' id='emi'/></p>
                             <p className='name_of_speaker'>Emi Lorincz</p>
-                            <p className='descr_of_speaker'> President of Crypto Valley Association,
-                                Director of Sales and Business Development at Ledger,
-                                Board Member of Bancor - Crypto Valley Association</p>
+                            <p className='descr_of_speaker'> President of Crypto Valley Association</p>
                      </div>
                      <div className='each_speaker del1'>
                              <p className='wrap_photo_sponsor'><img src={kris} className='each_quest' id='kris'/></p>
@@ -102,7 +118,7 @@ function Sponsors() {
                               <p className='name_of_speaker'>Alena Yudina</p>
                               <p className='descr_of_speaker'>Host of the EmTech Invest Hub at Davos</p>
                        </div>
-                       <div className='each_speaker del1'>
+                       <div className='each_speaker del1' style={{display: "none"}}>
                                <p className='wrap_photo_sponsor'><img src={caroline} className='each_quest' /></p>
                                <p className='name_of_speaker'>Caroline Taylor</p>
                                <p className='descr_of_speaker'>MetaverseTalks</p>
@@ -113,14 +129,14 @@ function Sponsors() {
                                 <p className='descr_of_speaker'>MetaverseTalks</p>
                          </div>
                          <div className='each_speaker del1'>
-                                 <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                 <p className='wrap_photo_sponsor'><img src={jasmin} className='each_quest'/></p>
                                  <p className='name_of_speaker'>Jasmin Karatas</p>
-                                 <p className='descr_of_speaker'>MetaverseTalks</p>
+                                 <p className='descr_of_speaker'>Solopreneur, Gamification Advisor & Strategic Designer</p>
                           </div>
                           <div className='each_speaker del1'>
                                   <p className='wrap_photo_sponsor'><img src={flückiger} className='each_quest' id='leonie'/></p>
                                   <p className='name_of_speaker'>Leonie Flückiger</p>
-                                  <p className='descr_of_speaker'>MetaverseTalks</p>
+                                  <p className='descr_of_speaker'>Co-Founder Adresta AG of MetaverseTalks</p>
                            </div>
                            <div className='each_speaker del1'>
                                    <p className='wrap_photo_sponsor'><img src={yuan} className='each_quest' id='yuan'/></p>
@@ -144,18 +160,11 @@ function Sponsors() {
                              </div>
                              <div className='each_speaker del1'>
                                      <p className='wrap_photo_sponsor'><img src={leonova} className='each_quest' id='leonova'/></p>
-                                     <p className='name_of_speaker'>Dr. Leonova</p>
+                                     <p className='name_of_speaker'>Dr. Yana Leonova</p>
                                      <p className='descr_of_speaker'>A Deputy GM and a Head of Innovation and
                                                     Technology in the Private Office of HH Sheikh Saqer al Qasimi</p>
                               </div>
-                              <div className='each_speaker del1'>
-                                      <p className='wrap_photo_sponsor'><img src={noorani} className='each_quest' id='noorani'/></p>
-                                      <p className='name_of_speaker'>Adnan Al Noorani</p>
-                                      <p className='descr_of_speaker'>Founder of the Future Innovation Summit and
-                                                     the Chairman of the Board of the Private
-                                                     Office of Sheikh Saqer Bin Mohamed Al Qasimi
-                                                     and Group of Companies</p>
-                               </div>
+
                                <div className='each_speaker del1'>
                                        <p className='wrap_photo_sponsor'><img src={arys} className='each_quest' id='arys'/></p>
                                        <p className='name_of_speaker'>Thierry Arys Ruiz</p>
@@ -186,9 +195,7 @@ function Sponsors() {
                                    <div className='each_speaker del1'>
                                            <p className='wrap_photo_sponsor'><img src={dobrauz} className='each_quest' id='dobrauz'/></p>
                                            <p className='name_of_speaker'>Guenther Dobrauz</p>
-                                           <p className='descr_of_speaker'>Partner& Leader PwC Legal Switzerland,
-                                                      Member of PwC`s Global,
-                                                      Legal Leadership Team</p>
+                                           <p className='descr_of_speaker'>Partner & Leader PwC Legal Switzerland</p>
                                     </div>
                                     <div className='each_speaker del1'>
                                             <p className='wrap_photo_sponsor'><img src={dustin} className='each_quest'/></p>
@@ -197,7 +204,7 @@ function Sponsors() {
                                                       Forbes Monaco,
                                                       Founder Crypterns.com</p>
                                      </div>
-                                     <div className='each_speaker del1'>
+                                     <div className='each_speaker del1' style={{display: "none"}}>
                                              <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
                                              <p className='name_of_speaker'>Sheila Warren</p>
                                              <p className='descr_of_speaker'></p>
@@ -212,6 +219,86 @@ function Sponsors() {
                                                <p className='name_of_speaker'>John deVadoss</p>
                                                <p className='descr_of_speaker'>Board Member of Global Business Blockchain Council</p>
                                 </div>
+                                <div className='each_speaker del1'>
+                                        <p className='wrap_photo_sponsor'><img src={frank} className='each_quest'/></p>
+                                        <p className='name_of_speaker'>Frank Fitzgerald</p>
+                                        <p className='descr_of_speaker'>Founder of Pax World</p>
+                             </div>
+                             <div className='each_speaker del1'>
+                                     <p className='wrap_photo_sponsor'><img src={dietz} className='each_quest'/></p>
+                                     <p className='name_of_speaker'>Joel Dietz</p>
+                                     <p className='descr_of_speaker'>CEO Metaverse of MetaverseTalks</p>
+                          </div>
+                          <div className='each_speaker del1'>
+                                  <p className='wrap_photo_sponsor'><img src={pinna} className='each_quest'/></p>
+                                  <p className='name_of_speaker'>Daniele Pinna</p>
+                                  <p className='descr_of_speaker'>Head of Quantitative Research, Investment at 0VIX</p>
+                       </div>
+                       <div className='each_speaker del1'>
+                               <p className='wrap_photo_sponsor'><img src={nov} className='each_quest'/></p>
+                               <p className='name_of_speaker'>Vladimir Novitskiy</p>
+                               <p className='descr_of_speaker'>Founder of GoWeb Capital</p>
+                    </div>
+                    <div className='each_speaker del1'>
+                            <p className='wrap_photo_sponsor'><img src={lar} className='each_quest'/></p>
+                            <p className='name_of_speaker'>Victor Larionov</p>
+                            <p className='descr_of_speaker'>Partner of Unirock.partners</p>
+                 </div>
+                 <div className='each_speaker del1'>
+                         <p className='wrap_photo_sponsor'><img src={kumardev} className='each_quest'/></p>
+                         <p className='name_of_speaker'>Kumardev Chatterjee</p>
+                         <p className='descr_of_speaker'>Co-Founder of NEOM Cognitive Metaverse, member of WEF</p>
+                  </div>
+                  <div className='each_speaker del1'>
+                          <p className='wrap_photo_sponsor'><img src={florian} className='each_quest'/></p>
+                          <p className='name_of_speaker'>Florian Ducommun</p>
+                          <p className='descr_of_speaker'>Partner at Bonnard Lawson International Law Firm</p>
+                   </div>
+                   <div className='each_speaker del1'>
+                           <p className='wrap_photo_sponsor'><img src={anna} className='each_quest'/></p>
+                           <p className='name_of_speaker'>Anna Tutova</p>
+                           <p className='descr_of_speaker'>CEO of Coinstelegram</p>
+                    </div>
+                    <div className='each_speaker del1'>
+                            <p className='wrap_photo_sponsor'><img src={ahmed} className='each_quest'/></p>
+                            <p className='name_of_speaker'>Sheraz Ahmed</p>
+                            <p className='descr_of_speaker'>Crypto Valley Association, Managing Partner of STORM Partners</p>
+                     </div>
+                     <div className='each_speaker del1'>
+                             <p className='wrap_photo_sponsor'><img src={palma} className='each_quest'/></p>
+                             <p className='name_of_speaker'>Giovanni Palma</p>
+                             <p className='descr_of_speaker'>Founder of MDH Hologram</p>
+                      </div>
+                      <div className='each_speaker del1'>
+                              <p className='wrap_photo_sponsor'><img src={pavlov} className='each_quest'/></p>
+                              <p className='name_of_speaker'>Alexey Pavlov</p>
+                              <p className='descr_of_speaker'></p>
+                       </div>
+                       <div className='each_speaker del1'>
+                               <p className='wrap_photo_sponsor'><img src={senn} className='each_quest'/></p>
+                               <p className='name_of_speaker'>Benjamin Senn</p>
+                               <p className='descr_of_speaker'></p>
+                        </div>
+                       <div className='each_speaker del1'>
+                               <p className='wrap_photo_sponsor'><img src={bud} className='each_quest'/></p>
+                               <p className='name_of_speaker'>Dyma Budorin</p>
+                               <p className='descr_of_speaker'>Founder and CEO of Hacken</p>
+                        </div>
+                         <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={fed} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Federica Palma</p>
+                                 <p className='descr_of_speaker'>Director of Studio Tangram srl</p>
+                         </div>
+                         <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={fazel} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Alexander Fazel </p>
+                                 <p className='descr_of_speaker'>Chief Partnerships Officer at SwissBorg</p>
+                          </div>
+                           <div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={fazel2} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Cyrus Fazel</p>
+                                   <p className='descr_of_speaker'>Founder and CEO of SwissBorg</p>
+                           </div>
                   </div>
               </div>
         </div>

@@ -9,6 +9,7 @@ import Sponsors from './Sponsors';
 const Schedule = loadable(() => import('./Schedule'), { fallback: <div>Loading...</div> });
 const Branding = loadable(() => import('./Branding'), { fallback: <div>Loading...</div> });
 import Team from './Team';
+const Finance = loadable(() => import('./Finance'), { fallback: <div>Loading...</div> });
 const Media = loadable(() => import('./Media'), { fallback: <div>Loading...</div> });
 import Location from './Location';
 import Footer from './Footer';
@@ -24,11 +25,11 @@ class Main extends React.Component{
           <When />
           <Sponsors />
           <Schedule />
+          <Finance />
           <Branding />
           <Team />
           <DavosMain />
           <DavosSection2 />
-          
           <Location />
           <Footer />
       </div>

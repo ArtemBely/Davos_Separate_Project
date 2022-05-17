@@ -294,9 +294,9 @@
     grid-column-gap: 9px;
     grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: repeat(3, 345px) 320px 500px 319px 239px 239px 315px 424px 550px 340px 419px 318px;
+    grid-template-rows: 551px 317px 344px 317px 288px 317px 343px 317px 319px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px;
     grid-template-columns: repeat(2, 133px);
-    height: 5834px;
+    height: 8077px;
   }
   .wrap_photo_sponsor{
 		height: 173px;

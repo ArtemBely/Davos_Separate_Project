@@ -6,6 +6,65 @@
     .footer {
         width: 286px;
     }
+    .wrap_finance {
+          margin-bottom: 85px !important;
+    }
+    .panels2, .gold_time2 {
+          font-size: 16px !important;
+    }
+    .finance {
+      height: 249px !important;
+          margin: 0!important;
+    }
+    #for_i {
+      display: none;
+    }
+    #star {
+          left: 368px !important;
+          top: 10px !important;
+          width: 350px !important;
+  }
+  .wrap_future {
+        top: 198px !important;
+        left: -357px !important;
+}
+#may25 {
+  top: -6px;
+  left: 0px;
+}
+  .future_title {
+    font-size: 16px !important;
+    line-height: 140% !important;
+    top: -7px;
+    position: relative;
+  }
+  .agendas {
+    font-size: 16px !important;
+    line-height: 140% !important;
+  }
+  #ag {
+    width: 300px;
+  }
+  .show_finance {
+    height: auto !important;
+    padding-bottom: 513px !important;
+}
+  #lm {
+    left: -110px !important;
+    top: 352px !important;
+  }
+  .low_grids {
+    top: 97px !important;
+    left: 305px !important;
+  }
+  .low_grids3 {
+    top: 546px !important;
+    left: -381px !important;
+  }
+  .wrap_arr2 {
+    top: -35px !important;
+    left: -155px !important;
+}
     .investors {
     height: 134px !important;
 }
@@ -260,12 +319,12 @@
       width: 178px !important;
     }
     .low_title {
-      font-size: 16px !important;
-      line-height: 25px !important;
-      width: 156px !important;
-      position: relative;
-      top: -90px;
-      left: 82px;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        width: 156px !important;
+        position: relative;
+        top: -90px;
+        left: 82px;
     }
     .common_imgs {
       width: 68px;

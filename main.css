@@ -1654,6 +1654,65 @@ body {
     .footer {
         width: 286px;
     }
+    .wrap_finance {
+          margin-bottom: 85px !important;
+    }
+    .panels2, .gold_time2 {
+          font-size: 16px !important;
+    }
+    .finance {
+      height: 249px !important;
+          margin: 0!important;
+    }
+    #for_i {
+      display: none;
+    }
+    #star {
+          left: 368px !important;
+          top: 10px !important;
+          width: 350px !important;
+  }
+  .wrap_future {
+        top: 198px !important;
+        left: -357px !important;
+}
+#may25 {
+  top: -6px;
+  left: 0px;
+}
+  .future_title {
+    font-size: 16px !important;
+    line-height: 140% !important;
+    top: -7px;
+    position: relative;
+  }
+  .agendas {
+    font-size: 16px !important;
+    line-height: 140% !important;
+  }
+  #ag {
+    width: 300px;
+  }
+  .show_finance {
+    height: auto !important;
+    padding-bottom: 513px !important;
+}
+  #lm {
+    left: -110px !important;
+    top: 352px !important;
+  }
+  .low_grids {
+    top: 97px !important;
+    left: 305px !important;
+  }
+  .low_grids3 {
+    top: 546px !important;
+    left: -381px !important;
+  }
+  .wrap_arr2 {
+    top: -35px !important;
+    left: -155px !important;
+}
     .investors {
     height: 134px !important;
 }
@@ -1908,12 +1967,12 @@ body {
       width: 178px !important;
     }
     .low_title {
-      font-size: 16px !important;
-      line-height: 25px !important;
-      width: 156px !important;
-      position: relative;
-      top: -90px;
-      left: 82px;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        width: 156px !important;
+        position: relative;
+        top: -90px;
+        left: 82px;
     }
     .common_imgs {
       width: 68px;
@@ -5438,7 +5497,7 @@ body {
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 440px 600px 444px 450px 600px  500px;
+      grid-template-rows: 594px 473px 444px 504px 473px 442px 439px 472px 410px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
@@ -6202,6 +6261,101 @@ body {
   position: relative;
   top: 61px;
 }
+.wrap_finance {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 439px;
+  overflow: hidden;
+}
+.finance {
+  width: 1290px;
+  height: 300px;
+  display: grid;
+  margin: 140px 0px;
+  background: #111419;
+  grid-template-columns: repeat(3, 1fr);
+}
+.wrap_star {
+  grid-column: 1 / 3;
+}
+#star {
+  position: relative;
+  left: -147px;
+  top: -107px;
+}
+#low_agenda {
+  position: relative;
+  top: 23px;
+}
+.low_grids {
+    position: relative;
+    top: -21px;
+    padding-left: 74px;
+}
+.low_grids3 {
+  padding-left: 23px;
+  position: relative;
+  top: -21px;
+}
+.middle_grid {
+    margin-left: 40px;
+}
+.spec_agenda {
+  width: 248px;
+  margin-bottom: 11px;
+}
+.gold_time2 {
+  color: #F6DBA8;
+  font-size: 20px;
+  line-height: 140%;
+}
+.agendas {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.low_sponsors {
+  display: grid;
+}
+.show_finance {
+  height: auto;
+  padding-bottom: 100px;
+}
+.agendas_panel {
+  margin-top: 12px;
+  width: 319px;
+}
+.panels2 {
+  letter-spacing: 0.2em;
+  color: #F6DBA8;
+  font-family: 'WorkSans-Bold';
+  font-size: 20px;
+  line-height: 140%;
+}
+.wrap_future {
+  position: relative;
+  top: 133px;
+  left: -116px;
+}
+.wrap_arr2 {
+  float: right;
+  position: relative;
+  top: -17px;
+  height: 20px;
+  cursor: pointer;
+  left: 85px;
+}
+.future_title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+  color: #F6DBA8;
+  font-family: 'WorkSans-Bold';
+}
 
 .wrap_branding {
   width: 100%;
@@ -6793,6 +6947,31 @@ body {
   }
 }
 @media (min-width: 576px) and (max-width: 1520px) {
+  .wrap_finance {
+      top: 151px;
+  }
+  .finance {
+       width: 992px;
+       margin: 118px 0px;
+  }
+  .future_title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .middle_grid {
+    margin-left: -23px;
+  }
+  .agendas_panel {
+        width: 240px;
+  }
+  .wrap_future {
+    top: 109px;
+    left: 22px;
+  }
+  .wrap_arr2 {
+    top: 0px;
+    left: -66px;
+  }
   .wrap_emtech {
     overflow: hidden;
   }
@@ -7002,10 +7181,10 @@ body {
     width: 992px;
   }
   .wrap_each_speaker {
-	grid-template-columns: repeat(5, 184px);
-	grid-template-rows: 400px 540px 375px 405px 580px 460px;
-   grid-column-gap: 9px;
-	grid-row-gap: 70px;
+    grid-template-columns: repeat(5, 184px);
+    grid-template-rows: 572px 400px 397px 459px 454px 400px 430px 399px 365px;
+    grid-column-gap: 9px;
+    grid-row-gap: 70px;
   }
   .name_of_speaker, .descr_of_speaker{
 	  font-size: 19px;
@@ -8107,9 +8286,9 @@ body {
     grid-column-gap: 9px;
     grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: repeat(3, 345px) 320px 500px 319px 239px 239px 315px 424px 550px 340px 419px 318px;
+    grid-template-rows: 551px 317px 344px 317px 288px 317px 343px 317px 319px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px;
     grid-template-columns: repeat(2, 133px);
-    height: 5834px;
+    height: 8077px;
   }
   .wrap_photo_sponsor{
 		height: 173px;

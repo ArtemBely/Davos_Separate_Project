@@ -199,10 +199,7 @@ class Schedule extends React.Component {
                          drinks and VR-competition from Pax World</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
-                   <div className='wrap_lazy lazy_spec'><img
-                   src={img5}
-                   className='common_imgs'
-                   /></div>
+                   <div className='wrap_lazy lazy_spec'><img src={img5} className='common_imgs'/></div>
                           <div className='big_title bio_t'>Sustainability<p className='big_title bio_t' id='hunds'>in Finance and Tech</p></div>
                           <p className='low_title'>May 22, <span className='show_desc'>Sunday</span> <span className='show_mob'>Sun</span> <span className='wrap_arr'><img src={arrow} ref={this.arr2} className='arrows'/></span></p>
                           <p><img src={al} id='al2'/></p>

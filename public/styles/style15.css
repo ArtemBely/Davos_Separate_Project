@@ -347,7 +347,7 @@
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 440px 600px 444px 450px 600px  500px;
+      grid-template-rows: 594px 473px 444px 504px 473px 442px 439px 472px 410px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
