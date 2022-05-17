@@ -29,7 +29,7 @@ import olga from '../../public/images/Olga Cooper.png';
 import frank from '../../public/images/Frank Fitzgerald.png';
 import dietz from '../../public/images/Joel Dietz.png';
 import pinna from '../../public/images/Daniele Pinna.png';
-import nov from '../../public/images/Владимир Новицкий.png';
+import nov from '../../public/images/vln.png';
 import lar from '../../public/images/Victor Larionov.png';
 import kumardev from '../../public/images/Kumardev Chatterjee.png';
 import florian from '../../public/images/Florian Ducommun.png';
