@@ -20,6 +20,7 @@ import http from 'http';
 import https from 'https';
 
 import sendRouter from './routers/sendRequest';
+import day21Router from './routers/day21';
 
 const app = express();
 //const CONNECTION_URI = process.env.MONGODB_URI;
@@ -88,6 +89,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/sendRequest', sendRouter);
+app.use('/day21', day21Router);
 
 app.get('/robots.txt', (req, res) => {
   const resolvePath = path.resolve('public/robots.txt');
