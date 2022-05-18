@@ -3,20 +3,20 @@ import Header from './Header';
 import DavosSection2 from './DavosSection2';
 import Footer from './Footer';
 import Location from './Location';
-import Day21Main from './Day21Main';
-import Day21speakers from './Day21speakers';
-import Day21shedule from './Day21shedule';
-import Day21partners from './Day21partners';
+import Day24Main from './Day24Main';
+import Day24speakers from './Day24speakers';
+import Day24shedule from './Day24shedule';
+import Day24partners from './Day24partners';
 
-class Day21 extends React.Component{
+class Day24 extends React.Component{
   render() {
     return(
       <div className='wrap_davos'>
           <Header />
-    			 <Day21Main />
-    			 <Day21shedule />
-    			 <Day21speakers />
-    			 <Day21partners />
+    			 <Day24Main />
+    			 <Day24shedule />
+    			 <Day24speakers />
+    			 <Day24partners />
              <p className='day21_margin'>
       				 <DavosSection2 />
       			 </p>
@@ -27,4 +27,4 @@ class Day21 extends React.Component{
   }
 }
 
-export default Day21;
+export default Day24;

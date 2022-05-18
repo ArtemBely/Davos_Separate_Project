@@ -7,9 +7,8 @@ import logo5 from '../../public/images/Mask group6.svg';
 
 
 
-class Day21shedule extends React.Component{
+function Day22shedule(){
 
-  render() {
     return (
          <div className="container_day">
             <div className='wrap_day21'>
@@ -44,7 +43,7 @@ class Day21shedule extends React.Component{
          </div>
 
     )
-  }
+
 }
 
-export default Day21shedule;
+export default Day22shedule;

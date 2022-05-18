@@ -49,6 +49,10 @@ import megha from '../../public/images/Megha Shrestha.png';
 import kehoe from '../../public/images/Shane Kehoe.png';
 import ming from '../../public/images/Cedric Ming.png';
 import leyla from '../../public/images/Leyla Baghirzade.png';
+import ibAlk from '../../public/images/IbrahimAlk.png';
+import takh from '../../public/images/Takhmina Nasimova.png';
+import illul from '../../public/images/Joshua Ellul.png';
+
 
 function Sponsors() {
 
@@ -318,17 +322,17 @@ function Sponsors() {
                                    <p className='descr_of_speaker'>Founder of Swiss Alternative Financing AG. Board member of Azerbaijan Blockchain Centre </p>
                            </div>
 									<div className='each_speaker del1'>
-                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='wrap_photo_sponsor'><img src={illul} className='each_quest'/></p>
                                    <p className='name_of_speaker'>Joshua Ellul</p>
                                    <p className='descr_of_speaker'>Chairman of Malta Digital Innovation Authority; Director of Centre for DLT at University of Malta;</p>
                            </div>
 									<div className='each_speaker del1'>
-                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='wrap_photo_sponsor'><img src={ibAlk} className='each_quest'/></p>
                                    <p className='name_of_speaker'>Ibrahim Alkurd</p>
                                    <p className='descr_of_speaker'>CEO/Founder Lavaliere Capital</p>
                            </div>
 									<div className='each_speaker del1'>
-                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='wrap_photo_sponsor'><img src={takh} className='each_quest'/></p>
                                    <p className='name_of_speaker'>Takhmina Nasimova</p>
                                    <p className='descr_of_speaker'>Business Development AgAu.io</p>
                            </div>

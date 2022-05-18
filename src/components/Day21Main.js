@@ -20,7 +20,7 @@ class Day21Main extends React.Component{
 					</div>
 				</div>
          </div>
-         
+
     )
   }
 }

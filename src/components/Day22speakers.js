@@ -7,7 +7,7 @@ import max from '../../public/images/Maxime N.Nassour.png';
 
 
 
-function Day21speakers(){
+function Day22speakers(){
 
 
     return (
@@ -48,4 +48,4 @@ function Day21speakers(){
     )
 }
 
-export default Day21speakers;
+export default Day22speakers;

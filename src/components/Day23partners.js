@@ -6,7 +6,7 @@ import hologram from '../../public/images/Mask group2.svg';
 import trust from '../../public/images/Mask group4.svg';
 
 
-function Day21partners(){
+function Day23partners(){
 
     return (
          <div className="container_day">
@@ -28,4 +28,4 @@ function Day21partners(){
     )
 }
 
-export default Day21partners;
+export default Day23partners;

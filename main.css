@@ -6649,6 +6649,7 @@ body {
 }
 .each_quest {
     width: 100%;
+    transition: 0.2s;
 }
 
 @media (min-width: 992px) and (max-width: 1320px) {
@@ -8995,6 +8996,10 @@ body {
 }
 .day21_margin{
 	margin-top: -300px;
+}
+.each_quest:hover {
+	border: 1px solid aliceblue;
+	cursor: pointer;
 }
 
 @media (min-width: 992px) and (max-width: 1290px) {
