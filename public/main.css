@@ -9200,7 +9200,7 @@ body {
 		margin:100px 0 4px 0;
 	}
 	.speaker_day21{
-		width: 130px;
+		width: 210px;
 	}
 	.speakers_day21_subtitle{
 		font-size: 16px;
@@ -9213,7 +9213,7 @@ body {
 	}
 	.day21_speaker{
 		width: 210px;
-		height: 380px;
+		height: 450px;
 	}
 	.wrap_photo_d21{
 		width: 210px;
@@ -9241,10 +9241,10 @@ body {
 	.partners_day21_btn{
 		width: 280px;
 		height: 56px;
-		font-size: 16px;
-		line-height: 26px;
-		padding: 13px 70px;
-		margin-top: 14px;
+		font-size: 19px;
+		line-height: 28px;
+		padding: 11px 53px;
+		margin-top: 24px;
 	}
 	.strategic{
 		top: 100px;
