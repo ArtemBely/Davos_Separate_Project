@@ -18,7 +18,9 @@ class Main extends React.Component{
 			 <Day21shedule />
 			 <Day21speakers />
 			 <Day21partners />
-          <DavosSection2 />
+          <p className='day21_margin'>
+				 <DavosSection2 />
+			 </p>
           <Location />
           <Footer />
       </div>

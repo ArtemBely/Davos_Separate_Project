@@ -317,6 +317,76 @@ function Sponsors() {
                                    <p className='name_of_speaker'>Leyla Baghirzade</p>
                                    <p className='descr_of_speaker'>Founder of Swiss Alternative Financing AG. Board member of Azerbaijan Blockchain Centre </p>
                            </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Joshua Ellul</p>
+                                   <p className='descr_of_speaker'>Chairman of Malta Digital Innovation Authority; Director of Centre for DLT at University of Malta;</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Ibrahim Alkurd</p>
+                                   <p className='descr_of_speaker'>CEO/Founder Lavaliere Capital</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Takhmina Nasimova</p>
+                                   <p className='descr_of_speaker'>Business Development AgAu.io</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Shane Kehoe</p>
+                                   <p className='descr_of_speaker'>Managing Partner at SwissBorg Ventures</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Felipe Duarte</p>
+                                   <p className='descr_of_speaker'>Founder of The DAOist</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Ari Qayumi</p>
+                                   <p className='descr_of_speaker'> Stanford Behavior Design Researcher, CEO at Mindful Venture Capital</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Marc P. Bernegger</p>
+                                   <p className='descr_of_speaker'>Co-Founder of AltAlpha Digital</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Ray Wang</p>
+                                   <p className='descr_of_speaker'> Founder, Chairman, & Principal Analyst of Constellation Research </p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Ravikant Agrawal</p>
+                                   <p className='descr_of_speaker'>Vice President of Strategy at Polygon</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Antoni Martin</p>
+                                   <p className='descr_of_speaker'>Co-Founder of Polygon Hermez and PolygonID</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Sergi Mata</p>
+                                   <p className='descr_of_speaker'>Global Enterprise Strategy Manager at Polygon</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Brian Trunzo</p>
+                                   <p className='descr_of_speaker'>Metaverse Lead at  Polygon Studios</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Pietro Poretti</p>
+                                   <p className='descr_of_speaker'>Director of the Economic Promotion Division, The City of Lugano</p>
+                           </div>
+									<div className='each_speaker del1'>
+                                   <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Marco Dal Lago</p>
+                                   <p className='descr_of_speaker'>Head of Expansion Tether and Bitfinex</p>
+                           </div>
                   </div>
               </div>
         </div>

@@ -5497,7 +5497,7 @@ body {
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 411px 502px;
+      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 411px 502px 475px 475px 420px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
@@ -6650,9 +6650,6 @@ body {
 .each_quest {
     width: 100%;
 }
-#emi {
-  width: 120%;
-}
 
 @media (min-width: 992px) and (max-width: 1320px) {
 
@@ -7185,7 +7182,7 @@ body {
   }
   .wrap_each_speaker {
     grid-template-columns: repeat(5, 184px);
-    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 472px;
+    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 350px;
     grid-column-gap: 9px;
     grid-row-gap: 70px;
   }
@@ -8294,9 +8291,9 @@ body {
         grid-column-gap: 9px;
         grid-row-gap: 34px;
         left: -10px;
-        grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px;
+        grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 300px;
         grid-template-columns: repeat(2, 133px);
-        height: 8907px;
+        height: 11510px;
   }
   .wrap_photo_sponsor{
 		height: 173px;
@@ -8996,6 +8993,9 @@ body {
 .margin-top{
 	margin-top: 0;
 }
+.day21_margin{
+	margin-top: -300px;
+}
 
 @media (min-width: 992px) and (max-width: 1290px) {
 	/*Day21*/
@@ -9040,6 +9040,9 @@ body {
 		grid-template-columns: repeat(4,200px);
 		grid-template-rows: repeat(2, 139px);
 		grid-gap: 20px;
+	}
+	.day21_margin{
+		margin-top: -200px;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -9114,6 +9117,9 @@ body {
 		grid-template-columns: repeat(3,200px);
 		grid-template-rows: repeat(2, 139px);
 		grid-gap: 30px;
+	}
+	.day21_margin{
+		margin-top: -90px;
 	}
 }
 
@@ -9252,6 +9258,9 @@ body {
 	#hologram_d21, #trust_d21{
 		width: 180px;
 	}
+	.day21_margin{
+		margin-top: -150px;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -9385,6 +9394,9 @@ body {
 	#cardano_d21, #polkadot_d21, #pax_d21,
 	#hologram_d21, #trust_d21{
 		width: 125px;
+	}
+	.day21_margin{
+		margin-top: -415px;
 	}
 }
 

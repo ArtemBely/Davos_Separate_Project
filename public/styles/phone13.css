@@ -130,6 +130,9 @@
 	#hologram_d21, #trust_d21{
 		width: 180px;
 	}
+	.day21_margin{
+		margin-top: -150px;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -263,5 +266,8 @@
 	#cardano_d21, #polkadot_d21, #pax_d21,
 	#hologram_d21, #trust_d21{
 		width: 125px;
+	}
+	.day21_margin{
+		margin-top: -415px;
 	}
 }

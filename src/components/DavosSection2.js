@@ -7,8 +7,8 @@ import brid from '../../public/images/Group 505.svg';
 
 function DavosSection2() {
   return (
-    <>
-          <div className="strategic">
+    
+			 <div className="strategic">
             <h3 className="strategic__title">Strategic partnerships</h3>
 
             <div className='wrap_str'>
@@ -72,7 +72,8 @@ function DavosSection2() {
                     </div>
                 </button>
           </div>
-        </>
+			
+        
   );
 }
 
