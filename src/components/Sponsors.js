@@ -56,6 +56,7 @@ import close from '../../public/images/cross.svg';
 import lev from '../../public/images/l.png';
 import kaal from '../../public/images/kaal.png';
 import ber from '../../public/images/ber.png';
+import nophoto from '../../public/images/No Photo.png';
 
 import { Cooper } from '../../public/bio/cooper';
 import { Leonova } from '../../public/bio/leonova';
@@ -421,27 +422,27 @@ class Sponsors extends React.Component {
                                      <p className='descr_of_speaker'>Vice President of Strategy at Polygon</p>
                              </div>
                     <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                     <p className='wrap_photo_sponsor'><img src={nophoto} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Antoni Martin</p>
                                      <p className='descr_of_speaker'>Co-Founder of Polygon Hermez and PolygonID</p>
                              </div>
                     <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                     <p className='wrap_photo_sponsor'><img src={nophoto} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Sergi Mata</p>
                                      <p className='descr_of_speaker'>Global Enterprise Strategy Manager at Polygon</p>
                              </div>
                     <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                     <p className='wrap_photo_sponsor'><img src={nophoto} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Brian Trunzo</p>
-                                     <p className='descr_of_speaker'>Metaverse Lead at  Polygon Studios</p>
+                                     <p className='descr_of_speaker'>Metaverse Lead at Polygon Studios</p>
                              </div>
                     <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                     <p className='wrap_photo_sponsor'><img src={nophoto} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Pietro Poretti</p>
                                      <p className='descr_of_speaker'>Director of the Economic Promotion Division, The City of Lugano</p>
                              </div>
                     <div className='each_speaker del1'>
-                                     <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
+                                     <p className='wrap_photo_sponsor'><img src={nophoto} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Marco Dal Lago</p>
                                      <p className='descr_of_speaker'>Head of Expansion Tether and Bitfinex</p>
                              </div>
