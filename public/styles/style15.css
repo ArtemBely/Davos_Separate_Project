@@ -174,10 +174,10 @@
     display: grid;
     -ms-grid-columns: 1fr 22px 1fr 22px 1fr 22px 1fr;
     grid-template-columns: repeat(4, 1fr);
-    -ms-grid-rows: 1fr 0px 1fr 0px 1fr 0px 1fr 0px 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    -ms-grid-rows: 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr;
+    grid-template-rows: repeat(15, 1fr);
     grid-gap: 25px 22px;
-    margin-bottom: 228px;
+    margin-bottom: 252px;
 }.partners > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -237,6 +237,126 @@
     -ms-grid-column: 5;
 }.partners > *:nth-child(20) {
     -ms-grid-row: 9;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(21) {
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(22) {
+    -ms-grid-row: 11;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(23) {
+    -ms-grid-row: 11;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(24) {
+    -ms-grid-row: 11;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(25) {
+    -ms-grid-row: 13;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(26) {
+    -ms-grid-row: 13;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(27) {
+    -ms-grid-row: 13;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(28) {
+    -ms-grid-row: 13;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(29) {
+    -ms-grid-row: 15;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(30) {
+    -ms-grid-row: 15;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(31) {
+    -ms-grid-row: 15;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(32) {
+    -ms-grid-row: 15;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(33) {
+    -ms-grid-row: 17;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(34) {
+    -ms-grid-row: 17;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(35) {
+    -ms-grid-row: 17;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(36) {
+    -ms-grid-row: 17;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(37) {
+    -ms-grid-row: 19;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(38) {
+    -ms-grid-row: 19;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(39) {
+    -ms-grid-row: 19;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(40) {
+    -ms-grid-row: 19;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(41) {
+    -ms-grid-row: 21;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(42) {
+    -ms-grid-row: 21;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(43) {
+    -ms-grid-row: 21;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(44) {
+    -ms-grid-row: 21;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(45) {
+    -ms-grid-row: 23;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(46) {
+    -ms-grid-row: 23;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(47) {
+    -ms-grid-row: 23;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(48) {
+    -ms-grid-row: 23;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(49) {
+    -ms-grid-row: 25;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(50) {
+    -ms-grid-row: 25;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(51) {
+    -ms-grid-row: 25;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(52) {
+    -ms-grid-row: 25;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(53) {
+    -ms-grid-row: 27;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(54) {
+    -ms-grid-row: 27;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(55) {
+    -ms-grid-row: 27;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(56) {
+    -ms-grid-row: 27;
+    -ms-grid-column: 7;
+}.partners > *:nth-child(57) {
+    -ms-grid-row: 29;
+    -ms-grid-column: 1;
+}.partners > *:nth-child(58) {
+    -ms-grid-row: 29;
+    -ms-grid-column: 3;
+}.partners > *:nth-child(59) {
+    -ms-grid-row: 29;
+    -ms-grid-column: 5;
+}.partners > *:nth-child(60) {
+    -ms-grid-row: 29;
     -ms-grid-column: 7;
 }
 .wrap_partners {
@@ -347,7 +467,7 @@
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 411px 502px 475px 475px 420px;
+      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 411px 502px 475px 475px 506px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;

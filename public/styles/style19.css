@@ -210,3 +210,7 @@
 .day21_margin{
 	margin-top: -300px;
 }
+.each_quest:hover {
+	border: 1px solid aliceblue;
+	cursor: pointer;
+}

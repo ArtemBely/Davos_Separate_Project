@@ -7,9 +7,9 @@ import max from '../../public/images/Maxime N.Nassour.png';
 
 
 
-class Day21speakers extends React.Component{
+function Day21speakers(){
 
-  render() {
+
     return (
          <div className="container_day">
             <div className='wrap_day21'>
@@ -44,9 +44,8 @@ class Day21speakers extends React.Component{
 					</div>
 				</div>
          </div>
-         
+
     )
-  }
 }
 
 export default Day21speakers;

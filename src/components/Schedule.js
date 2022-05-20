@@ -192,11 +192,30 @@ class Schedule extends React.Component {
                       <div className='big_title'>Warm up<p className='big_title rec' id='rec2'> and welcome</p></div>
                       <p className='low_title spec_low2'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} className='arrows'/></span></p>
 
-                        <p className='when_text common_txts gold_time'>2 pm - 5 pm</p>
-                        <p className='when_text common_txts'>Smart Contract basics. Workshops from Cardano and Polkadot.</p>
-                         <p className='when_text common_txts gold_time'>6 pm - midnight</p>
-                         <p className='when_text common_txts'>Opening Night of the EmTech in Immersive reality. Welcome
-                         drinks and VR-competition from Pax World</p>
+                        <p className='when_text common_txts gold_time'>2 pm - 2.30 pm</p>
+                        <p className='when_text common_txts panel'>Pr. Zahn</p>
+                        <p className='when_text common_txts'>Intro to smart contracts. How they work, Why are they useful, what do they do. How to represent them in game theory.</p>
+                         <p className='when_text common_txts gold_time'>3 pm - 3.30 pm</p>
+                         <p className='when_text common_txts panel'>Cardano/IOHK</p>
+                         <p className='when_text common_txts'>Smart Contracts and account based models. Intro to Unspent transaction outputs (UtxO) and comparison of Cash vs. Bank Accounts.</p>
+                         <p className='when_text common_txts gold_time'>4 pm - 4.30pm</p>
+                         <p className='when_text common_txts'>Smart contracts and interoperability; why web assembly language (WASM) is the future of the internet.</p>
+                         <p className='when_text common_txts gold_time'>4.30 pm - 5 pm</p>
+                         <p className='when_text common_txts'>Networking</p>
+
+                        <p className='when_text common_txts panel'>Opening Night of the EmTech in Immersive reality</p>
+                        <p className='when_text common_txts gold_time'>6 pm-6.30 pm</p>
+                        <p className='when_text common_txts'>Welcome drinks, light snacks</p>
+                        <p className='when_text common_txts'>Introduction to Metaverse in VR sets and competition by Pax World.</p>
+                        <p className='when_text common_txts gold_time'>15 minutes - Hologram show</p>
+                        <p className='when_text common_txts'>Pax.World presentation </p>
+                        <p className='when_text common_txts'>Night competition. Hit as many Jack Daniels bottles as you can in VR Copy of the bar. </p>
+                        <p className='when_text common_txts gold_time'>7.00 pm </p>
+                        <p className='when_text common_txts'>Introduction of the Hologram Solution show by MDH Hologram</p>
+                        <p className='when_text common_txts'>NFT gallery </p>
+                        <p className='when_text common_txts gold_time'>9.00 pm</p>
+                        <p className='when_text common_txts panel'>Introduction of the Ammer Pay</p>
+                        <p className='when_text common_txts'>50% for all the food and drink with crypto payments</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
                    <div className='wrap_lazy lazy_spec'><img src={img5} className='common_imgs'/></div>
@@ -205,28 +224,37 @@ class Schedule extends React.Component {
                           <p><img src={al} id='al2'/></p>
                           <p className='when_text common_txts gold_time'>9 am - 11 am </p>
                           <p className='when_text common_txts'>Business Media Breakfast. Sustainability of DAO. Legal and social challenges.</p>
-                          <p className='when_text common_txts gold_time'>12 pm - 1 pm</p>
-                          <p className='when_text common_txts panel'>Panel: Blockchain for sustainability</p>
-                          {/*<p className='when_text common_txts'>John deVadoss, Global Business Blockchain Council (GBBC)
-                                  Ramesh Ramadoss, IEEE Blockchain Initiative
-                                  Sheila Warren, Crypto Council For Innovation (CCI) - tbd
-                                  Maxime Nassour, Saphi Ecosystem
-                                  </p>*/}
-                          <p className='when_text common_txts gold_time'>1 pm - 2 pm</p>
-                          <p className='when_text common_txts panel'>Panel: Bridging GCC and Europe. Payments and fintech legislation</p>
-                          {/*<p className='when_text common_txts'>FasTToken</p>
-                          <p className='when_text common_txts'>SwissBorg</p>
-                          <p className='when_text common_txts'>SEBA - tbd</p>
-                          <p className='when_text common_txts'>Abu Dhabi Investment office - tbd</p>*/}
-                          <p className='when_text common_txts gold_time'>2 pm - 3 pm</p>
-                          <p className='when_text common_txts panel'>Panel: Blockchain powered Smart Cities</p>
+                          <p className='when_text common_txts gold_time'>2 pm - 2.20 pm</p>
+                          <p className='when_text common_txts'>Keynote from Adnan Al Noori,  the Chairman of the Board of the Private Office of Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies </p>
 
-                          <p className='when_text common_txts gold_time'>3 pm - 6 pm</p>
-                          <p className='when_text common_txts'>Banking and Web 3. Opportunities and examples</p>
-                          <p className='when_text common_txts gold_time'>8 pm - 2 am</p>
-                          <p className='when_text common_txts'>Light dinner and networking paired with
-                           live music Supported by The Private Office of HH Sheikh Saqer al Qasimi</p>
+                          <p className='when_text common_txts gold_time'>2.20 pm - 3 pm</p>
+                          <p className='when_text common_txts'>Panel: Blockchain powered Smart Cities
+                                    Moderator:
+                                    Leyla Baghirzade - Founder of Swiss Alternative Financing AG
+                                    Board member of Azerbaijan Blockchain Centre
+                                    </p>
+                          <p className='when_text common_txts'>Panelists:
+                                    Tony Cho - CEO/Founder | Future of Cities.
+                                    Benjamin Senn - European Crypto Initiative (EU carbon credit trade)
+                                    </p>
+                          <p className='when_text common_txts'>Maxime Nassour|Co-Founder Saphi
+                                    Yana Leonova, Deputy General Manager at The Private Office and Group of Companies of Sheikh Saqer Bin Mohammed Al Qasimi
+                                    </p>
 
+                          <p className='when_text common_txts gold_time'>5 pm - 6 pm </p>
+                          <p className='when_text common_txts'>Panel: IEEE Panel on Blockchain for Achieving Sustainability Goals</p>
+
+                          <p className='when_text common_txts panel'>Moderator:</p>
+                          <p className='when_text common_txts'>Wulf Kaal, Professor - University of St. Thomas (Minnesota) | School of Law </p>
+
+                          <p className='when_text common_txts panel'>Panelists:</p>
+                          <p className='when_text common_txts'>John deVadoss -  Board Member| Global Business Blockchain Council (GBBC) </p>
+                          <p className='when_text common_txts'>Genevieve Leveille - CEO, Agriledger</p>
+                          <p className='when_text common_txts'>Maxime Nassour| Co-Founde Saphi</p>
+                          <p className='when_text common_txts'>Yu Yuan -  President-Elect | IEEE Standards Association (IEEE SA) </p>
+
+                          <p className='when_text common_txts gold_time'>8 pm - 2 am </p>
+                          <p className='when_text common_txts'>Light dinner and networking paired with live music</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list3} onClick={this.openlist3} >
                    <div className='wrap_lazy lazy_spec'><img src={img4} className='common_imgs spec_imgs' /></div>
@@ -234,37 +262,47 @@ class Schedule extends React.Component {
                            <p className='low_title'>May 23, <span className='show_desc'>Monday</span> <span className='show_mob'>Mon</span> <span className='wrap_arr'><img src={arrow} ref={this.arr3} className='arrows'/></span></p>
                            <p className='when_text common_txts gold_time'>9 am - 11 am</p>
                            <p className='when_text common_txts'>Business Media Breakfast.</p>
-                           {/*<p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
+                           <p className='when_text common_txts'>Meet Future of DeFi in person: open discussion, announcements, interviews
                                 No stupid questions exist. Question challenge: “Ask me anything”.
-                                </p>*/}
+                           </p>
+                           <p className='when_text common_txts'>RSVP - registration</p>
                           <p className='when_text common_txts gold_time'>12 pm - 2 pm</p>
                           <p className='when_text common_txts'>Lunch with DAO. How to build a truly decentralized community.</p>
+                          <p className='when_text common_txts'>The Daoist - Felipe Duarte</p>
+                          <p className='when_text common_txts'>Moderator - Swiss Lawyer Florian Ducommun</p>
+
                           <p className='when_text common_txts gold_time'>2 pm - 4 pm</p>
-                          <p className='when_text common_txts panel'>Panel: Future of Blockchain: Polygon, Solana, Near, Ethereum, Cardano, Polka</p>
+                          <p className='when_text common_txts panel'>Panel: Future of Blockchain: Polygon, Near, Cardano</p>
+                          <p className='when_text common_txts'>Moderated by Hacken</p>
                           <p className='when_text common_txts panel'>Panel: Cross-chain solutions</p>
+                          <p className='when_text common_txts'>Bancambious - Oscar Andrare</p>
+
                           <p className='when_text common_txts gold_time'>4 pm - 5 pm</p>
-                          <p className='when_text common_txts'>Learn and Earn. Easy to use guide into DeFi by SwissBorg</p>
+                          <p className='when_text common_txts'>Open workshop on Lending market in DeFi by 0VIX - canceled</p>
+                          <p className='when_text common_txts'>Panelists:
+                                          Daniele Pinna - Lending market risk assessment via agent-based modeling. An 0VIX case study</p>
+
                           <p className='when_text common_txts gold_time'>5 pm - 6 pm</p>
-                          <p className='when_text common_txts panel'>Workshop: Where is the money on blockchain? Find opportunities Lending, Staking, LP, Trading</p>
+                          <p className='when_text common_txts'>Learn and Earn. Easy to use guide into DeFi by SwissBorg</p>
+                          <p className='when_text common_txts'>With Q&A</p>
                           <p className='when_text common_txts gold_time'>7 pm - 8 pm</p>
-                          <p className='when_text common_txts'>Payments and storage solutions. Presentation and drink from CoinsPaid</p>
-                          <p className='when_text common_txts gold_time'>8 pm - 1 am</p>
-                          <p className='when_text common_txts'>Evening reception with live music</p>
+                          <p className='when_text common_txts'>Payments and next gen solutions</p>
+                          <p className='when_text common_txts'>Ammer Wallet - Victor Ammer</p>
+                          <p className='when_text common_txts'>Kauri Finance - Alexey Pavlov</p>
+
+                          <p className='when_text common_txts gold_time'>8 pm - 2 am</p>
+                          <p className='when_text common_txts'>WoW White Party at the EmTech Invest Hub</p>
                    </div>
 
                    <div className='investors' ref={this.list4} onClick={this.openlist4}>
                    <div className='wrap_lazy'><img src={space} className='common_imgs' id='sphere'/></div>
                    <div className='big_title bio_t'><p className='big_title bio_t' id='war1'>The Investor day: Insights from VCs with over 400 millions AUM</p></div>
                        <p className='low_title' id='may24'>May 24, <span className='show_desc'>Tuesday</span> <span className='show_mob'>Tue</span> <span className='wrap_arr'><img src={arrow} ref={this.arr4} className='arrows'/></span></p>
-                           <p className='when_text common_txts'>Among participants are VC funds with over 400 millions AUM, private investors, extremely fast growing blockchain\&tech projects. 
-                                  Funds and investors will shed the light on how it’s better 
-
-                                  to streamline the process of setting up the business, pitching business models etc. 
-
-                                  Each project will not only participate in the FinTech Start up award, but also be given valuable assessment and feedback 
-
-                                  on strategy & business model presentation.
-                                  </p>
+                           <p className='when_text common_txts'>Venture Capitalist community will gather together at the EmTech Investment Hub in Davos May 24th. Among participants are VC funds with over 400 millions AUM, private investors,
+                            extremely fast growing blockchain&tech projects.  VCs will share unique insights on the panel discussion: ‘Success is hard to earn: how to eliminate costly mistakes for the Startups’ Funds and investors will shed
+                            the light on how it’s better to streamline the process of setting up the business, pitching business models etc.
+                          </p>
+                       <p className='when_text common_txts'>Each project will not only participate in the *FinTech Start up award*, but also be given valuable assessment and feedback on strategy & business model presentation.</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list5} onClick={this.openlist5}>
                    <div className='wrap_lazy'> <img
@@ -273,15 +311,41 @@ class Schedule extends React.Component {
                    /></div>
                        <p className='big_title'>Polygon lounge</p>
                        <p className='low_title spec_low'>May 25, <span className='show_desc'>Wednesday</span> <span className='show_mob'>Wed</span> <span className='wrap_arr'><img src={arrow} ref={this.arr5} className='arrows'/></span></p>
-                       <p className='when_text common_txts gold_time'>10 am to 7 pm</p>
-                       <p className='when_text common_txts'>Ecosystem Talks</p>
-                       <p className='when_text common_txts'>Matic payments</p>
-                       <p className='when_text common_txts'>Special menu</p>
+                       <p className='when_text common_txts gold_time'>11:00-12:30</p>
+                       <p className='when_text common_txts'>Doors open, Polygon card collection </p>
+                       <p className='when_text common_txts gold_time'>12:30-13:00</p>
+                       <p className='when_text common_txts'>City of Lugano presentation</p>
+                       <p className='when_text common_txts gold_time'>13:00-13:30</p>
+                       <p className='when_text common_txts'>Online Identity Revolution </p>
+                       <p className='when_text common_txts'>An introduction to new technologies empowering the individual to take control of their data.</p>
+                       <p className='when_text common_txts'>Speakers:</p>
+                       <p className='when_text common_txts'>Antoni Martin, Co-Founder, Polygon Hermez and PolygonID</p>
+                       <p className='when_text common_txts'>Sergi Mata, Global Enterprise Strategy Manager, Polygon </p>
 
-                       <p className='when_text common_txts gold_time'>8 pm - 1 am</p>
-                       <p className='when_text common_txts panel'>Polygon evening reception co-hosted with CoinTelegraph</p>
-                       <p className='when_text common_txts'>Live Jazz night and cool-off</p>
-                       <p className='when_text common_txts panel'>Invite Only</p>
+                       <p className='when_text common_txts gold_time'>17:30-18:00	</p>
+                       <p className='when_text common_txts panel'>Blockchain’s Impact on Global Income Inequality</p>
+                       <p className='when_text common_txts'>Web3 has the potential to improve economic conditions for
+                       the most disadvantaged members of the global society. This session explores the opportunities
+                       blockchain technologies create to diametrically change income distribution around the world.</p>
+                       <p className='when_text common_txts'>Speakers: </p>
+                       <p className='when_text common_txts'>Ravikant Agrawal, Vice President of Strategy, Polygon</p>
+                       <p className='when_text common_txts'>Antoni Martin, Co-Founder, Polygon Hermez and PolygonID</p>
+
+                       <p className='when_text common_txts gold_time'>18:00-18:30</p>
+                       <p className='when_text common_txts panel'>The Unlimited Potential of the Decentralized Metaverse</p>
+                       <p className='when_text common_txts'>It’s not just fun and games. The metaverse has the potential to touch
+                        nearly every aspect of life. Polygon’s metaverse expert will explain how. </p>
+                        <p className='when_text common_txts'>Speakers: </p>
+                        <p className='when_text common_txts'>Brian Trunzo, Metaverse Lead, Polygon Studios</p>
+
+                        <p className='when_text common_txts gold_time'>18:30-21:00</p>
+                        <p className='when_text common_txts panel'>Cocktails and jazz band</p>
+
+                        <p className='when_text common_txts gold_time'>8 pm - 1 am</p>
+                        <p className='when_text common_txts panel'>Polygon evening reception co-hosted with CoinTelegraph</p>
+
+                        <p className='when_text common_txts'>Live Jazz night and cool-off</p>
+                       <p className='when_text common_txts'>Invite Only</p>
                    </div>
 
                    <div className='common_events_blocks' ref={this.list7} onClick={this.openlist7}>
@@ -291,17 +355,27 @@ class Schedule extends React.Component {
                    /></div>
                       <div className='big_title bio_t'>NFTs<p className='big_title bio_t' id='meta1'>and Metaverse</p></div>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} className='arrows'/></span></p>
-                      <p className='when_text common_txts gold_time'>9 am - 11 am</p>
-                      <p className='when_text common_txts'>Business breakfast with CoinTelegraph. </p>
-                      <p className='when_text common_txts gold_time'>12 pm - 4 pm</p>
-                      <p className='when_text common_txts'>Digital Art Exposition</p>
-                      <p className='when_text common_txts panel'>Panel: Banking in Metaverse.</p>
-                      <p className='when_text common_txts'>Showcases: Pax world, GOGO, Adresta and Metablocks</p>
-                      <p className='when_text common_txts panel'>Panel: NFT Valuation & Legal Considerations</p>
-                      <p className='when_text common_txts gold_time'>7 pm - 2 am</p>
-                      <p className='when_text common_txts'>Closing Party</p>
-                      <p className='when_text common_txts'>Electro Space Out Party with Supersstar DJ Stil Taktvoll</p>
-                      <p className='when_text common_txts'>NFT Auction Saphi</p>
+                      <p className='when_text common_txts gold_time'>From 10 am</p>
+                      <p className='when_text common_txts'>Networking and interview sessions (Media: Cointelegraph, Cryptonites.ch, Storm Partners, Linas Beliunas)</p>
+                      <p className='when_text common_txts gold_time'>12 pm - 12.45 pm</p>
+                      <p className='when_text common_txts'>Banking & Metaverse Panel: Moderator (Kumar Chatterjee), Bank of Riyadh (SA), Metablocks (Megha Shrestha), VR</p>
+                      <p className='when_text common_txts gold_time'>1 pm - 1.20 pm</p>
+                      <p className='when_text common_txts'>ShowCase by Pax.World</p>
+                      <p className='when_text common_txts gold_time'>1.40 pm - 2 pm</p>
+                      <p className='when_text common_txts'>ShowCase by Adresta </p>
+                      <p className='when_text common_txts gold_time'>2.30 pm - 2.50 pm</p>
+                      <p className='when_text common_txts'>ShowCase by Metabloqs</p>
+                      <p className='when_text common_txts gold_time'>3 pm - 4 pm</p>
+                      <p className='when_text common_txts'>Panel 2: NFT Valuation, Legal and Business Considerations, Panel Discussion (Jasmin Karatas, (Moderator),
+                       Caroline Taylor, Appraisal Bureau, Cedric Ming, MetaverseTalks, Plug n Play</p>
+                       <p className='when_text common_txts gold_time'>4 pm - 4.15 pm</p>
+                       <p className='when_text common_txts'>Fireside Chat (Hrish, David) </p>
+                       <p className='when_text common_txts'>NFT market places and POAP Gallery. How to store and show your collection </p>
+                       <p className='when_text common_txts'>Linas Beliunas- Linkedin streaming </p>
+
+                       <p className='when_text common_txts gold_time'>7 pm - 2 am</p>
+                       <p className='when_text common_txts'>Closing Party</p>
+                       <p className='when_text common_txts'>Closing Party with DJ Dean from Stil & Taktvoll</p>
                    </div>
 
                    <div className='common_events_blocks2 spec_block' ref={this.list6} onClick={this.openlist6} style={{display: "none"}}>

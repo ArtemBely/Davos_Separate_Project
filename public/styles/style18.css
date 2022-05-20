@@ -287,4 +287,5 @@
 }
 .each_quest {
     width: 100%;
+    transition: 0.2s;
 }
