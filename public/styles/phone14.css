@@ -1,7 +1,36 @@
 @media (min-width: 320px) and (max-width: 576px) {
 
+  .buttons_hub {
+        width: 320px;
+  }
 
   .bio_block {
       width: 260px;
+  }
+  .reg_window {
+    width: 300px;
+  }
+  .reg_form1 {
+    position: relative;
+    display: grid;
+  }
+  .sub_button {
+    width: 241px;
+    height: 50px;
+    margin-left: 0;
+  }
+  .email_inp {
+    border: 1px solid grey;
+    height: 60px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 242px;
+    margin: 20px 0px;
+}
+  #spec_close2 {
+    float: right;
+    grid-row: 1 / 2;
+    margin-left: 220px;
   }
 }

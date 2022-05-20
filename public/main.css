@@ -1800,9 +1800,6 @@ body {
           margin-bottom: 12px !important;
           z-index: 1;
     }
-	 .block1{
-		height: 1520px !important
-	 }
     .investors  {
       width: 280px !important;
       padding: 14px !important;
@@ -1896,10 +1893,10 @@ body {
           top: -73px !important;
     }
     .block11 {
-    height: 1253px !important;
+    height: 1525px !important;
 }
     .block22 {
-      height: 1471px !important;
+      height: 2240px !important;
     }
     .block33 {
     height: 1247px !important;
@@ -4667,6 +4664,11 @@ body {
         max-width: 537px;
         max-height: 714px;
     }
+    .foot_hub {
+          position: relative;
+          top: 538px !important;
+          height: 1px;
+    }
     .popup__main-paragraph {
         font-size: 18px;
         line-height: 140%;
@@ -4925,7 +4927,7 @@ body {
   left: 436px;
   cursor: pointer;
   transition: 0.2s;
-  top: 1884px;
+  top: 2230px;
 }
 .become_a_partner2:hover {
   background-color: #ffff;
@@ -5889,7 +5891,7 @@ body {
     height: 2375px !important;
 }
 .block2 {
-  height: 2147px !important;
+  height: 3340px !important;
 }
 .block3 {
   height: 1918px !important;
@@ -7075,6 +7077,11 @@ body {
       zoom: 72%; /* Webkit browsers */
   }
 }
+@media (min-width: 576px) and (max-width: 764px) {
+	.block2 {
+		height: 2660px !important;
+	 }
+}
 @media (min-width: 576px) and (max-width: 1520px) {
   .wrap_finance {
       top: 151px;
@@ -7089,6 +7096,9 @@ body {
   }
   .inside_media {
         grid-column: 1 / 4 !important;
+  }
+  .buttons_hub {
+        width: 992px;
   }
   .wrap_media_sponsors {
     top: 173px !important;
@@ -7189,7 +7199,7 @@ body {
       height: 2020px !important;
   }
   .block2 {
-    height: 1862px !important;
+    height: 2840px !important;
   }
   .block3 {
     height: 1687px !important;
@@ -7400,7 +7410,7 @@ body {
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 2719px;
+        top: 3050px;
   }
 
   .partners__title {
@@ -8139,7 +8149,7 @@ body {
   .strategic {
     margin-bottom: 0px;
     left: -10px;
-    top: 338px !important;
+    top: 590px !important;
   }
   #img10 {
     position: relative;
@@ -8548,7 +8558,7 @@ body {
     grid-column: 1 / 3 !important;
   }
   .wrap_media_sponsors {
-        top: 436px !important;
+        top: 700px !important;
   }
   .partners {
         height: 640px !important;
@@ -8564,7 +8574,7 @@ body {
   }
   .become_a_partner2{
     width: 320px;
-    top: 2013px;
+    top: 2300px;
     font-size: 18px;
     grid-column: 1 / 3;
     grid-row: 10/11;
@@ -8707,10 +8717,10 @@ body {
     line-height: 26px;
   }
   .wrap_location{
-        top: 406px;
+        top: 640px;
   }
   .wrap__footer {
-    top: 561px;
+    top: 761px;
     overflow: hidden;
   }
   .footer {
@@ -9624,12 +9634,118 @@ body {
 .close_bio {
   float: right;
 }
+.wrap_buttons, .wrap_buttons_reg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.wrap_buttons {
+    top: 30vh;
+}
+.wrap_buttons_reg {
+    top: 40vh;
+}
+.buttons_hub {
+  width: 1290px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  justify-items: center;
+  align-items: center;
+}
+.hub_menu:hover {
+  color: black;
+  background-color: #ffffff;
+  border: none;
+}
+.hub_menu {
+  width: 300px;
+  height: 50px;
+  border: 1.5px solid #F5D7A1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.hub_links {
+  width: 300px;
+}
+.wrap_reg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+}
+.reg_window {
+  width: 600px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 29px;
+}
+.email_inp {
+  border: 1px solid grey;
+  height: 34px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.sub_button {
+  width: 164px;
+  height: 50px;
+  margin-left: 24px;
+  font-size: 20px;
+  border: 2px solid gold;
+  cursor: pointer;
+}
 
 @media (min-width: 320px) and (max-width: 576px) {
 
+  .buttons_hub {
+        width: 320px;
+  }
 
   .bio_block {
       width: 260px;
+  }
+  .reg_window {
+    width: 300px;
+  }
+  .reg_form1 {
+    position: relative;
+    display: grid;
+  }
+  .sub_button {
+    width: 241px;
+    height: 50px;
+    margin-left: 0;
+  }
+  .email_inp {
+    border: 1px solid grey;
+    height: 60px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 242px;
+    margin: 20px 0px;
+}
+  #spec_close2 {
+    float: right;
+    grid-row: 1 / 2;
+    margin-left: 220px;
   }
 }
 

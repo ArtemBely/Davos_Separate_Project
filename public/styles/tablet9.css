@@ -64,6 +64,9 @@
   .inside_media {
         grid-column: 1 / 4 !important;
   }
+  .buttons_hub {
+        width: 992px;
+  }
   .wrap_media_sponsors {
     top: 173px !important;
   }

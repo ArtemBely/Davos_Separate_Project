@@ -183,8 +183,8 @@ class Schedule extends React.Component {
   render() {
     return(
       <div className='wrap__schedule' ref={this.schedule}>
-          <div className='schedule'>
-                <p className='title_schedule' id="link_schedule">Schedule</p>
+          <div className='schedule' id='lsh'>
+                <p className='title_schedule'>Schedule</p>
                 <div className='wrap_events'>
                 <div className='events2'>
                    <div className='common_events_blocks' ref={this.list1} onClick={this.openlist1}>
@@ -237,13 +237,13 @@ class Schedule extends React.Component {
 								  <br/>
 								  Sustainable city of Dubai
 								  <br/>
-								  European Crypto Initiative 
+								  European Crypto Initiative
 								  <br/>
 								  IEEE Blockchain
 								  <br/>
 								  IEEE Region 8
 								  <br/>
-								  Saphi 
+								  Saphi
 								  <br/>
 								  GBBC
 								  <br/>
@@ -282,7 +282,7 @@ class Schedule extends React.Component {
 								  <p className='when_text common_txts'>Ramesh Ramadoss, Co-chair, IEEE Blockchain Initiative .</p>
 
 								  <p className='when_text common_txts panel'>Panel: IEEE Panel on Blockchain for Achieving Sustainability Goals</p>
-                          
+
                           <p className='when_text common_txts panel'>Moderator:</p>
                           <p className='when_text common_txts'>Wulf Kaal, Professor - University of St. Thomas (Minnesota) | School of Law </p>
 

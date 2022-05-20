@@ -11,7 +11,7 @@ import Day21partners from './Day21partners';
 class Day21 extends React.Component{
   render() {
     return(
-      <div className='wrap_davos'>
+      <p className='wrap_davos'>
           <Header />
     			 <Day21Main />
     			 <Day21shedule />
@@ -22,7 +22,7 @@ class Day21 extends React.Component{
       			 </p>
           <Location />
           <Footer />
-      </div>
+      </p>
     )
   }
 }

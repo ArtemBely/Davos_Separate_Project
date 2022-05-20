@@ -6,6 +6,8 @@ import Day23 from './Day23';
 import Day24 from './Day24';
 import Day25 from './Day25';
 import Day26 from './Day26';
+import Hub from './Hub';
+import Reg from './Reg';
 
 const routes = [
   {
@@ -42,6 +44,16 @@ const routes = [
     path: '/day26',
     exact: true,
     component: Day26
+  },
+  {
+    path: '/hub',
+    exact: true,
+    component: Hub
+  },
+  {
+    path: '/reg',
+    exact: true,
+    component: Reg
   },
   {
     component: NoMatch

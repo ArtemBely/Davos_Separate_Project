@@ -195,6 +195,11 @@
         max-width: 537px;
         max-height: 714px;
     }
+    .foot_hub {
+          position: relative;
+          top: 538px !important;
+          height: 1px;
+    }
     .popup__main-paragraph {
         font-size: 18px;
         line-height: 140%;

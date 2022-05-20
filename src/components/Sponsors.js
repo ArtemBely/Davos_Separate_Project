@@ -396,7 +396,7 @@ class Sponsors extends React.Component {
                                      <p className='name_of_speaker'>Shane Kehoe</p>
                                      <p className='descr_of_speaker'>Managing Partner at SwissBorg Ventures</p>
                              </div>
-                    <div className='each_speaker del1'>
+                    <div className='each_speaker del1' style={{display: "none"}}>
                                      <p className='wrap_photo_sponsor'><img src={quest} className='each_quest'/></p>
                                      <p className='name_of_speaker'>Felipe Duarte</p>
                                      <p className='descr_of_speaker'>Founder of The DAOist</p>

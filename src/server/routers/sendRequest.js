@@ -21,8 +21,8 @@ async function main() {
       port: 465,
       secure: true, // true for 465, false for other ports
       auth: {
-        user: 'project1@acorn.ws', // generated ethereal user
-        pass: 'qwertyuiop987654321' // generated ethereal password
+        user: 'ww4@acorn.ws', // generated ethereal user
+        pass: 'AlegroAria' // generated ethereal password
       },
       tls:{
         rejectUnauthorized:false  // только для localhost
@@ -31,7 +31,7 @@ async function main() {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Order from site" <project1@acorn.ws>', // sender address
+      from: '"Order from site" <ww4@acorn.ws>', // sender address
       to: "guests@emtechinvest.com", // list of receivers
       subject: "New partner ✔", // Subject line
       text: "Hello world?", // plain text body
@@ -62,8 +62,8 @@ async function main() {
       port: 465,
       secure: true, // true for 465, false for other ports
       auth: {
-        user: 'project1@acorn.ws', // generated ethereal user
-        pass: 'qwertyuiop987654321' // generated ethereal password
+        user: 'ww4@acorn.ws', // generated ethereal user
+        pass: 'AlegroAria' // generated ethereal password
       },
       tls:{
         rejectUnauthorized:false  // только для localhost
@@ -72,7 +72,7 @@ async function main() {
 
     // send mail with defined transport object
     let info = await transporter.sendMail({
-      from: '"Order from site" <project1@acorn.ws>', // sender address
+      from: '"Order from site" <ww4@acorn.ws>', // sender address
       to: "guests@emtechinvest.com", // list of receivers
       subject: "New participant ✔", // Subject line
       text: "Hello world?", // plain text body

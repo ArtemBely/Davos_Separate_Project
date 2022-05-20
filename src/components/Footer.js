@@ -19,6 +19,8 @@ class Footer extends React.Component {
                   <img itemProp="logo"  src={logo} className='footer__logo-img'></img>
               </div>
               <p className='each_foot_link' id='nav_links_foot1'>
+              {typeof window != "undefined" && window.location.pathname != '/' ?
+              <a href='/' className='navigation-link'> What is EmTech </a> :
                           <Link activeClass="active"
                           className='footer_nav'
                           to="what_is"
@@ -30,9 +32,11 @@ class Footer extends React.Component {
                           onSetActive={this.handleSetActive}
                           onSetInactive={this.handleSetInactive}
                           ignoreCancelEvents={false}>
-                          What is EmTech</Link>
+                          What is EmTech</Link> }
               </p>
               <p className='each_foot_link' id='nav_links_foot2'>
+              {typeof window != "undefined" && window.location.pathname != '/' ?
+              <a href='/' className='navigation-link'> Why to participate </a> :
                           <Link activeClass="active"
                           className='footer_nav'
                           to="why_to"
@@ -44,9 +48,11 @@ class Footer extends React.Component {
                           onSetActive={this.handleSetActive}
                           onSetInactive={this.handleSetInactive}
                           ignoreCancelEvents={false}>
-                          Why to participate</Link>
+                          Why to participate</Link> }
               </p>
               <p className='each_foot_link' id='nav_links_foot3'>
+              {typeof window != "undefined" && window.location.pathname != '/' ?
+              <a href='/' className='navigation-link'> Speakers </a> :
                             <Link activeClass="active"
                             className='footer_nav'
                             to="link_speak"
@@ -58,12 +64,14 @@ class Footer extends React.Component {
                             onSetActive={this.handleSetActive}
                             onSetInactive={this.handleSetInactive}
                             ignoreCancelEvents={false}>
-                            Speakers</Link>
+                            Speakers</Link> }
               </p>
               <p className='each_foot_link' id='nav_links_foot4'>
+              {typeof window != "undefined" && window.location.pathname != '/' ?
+              <a href='/' className='navigation-link'> Schedule </a> :
                             <Link activeClass="active"
                             className='footer_nav'
-                            to="link_schedule"
+                            to="lsh"
                             spy={true}
                             smooth={true}
                             hashSpy={true}
@@ -72,9 +80,11 @@ class Footer extends React.Component {
                             onSetActive={this.handleSetActive}
                             onSetInactive={this.handleSetInactive}
                             ignoreCancelEvents={false}>
-                            Schedule</Link>
+                            Schedule</Link> }
               </p>
               <p className='each_foot_link' id='nav_links_foot5'>
+              {typeof window != "undefined" && window.location.pathname != '/' ?
+              <a href='/' className='navigation-link'> Partners </a> :
                             <Link activeClass="active"
                             className='footer_nav'
                             to="link_partners"
@@ -86,7 +96,7 @@ class Footer extends React.Component {
                             onSetActive={this.handleSetActive}
                             onSetInactive={this.handleSetInactive}
                             ignoreCancelEvents={false}>
-                            Partners</Link>
+                            Partners</Link> }
               </p>
 
               <a href="tel:+41 79 269 53 60" itemProp="telephone" className="each_foot_link" id='tel1'>+41 79 269 53 60</a>

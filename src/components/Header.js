@@ -30,7 +30,9 @@ class Header extends React.Component {
                 </div>
                 <ul className="navigation-list" ref={this.nan}>
                   <li className="navigation-item">
-                              <Link activeClass="active"
+                              {typeof window != "undefined" && window.location.pathname != '/' ?
+                              <a href='/' className='navigation-link'> What is EmTech </a> :
+                               <Link activeClass="active"
                               className='navigation-link'
                               to="what_is"
                               spy={true}
@@ -42,9 +44,11 @@ class Header extends React.Component {
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
                               ignoreCancelEvents={false}>
-                              What is EmTech</Link>
+                              What is EmTech</Link> }
                   </li>
                   <li className="navigation-item">
+                    {typeof window != "undefined" && window.location.pathname != '/' ?
+                    <a href='/' className='navigation-link'> Why to participate</a> :
                               <Link activeClass="active"
                               className='navigation-link'
                               to="why_to"
@@ -57,9 +61,11 @@ class Header extends React.Component {
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
                               ignoreCancelEvents={false}>
-                              Why to participate</Link>
+                              Why to participate</Link> }
                   </li>
                   <li className="navigation-item">
+                    {typeof window != "undefined" && window.location.pathname != '/' ?
+                    <a href='/' className='navigation-link'>Speakers</a> :
                                 <Link activeClass="active"
                                 className='navigation-link'
                                 to="link_speak"
@@ -72,12 +78,14 @@ class Header extends React.Component {
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
-                                Speakers</Link>
+                                Speakers</Link> }
                   </li>
                   <li className="navigation-item news_hide">
+                    {typeof window != "undefined" && window.location.pathname != '/' ?
+                    <a href='/' className='navigation-link'>Schedule</a> :
                                 <Link activeClass="active"
                                 className='navigation-link'
-                                to="link_schedule"
+                                to="lsh"
                                 spy={true}
                                 smooth={true}
                                 hashSpy={true}
@@ -87,12 +95,14 @@ class Header extends React.Component {
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
-                                Schedule</Link>
+                                Schedule</Link> }
                   </li>
                   <li className="navigation-item">
+                    {typeof window != "undefined" && window.location.pathname != '/' ?
+                    <a href='/' className='navigation-link'>Partners</a> :
                                 <Link activeClass="active"
                                 className='navigation-link'
-                                to="link_partners"
+                                to="img1"
                                 spy={true}
                                 smooth={true}
                                 hashSpy={true}
@@ -102,7 +112,7 @@ class Header extends React.Component {
                                 onSetActive={this.handleSetActive}
                                 onSetInactive={this.handleSetInactive}
                                 ignoreCancelEvents={false}>
-                                Partners</Link>
+                                Partners</Link> }
                   </li>
                   <li className="navigation-item nav-login">
                     <NavLink to="#" className="navigation-link" id='login'>Log in</NavLink>

@@ -3,7 +3,7 @@ import express from 'express';
 import serialize from 'serialize-javascript';
 import { StaticRouter } from 'react-router-dom';
 import { renderToString } from 'react-dom/server';
-import Day21 from '../../components/Day21';
+import Hub from '../../components/Hub';
 
 const router = express.Router();
 
@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
   let cond = req.isAuthenticated();
   const congrats = renderToString(
     <StaticRouter>
-       <Day21 />
+       <Hub />
     </StaticRouter>
   )
   res.send(

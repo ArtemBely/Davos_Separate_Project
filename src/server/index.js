@@ -26,9 +26,11 @@ import day23Router from './routers/day23';
 import day24Router from './routers/day24';
 import day25Router from './routers/day25';
 import day26Router from './routers/day26';
+import hubRouter from './routers/hub';
+import regRouter from './routers/reg';
 
 const app = express();
-//const CONNECTION_URI = process.env.MONGODB_URI;
+const CONNECTION_URI = process.env.MONGODB_URI;
 //const port = process.env.PORT || 5000;
 
 var privateKey = fs.readFileSync(path.resolve('src/server/ssl/emtechinvest.key'));
@@ -41,7 +43,7 @@ var credentials = {
 
 require('dotenv/config');
 
-/*
+
 mongoose.connect(
   CONNECTION_URI || process.env.CONNECT,
   {
@@ -50,10 +52,10 @@ mongoose.connect(
     useCreateIndex: true
   },
   () => {
-    console.log('Connection with database Users completed');
+    console.log('Connection with database Emails completed');
   }
 );
-*/
+
 /*
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
@@ -100,6 +102,8 @@ app.use('/day23', day23Router);
 app.use('/day24', day24Router);
 app.use('/day25', day25Router);
 app.use('/day26', day26Router);
+app.use('/hub', hubRouter);
+app.use('/reg', regRouter);
 
 app.get('/robots.txt', (req, res) => {
   const resolvePath = path.resolve('public/robots.txt');
@@ -190,7 +194,7 @@ app.get('/*', (req, res) => {
                    <link rel="stylesheet" type="text/css" href="../main.css">
                      <link rel="shortcut icon" href="/images/Vector.ico" type="image/x-icon">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
-                  <script src='/bundle.js' defer></script>
+                  <script src='bundles/bundle.js' defer></script>
             </head>
             <body>
                  <div id="app">
@@ -202,7 +206,7 @@ app.get('/*', (req, res) => {
   </html>`
   )
 });
-/*
+
 app.use((error, req, res, next) => {
   res.status(error.status);
 
@@ -212,13 +216,13 @@ app.use((error, req, res, next) => {
     stack: error.stack
   });
 });
-*/
+/*
 app.use((req, res, next) => {  //<-- заменить если появится непредвиденная ошибка
    const err = new Error ('Noooo');
      err.status = 404;
      next (err);
 });
-
+*/
 
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
