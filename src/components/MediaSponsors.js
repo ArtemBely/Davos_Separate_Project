@@ -9,6 +9,7 @@ import sp7 from '../../public/images/Frame 608.png';
 import sp8 from '../../public/images/Frame 609.png';
 import sp9 from '../../public/images/Frame 614.png';
 import sp10 from '../../public/images/Frame 615.png';
+import sp11 from '../../public/images/Frame 596.png';
 
 function MediaSponsors() {
 
@@ -26,6 +27,7 @@ function MediaSponsors() {
                   <p id='' className='m_sp'><a href='#' target="_blank"><img src={sp8} className='com_parts'/></a></p>
                   <p id='' className='m_sp'><a href='#' target="_blank"><img src={sp9} className='com_parts'/></a></p>
                   <p id='' className='m_sp'><a href='#' target="_blank"><img src={sp10} className='com_parts'/></a></p>
+						<p id='' className='m_sp'><a href='#' target="_blank"><img src={sp11} className='com_parts'/></a></p>
               </div>
         </div>
     )

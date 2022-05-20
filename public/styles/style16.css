@@ -110,10 +110,10 @@
   font-family: "WorkSans-Bold";
 }
 .block1 {
-    height: 1970px !important;
+    height: 2375px !important;
 }
 .block2 {
-  height: 2147px !important;
+  height: 3340px !important;
 }
 .block3 {
   height: 1918px !important;
@@ -156,7 +156,12 @@
   margin-top: 107px;
   margin-bottom: 20px;
 }
-
+#hologram{
+	text-align: center;
+}
+#hologram .com_parts{
+	width: 50%;
+}
 .strategic__text {
   width: 470px;
   height: 64px;

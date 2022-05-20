@@ -44,6 +44,11 @@
       zoom: 72%; /* Webkit browsers */
   }
 }
+@media (min-width: 576px) and (max-width: 764px) {
+	.block2 {
+		height: 2660px !important;
+	 }
+}
 @media (min-width: 576px) and (max-width: 1520px) {
   .wrap_finance {
       top: 151px;
@@ -155,10 +160,10 @@
     height: 515px;
   }
   .block1 {
-      height: 1737px !important;
+      height: 2020px !important;
   }
   .block2 {
-    height: 1862px !important;
+    height: 2840px !important;
   }
   .block3 {
     height: 1687px !important;
@@ -369,7 +374,7 @@
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 2719px;
+        top: 3050px;
   }
 
   .partners__title {

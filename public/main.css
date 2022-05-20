@@ -1800,6 +1800,9 @@ body {
           margin-bottom: 12px !important;
           z-index: 1;
     }
+	 .block1{
+		height: 1520px !important
+	 }
     .investors  {
       width: 280px !important;
       padding: 14px !important;
@@ -5617,7 +5620,7 @@ body {
 .wrap_each_speaker {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 411px 502px 475px 475px 506px;
+      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 438px 502px 475px 475px 506px;
       grid-gap: 72px 0px;
       position: relative;
       top: 38px;
@@ -5883,7 +5886,7 @@ body {
   font-family: "WorkSans-Bold";
 }
 .block1 {
-    height: 1970px !important;
+    height: 2375px !important;
 }
 .block2 {
   height: 2147px !important;
@@ -5929,7 +5932,12 @@ body {
   margin-top: 107px;
   margin-bottom: 20px;
 }
-
+#hologram{
+	text-align: center;
+}
+#hologram .com_parts{
+	width: 50%;
+}
 .strategic__text {
   width: 470px;
   height: 64px;
@@ -7178,7 +7186,7 @@ body {
     height: 515px;
   }
   .block1 {
-      height: 1737px !important;
+      height: 2020px !important;
   }
   .block2 {
     height: 1862px !important;
@@ -8424,9 +8432,9 @@ body {
     grid-column-gap: 9px;
     grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 378px;
+    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 320px;
     grid-template-columns: repeat(2, 133px);
-    height: 11892px;
+    height: 11925px;
   }
   .wrap_photo_sponsor{
 		height: 173px;

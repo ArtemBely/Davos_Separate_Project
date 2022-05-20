@@ -23,7 +23,7 @@ import trust from '../../public/images/trust.svg';
 import pax from '../../public/images/pax.svg';
 import talks from '../../public/images/Talks.svg';
 import ql from '../../public/images/ql.svg';
-import hologram from '../../public/images/hologram.svg';
+import hologram from '../../public/images/Frame2.png';
 import gbbc from '../../public/images/gbbc.svg';
 import euci from '../../public/images/euci.svg';
 import meta from '../../public/images/meta.svg';
@@ -70,6 +70,11 @@ import img91 from '../../public/images/Frame 591.png';
 import img92 from '../../public/images/Frame 592.png';
 import img93 from '../../public/images/Frame 593.png';
 import img94 from '../../public/images/Frame 594.png';
+import img96 from '../../public/images/Frame 617.png';
+import img97 from '../../public/images/Frame 597.png';
+import img98 from '../../public/images/Frame 598.png';
+import img99 from '../../public/images/Frame 599.png';
+import img100 from '../../public/images/Frame 616.png';
 
 class DavosMain extends React.Component{
 
@@ -209,6 +214,11 @@ class DavosMain extends React.Component{
                    <p id='' className='middle_top'><a href='#' target="_blank"><img src={img92} className='com_parts'/></a></p>
                    <p id='' className='middle_top'><a href='#' target="_blank"><img src={img93} className='com_parts'/></a></p>
                    <p id='' className='middle_top'><a href='#' target="_blank"><img src={img94} className='com_parts'/></a></p>
+						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img100} className='com_parts'/></a></p>
+						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img96} className='com_parts'/></a></p>
+						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img97} className='com_parts'/></a></p>
+						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img98} className='com_parts'/></a></p>
+						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img99} className='com_parts'/></a></p>
                    {/*<p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>*/}
 
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>

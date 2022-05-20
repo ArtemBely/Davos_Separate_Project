@@ -191,7 +191,14 @@ class Schedule extends React.Component {
                     <div className='wrap_lazy'> <img src={img6} className='common_imgs'  /></div>
                       <div className='big_title'>Warm up<p className='big_title rec' id='rec2'> and welcome</p></div>
                       <p className='low_title spec_low2'>May 21, <span className='show_desc'>Saturday</span> <span className='show_mob'>Sat</span> <span className='wrap_arr'><img src={arrow} ref={this.arr1} className='arrows'/></span></p>
-
+							 	<p className='when_text common_txts panel'>Smart Contract basics. As simple as it gets. Workshops from Cardano and Polkadot</p>
+								 <p className='when_text common_txts panel'>Speakers:</p>
+								 <p className='when_text common_txts'>Philipp Zahn - Professor Uni St Gallen HSG.
+								 <br/>
+								 Cardano/IOHK
+								 <br/>
+								 Polkadot
+								 </p>
                         <p className='when_text common_txts gold_time'>2 pm - 2.30 pm</p>
                         <p className='when_text common_txts panel'>Pr. Zahn</p>
                         <p className='when_text common_txts'>Intro to smart contracts. How they work, Why are they useful, what do they do. How to represent them in game theory.</p>
@@ -199,33 +206,54 @@ class Schedule extends React.Component {
                          <p className='when_text common_txts panel'>Cardano/IOHK</p>
                          <p className='when_text common_txts'>Smart Contracts and account based models. Intro to Unspent transaction outputs (UtxO) and comparison of Cash vs. Bank Accounts.</p>
                          <p className='when_text common_txts gold_time'>4 pm - 4.30pm</p>
+								 <p className='when_text common_txts panel'>Soramitsu</p>
                          <p className='when_text common_txts'>Smart contracts and interoperability; why web assembly language (WASM) is the future of the internet.</p>
                          <p className='when_text common_txts gold_time'>4.30 pm - 5 pm</p>
                          <p className='when_text common_txts'>Networking</p>
 
                         <p className='when_text common_txts panel'>Opening Night of the EmTech in Immersive reality</p>
-                        <p className='when_text common_txts gold_time'>6 pm-6.30 pm</p>
+                        <p className='when_text common_txts gold_time'>from 6 pm</p>
                         <p className='when_text common_txts'>Welcome drinks, light snacks</p>
+								<p className='when_text common_txts gold_time'>6.30 pm</p>
                         <p className='when_text common_txts'>Introduction to Metaverse in VR sets and competition by Pax World.</p>
                         <p className='when_text common_txts gold_time'>15 minutes - Hologram show</p>
                         <p className='when_text common_txts'>Pax.World presentation </p>
                         <p className='when_text common_txts'>Night competition. Hit as many Jack Daniels bottles as you can in VR Copy of the bar. </p>
                         <p className='when_text common_txts gold_time'>7.00 pm </p>
                         <p className='when_text common_txts'>Introduction of the Hologram Solution show by MDH Hologram</p>
-                        <p className='when_text common_txts'>NFT gallery </p>
                         <p className='when_text common_txts gold_time'>9.00 pm</p>
                         <p className='when_text common_txts panel'>Introduction of the Ammer Pay</p>
-                        <p className='when_text common_txts'>50% for all the food and drink with crypto payments</p>
+                        <p className='when_text common_txts'>50% for all the food and drink with Ammer Wallet payments. Music and warm welcome to the EmTech Networking</p>
                    </div>
                    <div className='common_events_blocks' ref={this.list2} onClick={this.openlist2}>
                    <div className='wrap_lazy lazy_spec'><img src={img5} className='common_imgs'/></div>
                           <div className='big_title bio_t'>Sustainability<p className='big_title bio_t' id='hunds'>in Finance and Tech</p></div>
                           <p className='low_title'>May 22, <span className='show_desc'>Sunday</span> <span className='show_mob'>Sun</span> <span className='wrap_arr'><img src={arrow} ref={this.arr2} className='arrows'/></span></p>
                           <p><img src={al} id='al2'/></p>
-                          <p className='when_text common_txts gold_time'>9 am - 11 am </p>
-                          <p className='when_text common_txts'>Business Media Breakfast. Sustainability of DAO. Legal and social challenges.</p>
+                          {/*<p className='when_text common_txts gold_time'>9 am - 11 am </p>
+                          <p className='when_text common_txts'>Business Media Breakfast. Sustainability of DAO. Legal and social challenges.</p>*/}
+								  <p className='when_text common_txts'>Confirmed participants:</p>
+								  <p className='when_text common_txts'>The Private Office and Group of Companies of Sheikh Saqer Bin Mohammed Al Qasimi
+								  <br/>
+								  Sustainable city of Dubai
+								  <br/>
+								  European Crypto Initiative 
+								  <br/>
+								  IEEE Blockchain
+								  <br/>
+								  IEEE Region 8
+								  <br/>
+								  Saphi 
+								  <br/>
+								  GBBC
+								  <br/>
+								  Future of Cities
+								  <br/>
+								  AgAu.io
+								  <br/>
+								  Agriledger </p>
                           <p className='when_text common_txts gold_time'>2 pm - 2.20 pm</p>
-                          <p className='when_text common_txts'>Keynote from Adnan Al Noori,  the Chairman of the Board of the Private Office of Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies </p>
+                          <p className='when_text common_txts'><span className='panel'>Keynote from Adnan Al Noori</span>, Founder of the Future Innovation Summit and the Chairman of the Board of the Private Office of Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies</p>
 
                           <p className='when_text common_txts gold_time'>2.20 pm - 3 pm</p>
                           <p className='when_text common_txts'>Panel: Blockchain powered Smart Cities
@@ -240,10 +268,21 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts'>Maxime Nassour|Co-Founder Saphi
                                     Yana Leonova, Deputy General Manager at The Private Office and Group of Companies of Sheikh Saqer Bin Mohammed Al Qasimi
                                     </p>
+									<p className='when_text common_txts gold_time'>4.15 pm - 5 pm </p>
+									<p className='when_text common_txts panel'>Stablecoins as sustainable solution?</p>
+									<p className='when_text common_txts panel'>Moderator:</p>
+									<p className='when_text common_txts'>Takhmina Nasimova - Business Development & Emerging Markets | AgAu.io</p>
+									<p className='when_text common_txts'>Sophia Lopez - Founder and Chief Operating Officer Colaido</p>
 
-                          <p className='when_text common_txts gold_time'>5 pm - 6 pm </p>
-                          <p className='when_text common_txts'>Panel: IEEE Panel on Blockchain for Achieving Sustainability Goals</p>
 
+                          <p className='when_text common_txts gold_time'>5 pm - 6.30 pm  </p>
+								  <p className='when_text common_txts panel'>Description:</p>
+								  <p className='when_text common_txts'>This panel will bring together a team of leading experts to discuss the use of blockchain technology for achieving the sustainable development goals (SDGs) outlined by the United Nations (UN).</p>
+								  <p className='when_text common_txts panel'>Opening remarks:</p>
+								  <p className='when_text common_txts'>Ramesh Ramadoss, Co-chair, IEEE Blockchain Initiative .</p>
+
+								  <p className='when_text common_txts panel'>Panel: IEEE Panel on Blockchain for Achieving Sustainability Goals</p>
+                          
                           <p className='when_text common_txts panel'>Moderator:</p>
                           <p className='when_text common_txts'>Wulf Kaal, Professor - University of St. Thomas (Minnesota) | School of Law </p>
 
@@ -251,10 +290,12 @@ class Schedule extends React.Component {
                           <p className='when_text common_txts'>John deVadoss -  Board Member| Global Business Blockchain Council (GBBC) </p>
                           <p className='when_text common_txts'>Genevieve Leveille - CEO, Agriledger</p>
                           <p className='when_text common_txts'>Maxime Nassour| Co-Founde Saphi</p>
-                          <p className='when_text common_txts'>Yu Yuan -  President-Elect | IEEE Standards Association (IEEE SA) </p>
+								  <p className='when_text common_txts'>Yu Yuan -  President-Elect | IEEE Standards Association (IEEE SA) </p>
 
                           <p className='when_text common_txts gold_time'>8 pm - 2 am </p>
-                          <p className='when_text common_txts'>Light dinner and networking paired with live music</p>
+                          <p className='when_text common_txts'>Sustainability Green evening. </p>
+								  <p className='when_text common_txts'>TED Talk by <span className='panel'>Maxime Nassour|Co-Founder Saphi</span> </p>
+								  <p className='when_text common_txts'>Light dinner and networking paired with nice music</p>
                    </div>
                    <div className='common_events_blocks2 spec_block' ref={this.list3} onClick={this.openlist3} >
                    <div className='wrap_lazy lazy_spec'><img src={img4} className='common_imgs spec_imgs' /></div>
