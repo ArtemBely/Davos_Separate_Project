@@ -294,12 +294,12 @@
     position: relative;
   }
   .wrap_each_speaker {
-        grid-column-gap: 9px;
-        grid-row-gap: 34px;
-        left: -10px;
-        grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 300px;
-        grid-template-columns: repeat(2, 133px);
-        height: 11510px;
+    grid-column-gap: 9px;
+    grid-row-gap: 34px;
+    left: -10px;
+    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 378px;
+    grid-template-columns: repeat(2, 133px);
+    height: 11892px;
   }
   .wrap_photo_sponsor{
 		height: 173px;
@@ -406,20 +406,34 @@
         width: 136px;
         top: 0px !important;
   }
+  .inside_media {
+    top: 42px !important;
+    font-size: 25px !important;
+    line-height: 29px !important;
+    grid-column: 1 / 3 !important;
+  }
+  .wrap_media_sponsors {
+        top: 436px !important;
+  }
   .partners {
-        height: 640px;
-        position: relative;
-        top: -177px;
-        max-width: 320px;
-        grid-template-columns: repeat(2, 1fr);
+        height: 640px !important;
+        top: -177px !important;
+        max-width: 320px !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .media_sponsors {
+    top: -177px !important;
+    max-width: 320px !important;
+    margin-bottom: 16px !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
   .become_a_partner2{
-        width: 320px;
-        left: 0px;
-        font-size: 18px;
-        top: 240px;
-        grid-column: 1 / 3;
-        grid-row: 10/11;
+    width: 320px;
+    top: 2013px;
+    font-size: 18px;
+    grid-column: 1 / 3;
+    grid-row: 10/11;
+    left: 0;
   }
   .partners__title {
         top: 74px;
@@ -428,8 +442,8 @@
         grid-column: 1 / 3;
   }
   .wrap_partners {
-        top: 453px;
-        margin-bottom: 364px;
+    top: 308px;
+    margin-bottom: 2000px;
   }
   #img1 {
     grid-column: 1 / 2;

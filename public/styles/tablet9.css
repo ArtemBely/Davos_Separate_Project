@@ -56,6 +56,18 @@
     font-size: 30px;
     line-height: 30px;
   }
+  .inside_media {
+        grid-column: 1 / 4 !important;
+  }
+  .wrap_media_sponsors {
+    top: 173px !important;
+  }
+  .media_sponsors {
+    max-width: 992px !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(4, 1fr) !important;
+    margin-bottom: 0px !important;
+  }
   .middle_grid {
     margin-left: -23px;
   }
@@ -143,25 +155,25 @@
     height: 515px;
   }
   .block1 {
-      height: 725px !important;
+      height: 1737px !important;
   }
   .block2 {
-      height: 1228px !important;
+    height: 1862px !important;
   }
   .block3 {
-      height: 1218px !important;
+    height: 1687px !important;
   }
   .block4 {
-      height: 819px !important;
+    height: 1004px !important;
   }
   .block5 {
-      height: 791px !important;
+    height: 2034px !important;
   }
   .block6 {
       height: 500px !important;
   }
   .block7 {
-      height: 983px !important;
+      height: 1487px !important;
   }
   .blockExtra {
       height: 655px !important;
@@ -280,7 +292,7 @@
   }
   .wrap_each_speaker {
     grid-template-columns: repeat(5, 184px);
-    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 350px;
+    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 426px;
     grid-column-gap: 9px;
     grid-row-gap: 70px;
   }
@@ -350,14 +362,14 @@
         max-width: 992px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        margin-bottom: 0px;
+        margin-bottom: 34px;
   }
 
   .become_a_partner2{
         width: 302px;
         left: 325px;
         font-size: 18px;
-        top: 556px;
+        top: 2719px;
   }
 
   .partners__title {

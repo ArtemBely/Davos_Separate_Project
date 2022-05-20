@@ -30,7 +30,46 @@ import meta from '../../public/images/meta.svg';
 import swiss from '../../public/images/swiss.svg';
 import saphi from '../../public/images/saphi.svg';
 import ieee from '../../public/images/ieee.svg';
-
+import ag from '../../public/images/Frame 553.png';
+import gen from '../../public/images/Frame 555.png';
+import fut from '../../public/images/Frame 556.png';
+import un from '../../public/images/Frame 557.png';
+import img58 from '../../public/images/Frame 558.png';
+import img59 from '../../public/images/Frame 559.png';
+import img60 from '../../public/images/Frame 560.png';
+import img61 from '../../public/images/Frame 561.png';
+import img62 from '../../public/images/Frame 562.png';
+import img63 from '../../public/images/Frame 563.png';
+import img95 from '../../public/images/Frame 595.png';
+import img66 from '../../public/images/Frame 566.png';
+import img67 from '../../public/images/Frame 567.png';
+import img68 from '../../public/images/Frame 568.png';
+import img69 from '../../public/images/Frame 569.png';
+import img70 from '../../public/images/Frame 570.png';
+import img71 from '../../public/images/Frame 571.png';
+import img72 from '../../public/images/Frame 572.png';
+import img73 from '../../public/images/Frame 573.png';
+import img74 from '../../public/images/Frame 574.png';
+import img75 from '../../public/images/Frame 575.png';
+import img76 from '../../public/images/Frame 576.png';
+import img77 from '../../public/images/Frame 577.png';
+import img78 from '../../public/images/Frame 578.png';
+import img79 from '../../public/images/Frame 579.png';
+import img80 from '../../public/images/Frame 580.png';
+import img81 from '../../public/images/Frame 581.png';
+import img82 from '../../public/images/Frame 582.png';
+import img83 from '../../public/images/Frame 583.png';
+import img84 from '../../public/images/Frame 584.png';
+import img85 from '../../public/images/Frame 585.png';
+import img86 from '../../public/images/Frame 586.png';
+import img87 from '../../public/images/Frame 587.png';
+import img88 from '../../public/images/Frame 588.png';
+import img89 from '../../public/images/Frame 589.png';
+import img90 from '../../public/images/Frame 590.png';
+import img91 from '../../public/images/Frame 591.png';
+import img92 from '../../public/images/Frame 592.png';
+import img93 from '../../public/images/Frame 593.png';
+import img94 from '../../public/images/Frame 594.png';
 
 class DavosMain extends React.Component{
 
@@ -129,8 +168,47 @@ class DavosMain extends React.Component{
                    <p id='swiss' className='middle_top'><a href='#' target="_blank"><img src={swiss} className='com_parts'/></a></p>
                    <p id='img9' style={{display: "none"}} className='middle_top'><img src={img9} className='com_parts'/></p>
                    <p id='img4' style={{display: "none"}}><img src={img4} className='com_parts'/></p>
-
-
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={ag} className='com_parts'/></a></p>
+                   <p id='tank' className='middle_top'><a href='#' target="_blank"><img src={img12} className='com_parts'/></a></p>
+                   <p id='gen' className='middle_top'><a href='#' target="_blank"><img src={gen} className='com_parts'/></a></p>
+                   <p id='fut' className='middle_top'><a href='#' target="_blank"><img src={fut} className='com_parts'/></a></p>
+                   <p id='un' className='middle_top'><a href='#' target="_blank"><img src={un} className='com_parts'/></a></p>
+                   <p id='img58' className='middle_top'><a href='#' target="_blank"><img src={img58} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img59} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img60} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img61} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img62} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img63} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img95} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img66} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img67} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img68} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img69} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img70} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img71} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img72} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img73} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img74} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img75} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img76} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img77} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img78} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img79} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img80} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img81} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img82} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img83} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img84} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img85} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img86} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img87} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img88} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img89} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img90} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img91} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img92} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img93} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={img94} className='com_parts'/></a></p>
                    {/*<p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>*/}
 
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>
