@@ -9,7 +9,7 @@
   max-width: 1290px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 25px 22px;
   margin-bottom: 7px;
 }
@@ -38,13 +38,17 @@
   align-items: center;
   z-index: 10;
   background: rgba(0, 0, 0, 0.8);
-  overflow-y: scroll;
 }
 .bio_block {
   width: 570px;
   background: #FFFFFF;
   border-radius: 10px;
   padding: 29px;
+  overflow-y: scroll;
+  max-height: 90vh;
+}
+.bio_block::-webkit-scrollbar {
+  width: 0;
 }
 .bio_show {
   display: flex !important;
