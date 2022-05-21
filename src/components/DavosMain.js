@@ -23,7 +23,7 @@ import trust from '../../public/images/trust.svg';
 import pax from '../../public/images/pax.svg';
 import talks from '../../public/images/Talks.svg';
 import ql from '../../public/images/ql.svg';
-import hologram from '../../public/images/Frame2.png';
+import hologram from '../../public/images/mdh.svg';
 import gbbc from '../../public/images/gbbc.svg';
 import euci from '../../public/images/euci.svg';
 import meta from '../../public/images/meta.svg';
@@ -161,7 +161,7 @@ class DavosMain extends React.Component{
                    <p id='pax' className='middle_top'><a href='#' target="_blank"><img src={pax} className='com_parts'/></a></p>
                    <p id='talks' className='middle_top'><a href='#' target="_blank"><img src={talks} className='com_parts'/></a></p>
                    <p id='' className='middle_top'><a href='#' target="_blank"><img src={gbbc} className='com_parts'/></a></p>
-                   <p id='hologram' className='middle_top'><a href='#' target="_blank"><img src={hologram} className='com_parts'/></a></p>
+                   <p id='' className='middle_top'><a href='#' target="_blank"><img src={hologram} className='com_parts'/></a></p>
                    <p id='ql' className='middle_top'><a href='#' target="_blank"><img src={ql} className='com_parts'/></a></p>
                    <p id='img7' className='middle_top'><a href='https://vrt.one/' target="_blank"><img src={img7} className='com_parts'/></a></p>
                    <p id='euci' className='middle_top'><a href='#' target="_blank"><img src={euci} className='com_parts'/></a></p>

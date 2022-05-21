@@ -297,9 +297,9 @@
     grid-column-gap: 9px;
     grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 320px;
+    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 265px 350px;
     grid-template-columns: repeat(2, 133px);
-    height: 11925px;
+    height: 12162px;
   }
   .wrap_photo_sponsor{
 		height: 173px;

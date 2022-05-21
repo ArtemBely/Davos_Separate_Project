@@ -57,6 +57,9 @@ import lev from '../../public/images/l.png';
 import kaal from '../../public/images/kaal.png';
 import ber from '../../public/images/ber.png';
 import nophoto from '../../public/images/No Photo.png';
+import vovchok from '../../public/images/vovchok.png';
+import jsu from '../../public/images/jsu.png';
+import drmak from '../../public/images/drmak.png';
 
 import { Cooper } from '../../public/bio/cooper';
 import { Leonova } from '../../public/bio/leonova';
@@ -169,20 +172,16 @@ class Sponsors extends React.Component {
                                 <p className='descr_of_speaker'>Managing director of Quantum Leap Strategy AG, Host of the EmTech Invest Hub</p>
                          </div>
                          <div className='each_speaker del1'>
-                                 <p className='wrap_photo_sponsor'><img src={caroline} className='each_quest' /></p>
-                                 <p className='name_of_speaker'>Caroline Taylor</p>
-                                 <p className='descr_of_speaker'>Founder of Appraisal Bureau</p>
+                                 <p className='wrap_photo_sponsor'><img src={palma} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Giovanni Palma</p>
+                                 <p className='descr_of_speaker'>Founder of MDH Hologram</p>
                           </div>
-                          <div className='each_speaker del1' style={{display: "none"}}>
-                                  <p className='wrap_photo_sponsor'><img src={bak} className='each_quest'/></p>
-                                  <p className='name_of_speaker'>Georg Bak</p>
-                                  <p className='descr_of_speaker'>MetaverseTalks</p>
-                           </div>
-                           <div className='each_speaker del1'>
-                                   <p className='wrap_photo_sponsor'><img src={jasmin} className='each_quest'/></p>
-                                   <p className='name_of_speaker'>Jasmin Karatas</p>
-                                   <p className='descr_of_speaker'>Solopreneur, Gamification Advisor & Strategic Designer</p>
-                            </div>
+                         <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={fed} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Federica Palma</p>
+                                 <p className='descr_of_speaker'>Director Studio Tangram srl</p>
+                         </div>
+
                             <div className='each_speaker del1'>
                                     <p className='wrap_photo_sponsor'><img src={flückiger} className='each_quest' id='leonie'/></p>
                                     <p className='name_of_speaker'>Leonie Flückiger</p>
@@ -321,11 +320,7 @@ class Sponsors extends React.Component {
                               <p className='name_of_speaker'>Sheraz Ahmed</p>
                               <p className='descr_of_speaker'>Crypto Valley Association, Managing Partner at STORM Partners</p>
                        </div>
-                       <div className='each_speaker del1'>
-                               <p className='wrap_photo_sponsor'><img src={palma} className='each_quest'/></p>
-                               <p className='name_of_speaker'>Giovanni Palma</p>
-                               <p className='descr_of_speaker'>Founder of MDH Hologram</p>
-                        </div>
+
                         <div className='each_speaker del1'>
                                 <p className='wrap_photo_sponsor'><img src={pavlov} className='each_quest'/></p>
                                 <p className='name_of_speaker'>Alexey Pavlov</p>
@@ -341,11 +336,23 @@ class Sponsors extends React.Component {
                                  <p className='name_of_speaker'>Dyma Budorin</p>
                                  <p className='descr_of_speaker'>Founder and CEO of Hacken</p>
                           </div>
-                           <div className='each_speaker del1'>
-                                   <p className='wrap_photo_sponsor'><img src={fed} className='each_quest'/></p>
-                                   <p className='name_of_speaker'>Federica Palma</p>
-                                   <p className='descr_of_speaker'>Director Studio Tangram srl</p>
+
+                          <div className='each_speaker del1'>
+                                  <p className='wrap_photo_sponsor'><img src={caroline} className='each_quest' /></p>
+                                  <p className='name_of_speaker'>Caroline Taylor</p>
+                                  <p className='descr_of_speaker'>Founder of Appraisal Bureau</p>
                            </div>
+                           <div className='each_speaker del1' style={{display: "none"}}>
+                                   <p className='wrap_photo_sponsor'><img src={bak} className='each_quest'/></p>
+                                   <p className='name_of_speaker'>Georg Bak</p>
+                                   <p className='descr_of_speaker'>MetaverseTalks</p>
+                            </div>
+                            <div className='each_speaker del1'>
+                                    <p className='wrap_photo_sponsor'><img src={jasmin} className='each_quest'/></p>
+                                    <p className='name_of_speaker'>Jasmin Karatas</p>
+                                    <p className='descr_of_speaker'>Solopreneur, Gamification Advisor & Strategic Designer</p>
+                             </div>
+
                            <div className='each_speaker del1'>
                                    <p className='wrap_photo_sponsor'><img src={fazel} className='each_quest'/></p>
                                    <p className='name_of_speaker'>Alexander Fazel </p>
@@ -456,6 +463,21 @@ class Sponsors extends React.Component {
                               <p className='name_of_speaker'>Genevieve Leveille</p>
                               <p className='descr_of_speaker'>CEO & Principal Founder of AgriLedger</p>
                        </div>
+                       <div className='each_speaker del1'>
+                                        <p className='wrap_photo_sponsor'><img src={jsu} className='each_quest'/></p>
+                                        <p className='name_of_speaker'>Juliet Su</p>
+                                        <p className='descr_of_speaker'>Partner of NewTribe.capital</p>
+                                </div>
+                             <div className='each_speaker del1'>
+                                    <p className='wrap_photo_sponsor'><img src={vovchok} className='each_quest'/></p>
+                                    <p className='name_of_speaker'>Maria Vovchok</p>
+                                    <p className='descr_of_speaker'>MC EmTech Invest Hub</p>
+                          </div>
+                          <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={drmak} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Dr. Makoto Takemiya</p>
+                                 <p className='descr_of_speaker'>CEO of Soramitsu</p>
+                          </div>
                     </div>
                 </div>
           </div>
