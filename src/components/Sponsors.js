@@ -116,7 +116,7 @@ class Sponsors extends React.Component {
                              Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies</p>
                      </div>
                        <div className='each_speaker' onClick={() => {
-                           this.setState({ name: "Philipp Zahn", bio: "Hello World!" });
+                           this.setState({ name: "Philipp Zahn", bio: "" });
                            this.bioRef.current.classList.add('bio_show');
                      }}>
                               <p className='wrap_photo_sponsor'><img src={zahn} className='each_quest'/></p>
