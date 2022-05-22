@@ -411,7 +411,7 @@ class Schedule extends React.Component {
                       <p className='when_text common_txts'>Panel 2: NFT Valuation, Legal and Business Considerations, Panel Discussion (Jasmin Karatas, (Moderator),
                        Caroline Taylor, Appraisal Bureau, Cedric Ming, MetaverseTalks, Plug n Play</p>
                        <p className='when_text common_txts gold_time'>4 pm - 4.15 pm</p>
-                       <p className='when_text common_txts'>Fireside Chat (Hrish, David) </p>
+                       <p className='when_text common_txts'>Fireside Chat (David) </p>
                        <p className='when_text common_txts'>NFT market places and POAP Gallery. How to store and show your collection </p>
                        <p className='when_text common_txts'>Linas Beliunas- Linkedin streaming </p>
 
