@@ -273,7 +273,7 @@ class Schedule extends React.Component {
 									<p className='when_text common_txts panel'>Stablecoins as sustainable solution?</p>
 									<p className='when_text common_txts panel'>Moderator:</p>
 									<p className='when_text common_txts'>Takhmina Nasimova - Business Development & Emerging Markets | AgAu.io</p>
-									<p className='when_text common_txts'>Sophia Lopez - Founder and Chief Operating Officer Colaido</p>
+									<p className='when_text common_txts'>Sophia Lopez - Founder and Chief Operating Officer Kaleido</p>
 
 
                           <p className='when_text common_txts gold_time'>5 pm - 6.30 pm  </p>
