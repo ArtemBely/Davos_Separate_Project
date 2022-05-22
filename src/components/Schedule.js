@@ -253,22 +253,23 @@ class Schedule extends React.Component {
 								  <br/>
 								  Agriledger </p>
                           <p className='when_text common_txts gold_time'>2 pm - 2.20 pm</p>
-                          <p className='when_text common_txts'><span className='panel'>Keynote from Adnan Al Noori</span>, Founder of the Future Innovation Summit and the Chairman of the Board of the Private Office of Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies</p>
+                          <p className='when_text common_txts'><span className='panel'>Keynote from Adnan Al Noori</span>,
+                           Founder of the Future Innovation Summit and the Chairman of the Board of the Private Office of Sheikh Saqer Bin Mohamed Al Qasimi and Group of Companies</p>
 
-                          <p className='when_text common_txts gold_time'>2.20 pm - 3 pm</p>
+                          <p className='when_text common_txts gold_time'>2.20 pm - 3.10 pm</p>
                           <p className='when_text common_txts'>Panel: Blockchain powered Smart Cities
                                     Moderator:
                                     Leyla Baghirzade - Founder of Swiss Alternative Financing AG
                                     Board member of Azerbaijan Blockchain Centre
                                     </p>
-                          <p className='when_text common_txts'>Panelists:
-                                    Tony Cho - CEO/Founder | Future of Cities.
-                                    Benjamin Senn - European Crypto Initiative (EU carbon credit trade)
-                                    </p>
-                          <p className='when_text common_txts'>Maxime Nassour|Co-Founder Saphi
+
+                          <p className='when_text common_txts'>Panelists: Maxime Nassour | Co-Founder Saphi
                                     Yana Leonova, Deputy General Manager at The Private Office and Group of Companies of Sheikh Saqer Bin Mohammed Al Qasimi
                                     </p>
-									<p className='when_text common_txts gold_time'>4.15 pm - 5 pm </p>
+                          <p className='when_text common_txts'>Stefan Kanalga, Founder & CEO | Yes we Trust</p>
+									<p className='when_text common_txts gold_time'>4.15 pm - 4.25 pm </p>
+                  <p className='when_text common_txts'>Stefan Kanalga, Founder & CEO | Yes we Trust</p>
+                  <p className='when_text common_txts gold_time'>4.25 pm - 5 pm </p>
 									<p className='when_text common_txts panel'>Stablecoins as sustainable solution?</p>
 									<p className='when_text common_txts panel'>Moderator:</p>
 									<p className='when_text common_txts'>Takhmina Nasimova - Business Development & Emerging Markets | AgAu.io</p>

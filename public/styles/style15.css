@@ -465,12 +465,12 @@
   justify-content: center;
 }
 .wrap_each_speaker {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 438px 502px 475px 475px 506px;
-      grid-gap: 72px 0px;
-      position: relative;
-      top: 38px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 438px 502px 475px 475px 506px 452px;
+  grid-gap: 72px 0px;
+  position: relative;
+  top: 38px;
 }
 .investors {
       height: 485px;

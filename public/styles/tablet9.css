@@ -46,7 +46,7 @@
 }
 @media (min-width: 576px) and (max-width: 764px) {
 	.block2 {
-		height: 2660px !important;
+		height: 2689px !important;
 	 }
 }
 @media (min-width: 576px) and (max-width: 1520px) {
@@ -166,7 +166,7 @@
       height: 2020px !important;
   }
   .block2 {
-    height: 2840px !important;
+    height: 2858px !important;
   }
   .block3 {
     height: 1687px !important;
@@ -300,7 +300,7 @@
   }
   .wrap_each_speaker {
     grid-template-columns: repeat(5, 184px);
-    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 426px;
+    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 426px 417px;
     grid-column-gap: 9px;
     grid-row-gap: 70px;
   }

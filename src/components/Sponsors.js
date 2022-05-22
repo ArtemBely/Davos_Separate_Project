@@ -17,7 +17,7 @@ import arys from '../../public/images/Thierry Arys Ruiz.png';
 import noorani from '../../public/images/Adnan Al Noorani.png';
 import leonova from '../../public/images/Dr. Leonova.png';
 import zahn from '../../public/images/Philipp Zahn.png';
-import ammer from '../../public/images/Victor Ammer.png';
+import ammer from '../../public/images/Victor Ammer (1) 1.png';
 import marina from '../../public/images/Marina Markezic.png';
 import garry from '../../public/images/Garry Krugljakow.png';
 import flückiger from '../../public/images/LeonieFlückiger.png';
@@ -60,6 +60,8 @@ import nophoto from '../../public/images/No Photo.png';
 import vovchok from '../../public/images/vovchok.png';
 import jsu from '../../public/images/jsu.png';
 import drmak from '../../public/images/drmak.png';
+import ingo from '../../public/images/ingo.png';
+import feld from '../../public/images/feld.png';
 
 import { Cooper } from '../../public/bio/cooper';
 import { Leonova } from '../../public/bio/leonova';
@@ -680,6 +682,17 @@ class Sponsors extends React.Component {
                                  <p className='name_of_speaker'>Dr. Makoto Takemiya</p>
                                  <p className='descr_of_speaker'>CEO of Soramitsu</p>
                           </div>
+                          <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={ingo} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Ingo Ruebe</p>
+                                 <p className='descr_of_speaker'>Founder of KILT Protocol and CEO of B T E BOTLabs Trusted</p>
+                          </div>
+                          <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={feld} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Olga Feldmeier</p>
+                                 <p className='descr_of_speaker'>Co Founder and Chairman of the Board of SMART VALOR</p>
+                          </div>
+
                     </div>
                 </div>
           </div>

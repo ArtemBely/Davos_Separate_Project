@@ -1896,7 +1896,7 @@ body {
     height: 1525px !important;
 }
     .block22 {
-      height: 2240px !important;
+      height: 2263px !important;
     }
     .block33 {
     height: 1247px !important;
@@ -5620,12 +5620,12 @@ body {
   justify-content: center;
 }
 .wrap_each_speaker {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 438px 502px 475px 475px 506px;
-      grid-gap: 72px 0px;
-      position: relative;
-      top: 38px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 596px 439px 469px 504px 473px 442px 439px 472px 438px 502px 475px 475px 506px 452px;
+  grid-gap: 72px 0px;
+  position: relative;
+  top: 38px;
 }
 .investors {
       height: 485px;
@@ -5891,7 +5891,7 @@ body {
     height: 2375px !important;
 }
 .block2 {
-  height: 3340px !important;
+  height: 3423px !important;
 }
 .block3 {
   height: 1918px !important;
@@ -7079,7 +7079,7 @@ body {
 }
 @media (min-width: 576px) and (max-width: 764px) {
 	.block2 {
-		height: 2660px !important;
+		height: 2689px !important;
 	 }
 }
 @media (min-width: 576px) and (max-width: 1520px) {
@@ -7199,7 +7199,7 @@ body {
       height: 2020px !important;
   }
   .block2 {
-    height: 2840px !important;
+    height: 2858px !important;
   }
   .block3 {
     height: 1687px !important;
@@ -7333,7 +7333,7 @@ body {
   }
   .wrap_each_speaker {
     grid-template-columns: repeat(5, 184px);
-    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 426px;
+    grid-template-rows: 572px 400px 426px 459px 454px 400px 404px 399px 369px 455px 400px 400px 426px 417px;
     grid-column-gap: 9px;
     grid-row-gap: 70px;
   }
@@ -8442,9 +8442,9 @@ body {
     grid-column-gap: 9px;
     grid-row-gap: 34px;
     left: -10px;
-    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 265px 350px;
+    grid-template-rows: 551px 265px 344px 289px 314px 391px 343px 317px 344px 420px 339px 393px 318px 343px 341px 292px 342px 340px 271px 267px 317px 289px 317px 420px 320px 320px 345px 345px 345px 342px 366px 265px 350px 352px;
     grid-template-columns: repeat(2, 133px);
-    height: 12162px;
+    height: 12573px;
   }
   .wrap_photo_sponsor{
 		height: 173px;
