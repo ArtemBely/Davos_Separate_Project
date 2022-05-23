@@ -62,6 +62,7 @@ import jsu from '../../public/images/jsu.png';
 import drmak from '../../public/images/drmak.png';
 import ingo from '../../public/images/ingo.png';
 import feld from '../../public/images/feld.png';
+import ralf from '../../public/images/ralf.png'
 
 import { Cooper } from '../../public/bio/cooper';
 import { Leonova } from '../../public/bio/leonova';
@@ -691,6 +692,11 @@ class Sponsors extends React.Component {
                                  <p className='wrap_photo_sponsor'><img src={feld} className='each_quest'/></p>
                                  <p className='name_of_speaker'>Olga Feldmeier</p>
                                  <p className='descr_of_speaker'>Co Founder and Chairman of the Board of SMART VALOR</p>
+                          </div>
+                          <div className='each_speaker del1'>
+                                 <p className='wrap_photo_sponsor'><img src={ralf} className='each_quest'/></p>
+                                 <p className='name_of_speaker'>Ralf Glabischnig</p>
+                                 <p className='descr_of_speaker'>Founder of Crypto Oasis</p>
                           </div>
 
                     </div>
