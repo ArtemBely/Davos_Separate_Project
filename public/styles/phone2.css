@@ -46,19 +46,20 @@
     width: 300px;
   }
   .show_finance {
-    height: auto !important;
+    height: 3080px !important;
     padding-bottom: 513px !important;
 }
+
   #lm {
-    left: -110px !important;
-    top: 352px !important;
+    left: -38px !important;
+    top: 55px !important;
   }
   .low_grids {
-    top: 97px !important;
-    left: 305px !important;
+    top: -540px !important;
+    left: 325px !important;
   }
   .low_grids3 {
-    top: 546px !important;
+    top: 1150px !important;
     left: -381px !important;
   }
   .wrap_arr2 {
@@ -245,19 +246,19 @@
           top: -73px !important;
     }
     .block11 {
-    height: 1525px !important;
+    height: 1330px !important;
 }
     .block22 {
-      height: 2263px !important;
+      height: 2260px !important;
     }
     .block33 {
-    height: 1247px !important;
+    height: 2350px !important;
 }
 .block44 {
-    height: 644px !important;
+    height: 2990px !important;
 }
 .block55 {
-    height: 1517px !important;
+    height: 2417px !important;
 }
 .block66 {
     height: 152px !important;

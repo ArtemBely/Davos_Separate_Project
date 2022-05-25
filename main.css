@@ -1694,19 +1694,22 @@ body {
     width: 300px;
   }
   .show_finance {
-    height: auto !important;
+    height: 3080px !important;
     padding-bottom: 513px !important;
 }
+.wrap_arr2:active + .low_grids{
+	opacity: 0;
+}
   #lm {
-    left: -110px !important;
-    top: 352px !important;
+    left: -38px !important;
+    top: 55px !important;
   }
   .low_grids {
-    top: 97px !important;
-    left: 305px !important;
+    top: -540px !important;
+    left: 325px !important;
   }
   .low_grids3 {
-    top: 546px !important;
+    top: 1150px !important;
     left: -381px !important;
   }
   .wrap_arr2 {
@@ -1893,19 +1896,19 @@ body {
           top: -73px !important;
     }
     .block11 {
-    height: 1525px !important;
+    height: 1330px !important;
 }
     .block22 {
-      height: 2263px !important;
+      height: 2260px !important;
     }
     .block33 {
-    height: 1247px !important;
+    height: 2350px !important;
 }
 .block44 {
-    height: 644px !important;
+    height: 2990px !important;
 }
 .block55 {
-    height: 1517px !important;
+    height: 2417px !important;
 }
 .block66 {
     height: 152px !important;
@@ -5888,19 +5891,19 @@ body {
   font-family: "WorkSans-Bold";
 }
 .block1 {
-    height: 2375px !important;
+    height: 2030px !important;
 }
 .block2 {
-  height: 3423px !important;
+  height: 3215px !important;
 }
 .block3 {
-  height: 1918px !important;
+  height: 3430px !important;
 }
 .block4 {
-    height: 1184px !important;
+    height: 4120px !important;
 }
 .block5 {
-    height: 2301px !important;
+    height: 3420px !important;
 }
 .block6 {
   height: 511px !important;
@@ -7196,19 +7199,19 @@ body {
     height: 515px;
   }
   .block1 {
-      height: 2020px !important;
+      height: 1760px !important;
   }
   .block2 {
-    height: 2858px !important;
+    height: 2730px !important;
   }
   .block3 {
-    height: 1687px !important;
+    height: 2750px !important;
   }
   .block4 {
-    height: 1004px !important;
+    height: 3520px !important;
   }
   .block5 {
-    height: 2034px !important;
+    height: 3010px !important;
   }
   .block6 {
       height: 500px !important;
