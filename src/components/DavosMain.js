@@ -75,6 +75,10 @@ import img97 from '../../public/images/Frame 597.png';
 import img98 from '../../public/images/Frame 598.png';
 import img99 from '../../public/images/Frame 599.png';
 import img100 from '../../public/images/Frame 616.png';
+import img101 from '../../public/images/Frame 600.svg';
+import img102 from '../../public/images/Frame 601.png';
+import img103 from '../../public/images/Frame 602.png';
+import img104 from '../../public/images/Frame 606.png';
 
 class DavosMain extends React.Component{
 
@@ -219,6 +223,10 @@ class DavosMain extends React.Component{
 						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img97} className='com_parts'/></a></p>
 						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img98} className='com_parts'/></a></p>
 						 <p id='' className='middle_top'><a href='#' target="_blank"><img src={img99} className='com_parts'/></a></p>
+             <p id='' className='middle_top'><a href='#' target="_blank"><img src={img101} className='com_parts'/></a></p>
+             <p id='' className='middle_top'><a href='#' target="_blank"><img src={img102} className='com_parts'/></a></p>
+             <p id='' className='middle_top'><a href='#' target="_blank"><img src={img103} className='com_parts'/></a></p>
+             <p id='' className='middle_top'><a href='#' target="_blank"><img src={img104} className='com_parts'/></a></p>
                    {/*<p id='img11' className='down_center'><a href='https://eddaswap.com/' target="_blank"><img src={img11} className='com_parts'/></a></p>*/}
 
                  <p className='become_a_partner2' onClick={this.popup}>Become a partner</p>
