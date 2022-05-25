@@ -1697,9 +1697,7 @@ body {
     height: 3080px !important;
     padding-bottom: 513px !important;
 }
-.wrap_arr2:active + .low_grids{
-	opacity: 0;
-}
+
   #lm {
     left: -38px !important;
     top: 55px !important;
@@ -6428,6 +6426,7 @@ body {
 .low_grids {
     position: relative;
     top: -21px;
+    opacity: 0;
     padding-left: 74px;
 }
 .low_grids3 {
@@ -6471,9 +6470,12 @@ body {
   font-size: 20px;
   line-height: 140%;
 }
+.opa0 {
+  opacity: 1 !important;
+}
 .wrap_future {
   position: relative;
-  top: 133px;
+  top: 95px;
   left: -116px;
 }
 .wrap_arr2 {

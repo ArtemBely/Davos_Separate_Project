@@ -13,11 +13,15 @@ class Finance extends React.Component {
     this.arr1 = React.createRef();
     this.list1 = React.createRef();
     this.finance = React.createRef();
+    this.lowFinance = React.createRef();
   }
 
   openlist = () => {
     this.arr1.current.classList.toggle('imgRotate');
     this.finance.current.classList.toggle('show_finance');
+    document.querySelectorAll('.low_grids').forEach(item => {
+      item.classList.toggle('opa0');
+    });
   }
 
   render() {
@@ -32,7 +36,7 @@ class Finance extends React.Component {
                   <span className='wrap_arr2'><img src={arrow} ref={this.arr1} className='arrows'/></span>
                </div>
 
-               <div className='low_grids'>
+               <div className='low_grids' ref={this.lowFinance}>
 						<p className='gold_time2'>15.30</p>
                   <p className='agendas spec_agenda'>Opening remarks: Alena Yudina - Founder of Quantum Leap Strategy AG</p>
 						<p className='gold_time2'>15.35</p>

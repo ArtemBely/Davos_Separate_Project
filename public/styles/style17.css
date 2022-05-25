@@ -244,6 +244,7 @@
 .low_grids {
     position: relative;
     top: -21px;
+    opacity: 0;
     padding-left: 74px;
 }
 .low_grids3 {
@@ -287,9 +288,12 @@
   font-size: 20px;
   line-height: 140%;
 }
+.opa0 {
+  opacity: 1 !important;
+}
 .wrap_future {
   position: relative;
-  top: 133px;
+  top: 95px;
   left: -116px;
 }
 .wrap_arr2 {
