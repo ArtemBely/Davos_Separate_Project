@@ -461,23 +461,28 @@ class Schedule extends React.Component {
                    /></div>
                       <div className='big_title bio_t'>NFTs<p className='big_title bio_t' id='meta1'>and Metaverse</p></div>
                       <p className='low_title'>May 26, <span className='show_desc'>Thursday</span> <span className='show_mob'>Thu</span> <span className='wrap_arr'><img src={arrow} ref={this.arr7} className='arrows'/></span></p>
-                      <p className='when_text common_txts gold_time'>From 10 am</p>
-                      <p className='when_text common_txts'>Networking and interview sessions (Media: Cointelegraph, Cryptonites.ch, Storm Partners, Linas Beliunas)</p>
-                      <p className='when_text common_txts gold_time'>12 pm - 12.45 pm</p>
-                      <p className='when_text common_txts'>Banking & Metaverse Panel: Moderator (Kumar Chatterjee), Bank of Riyadh (SA), Metablocks (Megha Shrestha), VR</p>
                       <p className='when_text common_txts gold_time'>1 pm - 1.20 pm</p>
                       <p className='when_text common_txts'>ShowCase by Pax.World</p>
                       <p className='when_text common_txts gold_time'>1.40 pm - 2 pm</p>
-                      <p className='when_text common_txts'>ShowCase by Adresta </p>
-                      <p className='when_text common_txts gold_time'>2.30 pm - 2.50 pm</p>
+                      <p className='when_text common_txts'>ShowCase by Adresta</p>
+                      <p className='when_text common_txts gold_time'>2 pm - 2.30 pm</p>
+                      <p className='when_text common_txts'>Metaverse and NFT for Business in Europe and GCC</p>
+							 <p className='when_text common_txts panel'>Fireside chat </p>
+							 <p className='when_text common_txts'>Hrish Lotlikar - Co-Founder & CEO SuperWorld</p>
+							 <p className='when_text common_txts'>Kumardev Chatterjee - NEOM Cognitive Metaverse </p>
+							 <p className='when_text common_txts'>David Bundi - Metaverse talks.ch</p>
+                      <p className='when_text common_txts gold_time'>2.30pm - 2.50 pm</p>
+                      <p className='when_text common_txts'>The Planet's Natural Technology  -  Niyanta Spelman, CEO of Rainforest Partnership </p>
+                      <p className='when_text common_txts gold_time'>2.50 pm - 3.00 pm</p>
                       <p className='when_text common_txts'>ShowCase by Metabloqs</p>
                       <p className='when_text common_txts gold_time'>3 pm - 4 pm</p>
-                      <p className='when_text common_txts'>Panel 2: NFT Valuation, Legal and Business Considerations, Panel Discussion (Jasmin Karatas, (Moderator),
-                       Caroline Taylor, Appraisal Bureau, Cedric Ming, MetaverseTalks, Plug n Play</p>
+							 <p className='when_text common_txts'>Panel 1: Banking on Metaverse</p>
+                      <p className='when_text common_txts'>Panel 2: NFT Valuation, Legal and Business Considerations 
+							 <br/>Jasmin Karatas, (Moderator), Caroline Taylor, Appraisal Bureau, Cedric Ming, MetaverseTalks</p>
                        <p className='when_text common_txts gold_time'>4 pm - 4.15 pm</p>
-                       <p className='when_text common_txts'>Fireside Chat (David) </p>
-                       <p className='when_text common_txts'>NFT market places and POAP Gallery. How to store and show your collection </p>
-                       <p className='when_text common_txts'>Linas Beliunas- Linkedin streaming </p>
+                       <p className='when_text common_txts'>Fireside Chat with Dustin Plaintholt and Dre</p>
+                       <p className='when_text common_txts'>| Cool & Dre| </p>
+                       <p className='when_text common_txts'>Topic "NFTs and Music"</p>
 
                        <p className='when_text common_txts gold_time'>7 pm - 2 am</p>
                        <p className='when_text common_txts'>Closing Party</p>
